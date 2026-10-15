@@ -9,7 +9,15 @@ import numpy as np
 from analyze import classification_metrics,save_json,ROOT
 
 def evaluate():
-    folder=ROOT/'annotations';a=pd.read_csv(folder/'annotator_A.csv').fillna('');b=pd.read_csv(folder/'annotator_B.csv').fillna('')
+    folder=ROOT/'annotations'
+    provenance=folder/'ANNOTATION_PROVENANCE.json'
+    if provenance.exists() and not json.loads(provenance.read_text())['independent_human_annotation_completed']:
+        result={'status':'model_generated_annotations_not_human_validation','paired_n':0,
+                'human_agreement':None,'project_corpus_macro_F1':None,
+                'note':'Claude and DeepSeek labels are analyzed separately as model-to-model comparisons.'}
+        save_json(ROOT/'results/human_validation.json',result)
+        return result
+    a=pd.read_csv(folder/'annotator_A.csv').fillna('');b=pd.read_csv(folder/'annotator_B.csv').fillna('')
     for name,frame in [('A',a),('B',b)]:
         if frame.item_id.duplicated().any():raise ValueError(f'Duplicate item IDs in annotator {name}')
         if not set(frame.tone).issubset({'','negative','neutral','positive'}):raise ValueError('Invalid tone label')

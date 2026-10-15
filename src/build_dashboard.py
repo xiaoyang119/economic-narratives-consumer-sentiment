@@ -10,6 +10,7 @@ def build():
     data={'cutoff':'2026-10-14','forecasts':records(ROOT/'results/forecasts.csv'),'metrics':load('forecast_metrics.json'),
       'corpus':json.loads((ROOT/'data/processed/corpus_coded.json').read_text()),'summary':load('corpus_summary.json'),
       'benchmark':load('nlp_benchmark.json'),'audit':load('data_audit.json'),'subgroups':load('survey_subgroups.json'),'news_index':load('news_index_comparison.json'),
+      'model_annotations':load('model_annotation_comparison.json'),
       'media':records(ROOT/'results/media_monthly_pilot.csv'),
       'events':[{'date':'2026-09-30','event':'August PCE and Q2 GDP third estimate released','source':'https://www.bea.gov/news/schedule/full'},
                 {'date':'2026-10-02','event':'September employment report released','source':'https://www.bls.gov/news.release/empsit.nr0.htm'},

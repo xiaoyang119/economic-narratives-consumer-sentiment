@@ -15,7 +15,7 @@ A financial-text classifier achieves external macro F1 0.796, compared with 0.54
 | Economic vintages | 202 verified monthly ALFRED snapshots |
 | Forecast evaluation | 105 final months plus October preliminary monitoring |
 | Media pilot | 316 items, national and local news plus Reddit |
-| Independent human validation | Not completed; 300-item blind annotation package prepared |
+| Independent human validation | Not completed; 300-item Claude/DeepSeek comparison available |
 
 ## Research questions
 
@@ -153,9 +153,9 @@ After normalized exact deduplication, the external benchmark contains 2218 sente
 | Neutral F1 | 0.910 | 0.834 |
 | Positive F1 | 0.760 | 0.405 |
 
-Negative-class recall is 0.627, illustrating why a favorable overall score does not guarantee reliable identification of pessimistic headlines. Class-level precision, recall, confusion matrices, model vocabulary, probabilities, dataset hash and random seed are saved. No LLM API was called. An optional structured LLM prompt is included for a future comparison and clearly marked as unexecuted.
+Negative-class recall is 0.627 on the external benchmark. The pipeline called no LLM API. Subsequently, the user supplied Claude (A) and DeepSeek (B) labels for the same 300 project texts. The user reports Claude Sonnet5.5 and DeepSeek V41-Flash; identifiers were not independently verified. Actual prompts and cross-model blinding were not recorded; the optional project prompt remains unexecuted by this pipeline.
 
-The required 300-item project sample has two blinded annotation files and a guide, but no genuine independent human labels. Cohen’s kappa, adjudicated corpus F1 and source-specific AI accuracy therefore remain unavailable. Two automated methods are not represented as two human annotators.
+Model-to-model tone agreement is 76.0% (228/300), kappa 0.588. Claude labels 122 negative, 165 neutral and 13 positive; DeepSeek labels 177, 95 and 28 respectively. Of 72 tone disagreements, 71 involve Claude-neutral items. Agreement with Naive Bayes is only 44.7% for Claude and 28.7% for DeepSeek. This indicates method-sensitive measurement, not which model is correct. Neither model verified a numerical claim against an official release. These outputs do not satisfy independent human annotation; human agreement and adjudicated corpus F1 remain unavailable. Full results are in model_annotation_findings.md.
 
 # Media pilot findings and perceptual mechanisms
 
@@ -238,7 +238,7 @@ The strongest completed evidence is the vintage-aware economic forecasting exerc
 | Alternative explanations | Income and accumulated-price controls tested; political and survey-group differences discussed descriptively |
 | National and local news plus social media | Collected, but unbalanced: 127 national, 33 local and 156 social items |
 | Validated AI measurement | External benchmark completed; project-domain validation unavailable |
-| Two independent annotators and 300 items | 300-item materials prepared; no human annotations, agreement or adjudicated accuracy |
+| Two independent annotators and 300 items | Claude/DeepSeek labels compared on 300 items; independent human annotation remains unmet |
 | Economic versus media forecast comparison | Historical external-index comparison completed retrospectively; own-text panel and index vintage validation unavailable |
 | Causal analysis | Detailed observational causal-design proposal completed; no causal effect estimated |
 | Dashboard and reproducibility | Local dashboard, retained snapshots, scripts, specifications and checks provided |

@@ -1,0 +1,132 @@
+{
+  "status": "exploratory_model_comparison",
+  "ground_truth_available": false,
+  "human_validation_completed": false,
+  "paired_n": 300,
+  "model_versions": {
+    "Claude": "Sonnet5.5",
+    "DeepSeek": "V41-Flash"
+  },
+  "version_source": "User-reported identifiers, not independently verified",
+  "actual_prompts": "not recorded",
+  "tone": {
+    "n": 300,
+    "agreement": 0.76,
+    "cohen_kappa": 0.5875264956938531
+  },
+  "distributions": {
+    "Claude": {
+      "negative": 122,
+      "neutral": 165,
+      "positive": 13
+    },
+    "DeepSeek": {
+      "negative": 177,
+      "neutral": 95,
+      "positive": 28
+    }
+  },
+  "dimensions": {
+    "tone": {
+      "n": 300,
+      "agreement": 0.76,
+      "cohen_kappa": 0.5875264956938531
+    },
+    "price_level_frame": {
+      "n": 300,
+      "agreement": 0.9566666666666667,
+      "cohen_kappa": 0.8583877995642701
+    },
+    "inflation_rate_frame": {
+      "n": 300,
+      "agreement": 0.9333333333333333,
+      "cohen_kappa": 0.866696289713397
+    },
+    "household_frame": {
+      "n": 300,
+      "agreement": 0.89,
+      "cohen_kappa": 0.7057074910820452
+    },
+    "aggregate_frame": {
+      "n": 300,
+      "agreement": 0.8466666666666667,
+      "cohen_kappa": 0.6514975503813324
+    },
+    "forecast_frame": {
+      "n": 300,
+      "agreement": 0.8933333333333333,
+      "cohen_kappa": 0.6624472573839663
+    },
+    "numeric_claim": {
+      "n": 300,
+      "agreement": 0.9133333333333333,
+      "cohen_kappa": 0.7280334728033473
+    },
+    "factual_calibration": {
+      "n": 300,
+      "agreement": 0.9133333333333333,
+      "cohen_kappa": 0.7280334728033473
+    },
+    "political_credit_blame": {
+      "n": 300,
+      "agreement": 0.87,
+      "cohen_kappa": 0.7125095215863577
+    }
+  },
+  "by_source_kind": {
+    "local": {
+      "n": 33,
+      "agreement": 0.7878787878787878,
+      "cohen_kappa": 0.6188118811881187
+    },
+    "national": {
+      "n": 127,
+      "agreement": 0.8031496062992126,
+      "cohen_kappa": 0.6631657118608105
+    },
+    "social": {
+      "n": 140,
+      "agreement": 0.7142857142857143,
+      "cohen_kappa": 0.5093314641198634
+    }
+  },
+  "tone_cross_table": {
+    "negative": {
+      "negative": 121,
+      "neutral": 1,
+      "positive": 0
+    },
+    "neutral": {
+      "negative": 56,
+      "neutral": 94,
+      "positive": 15
+    },
+    "positive": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 13
+    }
+  },
+  "agreement_with_existing_classifier": {
+    "Claude": {
+      "n": 300,
+      "agreement": 0.44666666666666666,
+      "cohen_kappa": 0.055995753876483256
+    },
+    "DeepSeek": {
+      "n": 300,
+      "agreement": 0.2866666666666667,
+      "cohen_kappa": -0.01151743370779432
+    }
+  },
+  "all_dimensions_agree_n": 133,
+  "any_dimension_disagreement_n": 167,
+  "numeric_claim_n": {
+    "Claude": 48,
+    "DeepSeek": 70
+  },
+  "verified_fact_labels_n": {
+    "Claude": 0,
+    "DeepSeek": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "model_generated_not_independent_human_annotations",
+  "basis": "User explicitly identified A as Claude and B as DeepSeek.",
+  "independent_human_annotation_completed": false,
+  "human_paired_n": 0,
+  "models": {
+    "Claude": {
+      "file": "annotations/annotator_A_filled.csv",
+      "sha256": "ef65071528b78eb67ebad357331005c2de5f97a3f9958f2a67487ea51c10adcb",
+      "stored_annotator_ids": [
+        "Reader_A"
+      ],
+      "exact_model_version": "Sonnet5.5",
+      "version_source": "User-reported identifier, not independently verified",
+      "generation_date": null,
+      "actual_prompt": null,
+      "cross_model_blinding": "not documented",
+      "note": "Stored IDs are preserved verbatim. Reader_A does not establish human authorship."
+    },
+    "DeepSeek": {
+      "file": "annotations/annotator_B.csv",
+      "sha256": "fa62b37875c2b7502e3c0a16428e44f208ecbb186bad52a9f529c7c63795b607",
+      "stored_annotator_ids": [
+        "AI_assisted_B"
+      ],
+      "exact_model_version": "V41-Flash",
+      "version_source": "User-reported identifier, not independently verified",
+      "generation_date": null,
+      "actual_prompt": null,
+      "cross_model_blinding": "not documented",
+      "note": "Stored IDs are preserved verbatim. Reader_A does not establish human authorship."
+    }
+  }
+}

@@ -48,7 +48,15 @@ class ResearchIntegrity(unittest.TestCase):
     def test_independent_human_labels_are_not_fabricated(self):
         a=pd.read_csv(ROOT/'annotations/annotator_A.csv');b=pd.read_csv(ROOT/'annotations/annotator_B.csv')
         self.assertEqual(len(a),300);self.assertEqual(set(a.item_id),set(b.item_id))
-        self.assertTrue(a.tone.isna().all());self.assertTrue(b.tone.isna().all())
+        self.assertTrue(a.tone.isna().all())
+        provenance=json.loads((ROOT/'annotations/ANNOTATION_PROVENANCE.json').read_text())
+        self.assertFalse(provenance['independent_human_annotation_completed'])
+        self.assertEqual(provenance['human_paired_n'],0)
+        self.assertEqual(set(provenance['models']),{'Claude','DeepSeek'})
+        compare=json.loads((ROOT/'results/model_annotation_comparison.json').read_text())
+        self.assertEqual(compare['paired_n'],300)
+        self.assertFalse(compare['ground_truth_available'])
+        self.assertAlmostEqual(compare['tone']['agreement'],228/300)
         self.assertNotIn('model_probability',a.columns);self.assertNotIn('source',a.columns)
         s=json.loads((ROOT/'results/corpus_summary.json').read_text());self.assertIsNone(s['project_corpus_macro_F1']);self.assertIsNone(s['human_agreement'])
     def test_external_benchmark_supports_reconcile(self):

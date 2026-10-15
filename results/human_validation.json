@@ -1,0 +1,7 @@
+{
+  "status": "model_generated_annotations_not_human_validation",
+  "paired_n": 0,
+  "human_agreement": null,
+  "project_corpus_macro_F1": null,
+  "note": "Claude and DeepSeek labels are analyzed separately as model-to-model comparisons."
+}

@@ -89,3 +89,12 @@ For a future research cutoff, copy the project to a new dated research version, 
 The PDF gives primary-source references. `data/raw/manifest.json`, `vintage_manifest.json`, `corpus_manifest.json`, `extra_feed_manifest.json` and `results/source_inventory.json` document retained files. Each source retains ownership of its material. The project analyzes headline/post-title metadata for personal academic research and is not a commercial or public redistribution service. Reddit usernames are removed from retained feeds. Source URLs can still identify public posts, so avoid publishing the raw archive indiscriminately.
 
 Financial PhraseBank is licensed CC BY-NC-SA 3.0. The license and attribution are preserved in the original downloaded ZIP and in `data/PHRASEBANK_LICENSE.txt`. Other source terms continue to apply. No human participants were recruited or contacted.
+
+
+## Model-generated annotation update
+
+The user identified `annotations/annotator_A_filled.csv` as Claude output and `annotations/annotator_B.csv` as DeepSeek output. The original stored IDs and files are preserved verbatim. In particular, `Reader_A` is a historical file value and does not indicate human authorship. `annotations/ANNOTATION_PROVENANCE.json` records their model provenance and source hashes. The user reports Claude Sonnet5.5 and DeepSeek V41-Flash, without independent version verification. Generation dates, actual prompts and cross-model blinding were not recorded.
+
+Both models labeled the same 300 texts. Tone agreement is 76.0%, with model-to-model kappa 0.588. Claude labels 40.7% negative and DeepSeek 59.0%. Agreement with the existing Naive Bayes classifier is 44.7% and 28.7% respectively. These comparisons demonstrate method-sensitive measurement, not accuracy or media bias. Neither model verified numerical claims against official releases.
+
+The two-person independent human-labeling requirement remains unmet. No consensus truth, human agreement or adjudicated corpus accuracy is inferred. The human evaluator refuses to treat these outputs as human validation. See `deliverables/model_annotation_findings.md`, `results/model_annotation_comparison.json` and `results/model_annotation_disagreements.csv`. Reproduce with `python src/compare_model_annotations.py`. The supplied model outputs are frozen inputs and cannot be regenerated from an unrecorded prompt.

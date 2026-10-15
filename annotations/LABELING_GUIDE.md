@@ -23,3 +23,12 @@ Report precision, recall and F1 for all three tone classes, both overall and by 
 ## Selection and mechanisms
 
 The queue is stratified across source type, predicted tone and month. Its proportions do not estimate population sentiment or media supply without appropriate design weights. Compare identical releases or matched surprises across publishers before calling a tone difference selective coverage. This text annotation cannot establish a reader's confirmation bias, availability bias or anchoring.
+
+
+## Model-generated annotation update
+
+The user identified `annotations/annotator_A_filled.csv` as Claude output and `annotations/annotator_B.csv` as DeepSeek output. The original stored IDs and files are preserved verbatim. In particular, `Reader_A` is a historical file value and does not indicate human authorship. `annotations/ANNOTATION_PROVENANCE.json` records their model provenance and source hashes. The user reports Claude Sonnet5.5 and DeepSeek V41-Flash, without independent version verification. Generation dates, actual prompts and cross-model blinding were not recorded.
+
+Both models labeled the same 300 texts. Tone agreement is 76.0%, with model-to-model kappa 0.588. Claude labels 40.7% negative and DeepSeek 59.0%. Agreement with the existing Naive Bayes classifier is 44.7% and 28.7% respectively. These comparisons demonstrate method-sensitive measurement, not accuracy or media bias. Neither model verified numerical claims against official releases.
+
+The two-person independent human-labeling requirement remains unmet. No consensus truth, human agreement or adjudicated corpus accuracy is inferred. The human evaluator refuses to treat these outputs as human validation. See `deliverables/model_annotation_findings.md`, `results/model_annotation_comparison.json` and `results/model_annotation_disagreements.csv`. Reproduce with `python src/compare_model_annotations.py`. The supplied model outputs are frozen inputs and cannot be regenerated from an unrecorded prompt.
