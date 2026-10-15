@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <title>Surveys of Consumers - Charts</title>
+        <link href="/application.css" rel="stylesheet" type="text/css"/>
+    <link href="/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="/application.js" type="text/javascript"></script>
+    <script src="/jquery.corner.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        $().ready(function () {
+            $('.account_control').corner("8px");
+            $('.current_folder').corner("4px");
+        });
+    </script>
+    <script type='text/javascript'>
+        $(window).load(function () {
+            $(document).ready(function () {
+
+                // Position chart menu
+                var chart_menu_head = $('#chart_menu_head');
+                var chart_top = chart_menu_head.offset().top + chart_menu_head.height() + "px";
+                var chart_left = chart_menu_head.offset().left + "px";
+
+                $('#chartmenu').css({
+                    'position': 'absolute',
+                    'top': chart_top,
+                    'left': chart_left
+                });
+
+                // Position table menu
+                var table_menu_head = $('#table_menu_head');
+                var table_top = table_menu_head.offset().top + chart_menu_head.height() + "px";
+                var table_left = table_menu_head.offset().left + "px";
+
+                $('#tablemenu').css({
+                    'position': 'absolute',
+                    'top': table_top,
+                    'left': table_left
+                });
+
+                // Position data menu
+                var data_menu_head = $('#data_menu_head');
+                var data_top = data_menu_head.offset().top + data_menu_head.height() + "px";
+                var data_left = data_menu_head.offset().left + "px";
+
+                $('#datamenu').css({
+                    'position': 'absolute',
+                    'top': data_top,
+                    'left': data_left
+                });
+
+                // Position SI menu
+                var si_menu_head = $('#si_menu_head');
+                var si_top = si_menu_head.offset().top + si_menu_head.height() + "px";
+                var si_left = si_menu_head.offset().left + "px";
+
+                $('#si_menu').css({
+                    'position': 'absolute',
+                    'top': si_top,
+                    'left': si_left
+                });
+
+                // Handle clicks outside the menus
+                $("body").click(function() {
+                    $("#chartmenu").slideUp('fast');
+                    $("#tablemenu").slideUp('fast');
+                    $("#datamenu").slideUp('fast');
+                    $("#si_menu").slideUp('fast');
+                });
+
+                // Show chart menu
+                chart_menu_head.click(function (e) {
+                    $("#chartmenu").slideDown('fast');
+                    $("#tablemenu").slideUp('fast');
+                    $("#datamenu").slideUp('fast');
+                    $("#si_menu").slideUp('fast');
+                    e.stopPropagation();
+                });
+
+                // Show table menu
+                table_menu_head.click(function (e) {
+                    $("#tablemenu").slideDown('fast');
+                    $('#chartmenu').slideUp('fast');
+                    $('#datamenu').slideUp('fast');
+                    $("#si_menu").slideUp('fast');
+                    e.stopPropagation();
+                });
+
+                // Show data menu
+                data_menu_head.click(function (e) {
+                    $("#datamenu").slideDown('fast');
+                    $('#tablemenu').slideUp('fast');
+                    $('#chartmenu').slideUp('fast');
+                    $("#si_menu").slideUp('fast');
+                    e.stopPropagation();
+                });
+
+                // Show data menu
+                si_menu_head.click(function (e) {
+                    $("#si_menu").slideDown('fast');
+                    $('#tablemenu').slideUp('fast');
+                    $('#chartmenu').slideUp('fast');
+                    $('#datamenu').slideUp('fast');
+                    e.stopPropagation();
+                });
+
+            });
+        });
+    </script>
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TFGLRT"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TFGLRT');</script>
+<!-- End Google Tag Manager -->
+<div id='header'>
+    <div class='container_12'>
+        <div class='grid_8'>
+            <a href="/"><img alt="Logo" src="/images/logo-yellow.png" border="0"/></a>
+        </div>
+        <div class='grid_4 login'>
+          <span class="account_control">
+                                                <a href="/sponsor-login.php" class="loginlink">Log In</a>
+                                      </span>
+
+        </div>
+        <div class='clear'></div>
+    </div>
+</div>
+<div id='navigation'>
+    <div class='container_12'>
+        <div class='grid_12'>
+            <ul>
+                <li  >
+                    <a href="/">Home</a>
+                </li>
+                <li >
+                    <a href="/reports.php">Reports</a>
+                </li>
+                <li id="table_menu_head" >
+                    <a href="#">Tables</a>
+                </li>
+                <li id="chart_menu_head" class="active">
+                    <a href="#">Charts</a>
+                </li>
+                <li id="data_menu_head" >
+                    <a href="#">Data</a>
+                </li>
+                <li id="si_menu_head" >
+                    <a href="#">Survey Information</a>
+                </li>
+                <li >
+                    <a href="/papers.php">Papers</a>
+                </li>
+                                <li >
+                    <a href="/contact.php">Contact</a>
+                </li>
+                <li>
+                    <a href="http://www.sca.isr.umich.edu">Main Site</a>
+                </li>
+            </ul>
+        </div>
+        <div class='clear'></div>
+    </div>
+</div>
+<div id="submenu">
+
+    <div id="chartmenu">
+        <ul>
+            <li>
+                <a href="/charts.php">All Households</a>
+            </li>
+            <li>
+                <a href="/charts.php?demographic=age">by Age</a>
+            </li>
+            <li>
+                <a href="/charts.php?demographic=income">by Income</a>
+            </li>
+            <li>
+                <a href="/charts.php?demographic=education">by Education</a>
+            </li>
+            <li>
+                <a href="/charts.php?demographic=region">by Region</a>
+            </li>
+            <li>
+                <a href="/charts.php?demographic=gender">by Gender</a>
+            </li>
+            <li>
+                <a href = "/featured-charts.php">Featured Charts</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="tablemenu">
+        <ul>
+            <li>
+                <a href="/tables.php">All Households</a>
+            </li>
+            <li>
+                <a href="/demographic-tables.php?demographic=age">by Age</a>
+            </li>
+            <li>
+                <a href="/demographic-tables.php?demographic=income">by Income</a>
+            </li>
+            <li>
+                <a href="/demographic-tables.php?demographic=education">by Education</a>
+            </li>
+            <li>
+                <a href="/demographic-tables.php?demographic=region">by Region</a>
+            </li>
+            <li>
+                <a href="/demographic-tables.php?demographic=gender">by Gender</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="datamenu">
+        <ul>
+            <li>
+                <a href="/data-archive/mine.php">Time Series</a>
+            </li>
+            <li>
+                <a href="/subset/subset.php">Time Series Demographics</a>
+            </li>
+            <li>
+                <a href="/sda.php">Cross-Section Archive</a>
+            </li>
+                    </ul>
+    </div>
+
+    <div id="si_menu">
+        <ul>
+            <li>
+                <a href="/survey-info.php">Survey Information</a>
+            </li>
+                            <li>
+                    <a href="/technical-docs.php">Technical Documentation</a>
+                </li>
+                        <li>
+                <a href="/faq.php">Frequently Asked Questions</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div id='content'>
+
+<div id="reports" class='container_16'>
+    <div id="report_heading" class="grid_16">
+    <span class="title">
+      Charts  &mdash; August 2026    </span>
+    </div>
+    <div class="clear"></div>
+        <div class="grid_10 tables_heading">
+        All Charts
+    </div>
+    <div class="grid_3 tables_heading">
+        Last 10 Years
+    </div>
+    <div class="grid_3 tables_heading">
+        Last 50 Years
+    </div>
+    <div class="clear"></div>
+
+    <div class="alt">
+        <div class="grid_10 table_name">
+            <span class="table_number">&nbsp;</span>All Charts
+        </div>
+        <div class="grid_3 table_link">
+            <a data-doctype="chart: pdf" data-docname="00rhn" href="get-chart.php?y=2026&m=8&n=00rhn&d=ylch&f=pdf&k=379e2724d92532da8cb442c731cdb30d4a16d924729512087ae68b3b2d89a019">PDF</a>        </div>
+        <div class="grid_3 table_link">
+            &nbsp;
+        </div>
+        <div class="clear"></div>
+    </div>
+                <div class="grid_16 tables_heading">
+                Summary Indices            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">1a</span>The Index of Consumer Sentiment                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="1ar" href="get-chart.php?y=2026&m=8&n=1ar&d=ylch&f=pdf&k=534dd45438cfb9e4d48ab876fad2f90ff6e8a6ca2580accef1aabe0c900a4d28">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="1ar" href="get-chart.php?y=2026&m=8&n=1ar&d=ylch&f=xls&k=9a0554de9e785c87bb65fb1cb7af3aed25140470ba9d272f8daefeb0ef59125e">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="1ah" href="get-chart.php?y=2026&m=8&n=1ah&d=ylch&f=pdf&k=aa6f99713c7bd6906f84ac4cc0385519a754f4702c351cecadf0dd53f57cf774">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="1ah" href="get-chart.php?y=2026&m=8&n=1ah&d=ylch&f=xls&k=ebb14878cbe55c38bff7931135b26423248cc8f6d5230cd8e4c7857b42e44cc9">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">1b</span>Current and Expected Components of the Sentiment Index                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="1br" href="get-chart.php?y=2026&m=8&n=1br&d=ylch&f=pdf&k=5d4a8094d098aa79373cef9c86f403ac91af3bae90eb19896996d8c88f82dcb2">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="1br" href="get-chart.php?y=2026&m=8&n=1br&d=ylch&f=xls&k=84b8b0076fbbe2ef535d26294986e41d6d1b08c7f8734b2196795135e9afb1a1">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="1bh" href="get-chart.php?y=2026&m=8&n=1bh&d=ylch&f=pdf&k=066b9311083198ccbf430da7da8de071695e28a55f0098d0da630dd772dec05e">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="1bh" href="get-chart.php?y=2026&m=8&n=1bh&d=ylch&f=xls&k=552029f1e2a4fb14a8363904dc2d996b9c00ee1c5021952dc5d97e4e94378c00">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">2</span>Index of Consumer Sentiment Within Income Terciles                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="2r" href="get-chart.php?y=2026&m=8&n=2r&d=ylch&f=pdf&k=5cea6e341c0cf535bb505d18ba42cf3ad318b66b9fbd1a83146677d502d31b1c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="2r" href="get-chart.php?y=2026&m=8&n=2r&d=ylch&f=xls&k=e433be6b9674617786858e6ca01bc33f739ff98a4c597d4b78dbf7e3de222b3d">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="2h" href="get-chart.php?y=2026&m=8&n=2h&d=ylch&f=pdf&k=f3b3900e7e96384265210fd7c1b1c4ee6d0212388f337447472746bc12106bca">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="2h" href="get-chart.php?y=2026&m=8&n=2h&d=ylch&f=xls&k=1a7db1634016ccaa119d45acf1988ea652e83255e7b7d7a33308d47856687b8f">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">3</span>Index of Consumer Sentiment Within Age Subgroups                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="3r" href="get-chart.php?y=2026&m=8&n=3r&d=ylch&f=pdf&k=574d90efd6952f2e309079c182be64490986ae4d86124f2c747a5d69960d1239">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="3r" href="get-chart.php?y=2026&m=8&n=3r&d=ylch&f=xls&k=7e6c3ff9116eafaaba6b7c2f97b1621e69bec17fda79c2c9bddd659943720808">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="3h" href="get-chart.php?y=2026&m=8&n=3h&d=ylch&f=pdf&k=65b683769b6b3b22ca5e2bb49d20f0f4985b4bcd85d6e47cda5500b9b430b307">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="3h" href="get-chart.php?y=2026&m=8&n=3h&d=ylch&f=xls&k=98a576e0db292525a20f76858e1bdc672d6351d77fc0301038cc34ced6c5ac8c">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">4n</span>Index of Consumer Sentiment Within Education Subgroups                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="4nr" href="get-chart.php?y=2026&m=8&n=4nr&d=ylch&f=pdf&k=28eb48da0a3ebd69e504cb8288c6ad40dac0c4d619760a4f6c5617748e965a52">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="4nr" href="get-chart.php?y=2026&m=8&n=4nr&d=ylch&f=xls&k=1069946164f6bad434aeb147f09febe89d1cbb474f22635e9fe88ed9f44d37be">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="4nh" href="get-chart.php?y=2026&m=8&n=4nh&d=ylch&f=pdf&k=5b9e3ccb92a6e0b657fa013a966f8e71d76ac1a06254499e7011f447bd2f6073">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="4nh" href="get-chart.php?y=2026&m=8&n=4nh&d=ylch&f=xls&k=5742b3eaf1f510c6b00be79359ce4b104a5e24be823dcaa3dcd1411126a0d955">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">5a</span>Index of Consumer Sentiment Within Regions                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="5ar" href="get-chart.php?y=2026&m=8&n=5ar&d=ylch&f=pdf&k=da3005af6b476eebe4e89eac64adafbde10c210742787324d74ab3d2333302f6">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="5ar" href="get-chart.php?y=2026&m=8&n=5ar&d=ylch&f=xls&k=ba56a6f3111eb54e6b365923362663782d373d973f942baeece397b68505741d">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="5ah" href="get-chart.php?y=2026&m=8&n=5ah&d=ylch&f=pdf&k=0b63f51eebc13c7fc5e67193d4eed4fb08a803b71841fcd08c09edbee4f6d9b4">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="5ah" href="get-chart.php?y=2026&m=8&n=5ah&d=ylch&f=xls&k=a89982a0f644535cc187a564871fc66fe37f154cb95e205e79c4502c4ec4e1e6">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">5b</span>Index of Consumer Sentiment Within Political Party                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="5br" href="get-chart.php?y=2026&m=8&n=5br&d=ylch&f=pdf&k=66f36512f5d242ab23ab0a8d464e84c443799934646b05981e6578125b033b28">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="5br" href="get-chart.php?y=2026&m=8&n=5br&d=ylch&f=xls&k=2bf05d67de09a3e1d2434655c279edc65bd66b7ff73c8ff4128f1ca428d6328c">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="5bh" href="get-chart.php?y=2026&m=8&n=5bh&d=ylch&f=pdf&k=cb9f508818186b8b3d14230f14d3fecc9d26c33657f5a832b9f11d3f8e264ba9">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="5bh" href="get-chart.php?y=2026&m=8&n=5bh&d=ylch&f=xls&k=34dab9f1bd4fd4c29bf38603e1cc0353b4f294047240f21a0aa0ac4c1ec8a8b4">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Personal Finances            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">6</span>Current Financial Situation Compared with a Year Ago                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="6r" href="get-chart.php?y=2026&m=8&n=6r&d=ylch&f=pdf&k=e831d35243518eab823d8d7acba95b32bd3a3ed0da8132aa2e128e27b636cd59">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="6r" href="get-chart.php?y=2026&m=8&n=6r&d=ylch&f=xls&k=4abd8e36a7c2e2af288a59dc09fa35e06a9733354e0be070d337fdc0cd3f92e8">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="6h" href="get-chart.php?y=2026&m=8&n=6h&d=ylch&f=pdf&k=e5edd5329441d6ebe372fe70db83d74bb7078b9a9297aff8f6202c7d9f6722fe">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="6h" href="get-chart.php?y=2026&m=8&n=6h&d=ylch&f=xls&k=6c29526ecf616124ab0d08301e8b85af8633be976daabeae84a82577ded1adf3">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">7a</span>Higher Prices as Reasons for Worse Personal Finances                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="7ar" href="get-chart.php?y=2026&m=8&n=7ar&d=ylch&f=pdf&k=3e36bf0d0827bfed3b492996c3eea22f33484346eea54671c26313f28a02834c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="7ar" href="get-chart.php?y=2026&m=8&n=7ar&d=ylch&f=xls&k=89fc662c447e8726abd876c6f9417af4ccc3c28694879003914207332c5f5832">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="7ah" href="get-chart.php?y=2026&m=8&n=7ah&d=ylch&f=pdf&k=d09cbfb19e6dfefc182b87014df6dc043e45062bbc8a6bdecdb3d0e2c14348be">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="7ah" href="get-chart.php?y=2026&m=8&n=7ah&d=ylch&f=xls&k=e64d7de4abd646f53f5042b88191ccedb9c286cadf1d8ad70f6331f66a04d796">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">7b</span>Income Reasons for Changes in Personal Finances                 </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="7br" href="get-chart.php?y=2026&m=8&n=7br&d=ylch&f=pdf&k=dd5211382cd8f021424287ebba499e334315a4e0dae5d3622ce5a66ea70ec3a0">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="7br" href="get-chart.php?y=2026&m=8&n=7br&d=ylch&f=xls&k=5e1d4423f4be08bc667d812a436ef6c4d1faf287f57459c1e1cd9a772ef3b18b">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="7bh" href="get-chart.php?y=2026&m=8&n=7bh&d=ylch&f=pdf&k=8ebf96628f6b9c2a5a8c9eca692cca35af850b89b55d6cd2a671c12e92db8dcf">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="7bh" href="get-chart.php?y=2026&m=8&n=7bh&d=ylch&f=xls&k=9ea34f7c5f1cbea5093f4cf7896cb473e15c5785314d386918321c6ccd6bf0dc">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">7c</span>Wealth Reasons for Changes in Personal Finances                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="7cr" href="get-chart.php?y=2026&m=8&n=7cr&d=ylch&f=pdf&k=0771d75dba5286e443c298fe3fc6d104134a81df9e7611b7402fd704193ad5cc">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="7cr" href="get-chart.php?y=2026&m=8&n=7cr&d=ylch&f=xls&k=8a3378d29c4c53625734af4d8c1132e7d28228f81fc9dadf13e41f566fe61370">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="7ch" href="get-chart.php?y=2026&m=8&n=7ch&d=ylch&f=pdf&k=8d86e83733e5b1f52c5679edf18b1f448d4c1910b0a37c0b81f62879dddfcaf7">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="7ch" href="get-chart.php?y=2026&m=8&n=7ch&d=ylch&f=xls&k=dfa0495b709490651c0373e9dd3e5acc9e57a6dc7faedb51a5d8d42bc0b45f53">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">8</span>Expected Change in Financial Situation in a Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="8r" href="get-chart.php?y=2026&m=8&n=8r&d=ylch&f=pdf&k=a6dc9b68d748d8424efc8a43df8e671526238c78202b439198360ead31515fba">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="8r" href="get-chart.php?y=2026&m=8&n=8r&d=ylch&f=xls&k=8ebfb32ba1bfd52c6c34003ff35c06439a276d5ee7eecf325c55044bce525ac2">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="8h" href="get-chart.php?y=2026&m=8&n=8h&d=ylch&f=pdf&k=88dad8bb72d6c6891afc8211e28e5b98180d62d8cc2aa412ee32fac5fa9a6ff7">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="8h" href="get-chart.php?y=2026&m=8&n=8h&d=ylch&f=xls&k=ae28beac0e4019847013a939b6bde3bd4039e44db9a24dee8dd3f4fd9331a552">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">9</span>Annual Trend in Past and Expected Household Finances                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="9r" href="get-chart.php?y=2026&m=8&n=9r&d=ylch&f=pdf&k=3c0569a25dfb715ea55ef19df41aeabb50cf5d1be66943cb3bfb53a7ac258eec">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="9r" href="get-chart.php?y=2026&m=8&n=9r&d=ylch&f=xls&k=c195fbfc3fdc49831bc54133177a80c96d9f0957f721018ab284f43e3552a12f">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="9h" href="get-chart.php?y=2026&m=8&n=9h&d=ylch&f=pdf&k=135dd4bc88e28ef0280c4adbc00d93bf635bc9d1307382835a23a3f18b6bd48f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="9h" href="get-chart.php?y=2026&m=8&n=9h&d=ylch&f=xls&k=bcd3eeaaf389660cce8f30ab1e04850230298d6f8e195d4e95bfab078e6a7a08">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">10</span>Current Financial Situation Compared with 5 Years Ago                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="10r" href="get-chart.php?y=2026&m=8&n=10r&d=ylch&f=pdf&k=c2cd01efd94dfffb32b13028fa8771c2d6862076b8cb745669cc65dad1dd56b7">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="10r" href="get-chart.php?y=2026&m=8&n=10r&d=ylch&f=xls&k=e51a663bb80994f0768577ea990f29f5d3e5f434b8927aa0472e180ce678bd47">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="10h" href="get-chart.php?y=2026&m=8&n=10h&d=ylch&f=pdf&k=100932f1315e5813c908a4c9154260032d3d18b33cf67f9a0475ba9021a9b9cb">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="10h" href="get-chart.php?y=2026&m=8&n=10h&d=ylch&f=xls&k=99acb9470dda1b74f53ef16bfe90b0eaf6e8b66d30dcaf724c818fffb922f09a">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">11</span>Expected Change in Financial Situation in 5 Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="11r" href="get-chart.php?y=2026&m=8&n=11r&d=ylch&f=pdf&k=86e5cdf2cc5cd17d20571759a25c6fc6cbc4421358e3037d7f157526bad4655f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="11r" href="get-chart.php?y=2026&m=8&n=11r&d=ylch&f=xls&k=02d222681406fb3b918661021b77ed79e072f0833b0fc73ee0983a0b7414a9c4">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="11h" href="get-chart.php?y=2026&m=8&n=11h&d=ylch&f=pdf&k=94c87ba52ce9a5c8f6b7755afdff23a04ec948aa51aff30bd2074b2495351420">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="11h" href="get-chart.php?y=2026&m=8&n=11h&d=ylch&f=xls&k=371e401cc3b0e96eef9080296bfa0641951e4e64965e4bd6dd1bc4c622b21d1f">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">12</span>Five Year Trend in Past and Expected Household Finances                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="12r" href="get-chart.php?y=2026&m=8&n=12r&d=ylch&f=pdf&k=dac837e0a1b4a43751c5f9adafc0d6b2d91d285cd6d89b2375959de3ceb31bfe">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="12r" href="get-chart.php?y=2026&m=8&n=12r&d=ylch&f=xls&k=48bdc618ab371b5cb91bfee29acfd36ced4ade556070e98e05afe8f8f75267b1">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="12h" href="get-chart.php?y=2026&m=8&n=12h&d=ylch&f=pdf&k=6e887c8347c69b12baf9ebfd8acba122252d5bba123a040de5105cedbe3236b6">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="12h" href="get-chart.php?y=2026&m=8&n=12h&d=ylch&f=xls&k=1d4e0ebca8a7fba1244c5ea8bd91e0edbc6c575b1f60ca77c6a00254a5bde034">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">13</span>Expected Household Income Change During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="13r" href="get-chart.php?y=2026&m=8&n=13r&d=ylch&f=pdf&k=f040cc0c88d41057608cb0116b867c6a2a3b9c01f947d7aa6ccb8f59b97df838">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="13r" href="get-chart.php?y=2026&m=8&n=13r&d=ylch&f=xls&k=d4ffd6c12c57c89712abc9b1f7aabe4fe4ea519024f02847706ae18e62c1527a">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="13h" href="get-chart.php?y=2026&m=8&n=13h&d=ylch&f=pdf&k=ae59c21b63e089b3621a6b438b3b29238e65bcc97696caa86f9833307c8d8d48">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="13h" href="get-chart.php?y=2026&m=8&n=13h&d=ylch&f=xls&k=f485b2eab5d77eeb3117f915e35456a0ebd64eb6f7e82b9c7b7c661ac232fdd8">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">14</span>Expected Change in Real Income During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="14r" href="get-chart.php?y=2026&m=8&n=14r&d=ylch&f=pdf&k=237870224a09a698335aebdb3b329c8914bccb929fbaec7ea6bc8c314feaef1a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="14r" href="get-chart.php?y=2026&m=8&n=14r&d=ylch&f=xls&k=abec84dae004817cece32ca4ba60f893ffaa03a5763c761973344b85c023e315">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="14h" href="get-chart.php?y=2026&m=8&n=14h&d=ylch&f=pdf&k=1df053fd9a708c90a619d951052a27dba0593e232934905e87f1d7c62cccc089">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="14h" href="get-chart.php?y=2026&m=8&n=14h&d=ylch&f=xls&k=676dcb4a8979a61595a0b45086d98425099f584d033256098438b66e129e24bf">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">15</span>Probability That Personal Income Will Increase During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="15r" href="get-chart.php?y=2026&m=8&n=15r&d=ylch&f=pdf&k=70d0a1ad0b0d4e03c1f08d01b0984d1e0bcddfe29059402cae313990dae83beb">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="15r" href="get-chart.php?y=2026&m=8&n=15r&d=ylch&f=xls&k=42115cb136cb767b8e4af5c8ffea1f23cabef9e5a67f562a9ef64923e1e54a4f">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="15h" href="get-chart.php?y=2026&m=8&n=15h&d=ylch&f=pdf&k=3ed0f2355fc71845b2099d63540aaf1eff8385cd84de79cdd6d054d5de45669f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="15h" href="get-chart.php?y=2026&m=8&n=15h&d=ylch&f=xls&k=a2095a507dde258b2f73d4bc7c36c2465c44486908b4a5234fec05b4634e0069">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">16</span>Probability of Real Income Gains During the Next 5 Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="16r" href="get-chart.php?y=2026&m=8&n=16r&d=ylch&f=pdf&k=a62e0050098f132da7aa1002b346c5017e89a4f16a89fe7f5db6ea1102464d94">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="16r" href="get-chart.php?y=2026&m=8&n=16r&d=ylch&f=xls&k=ff3e61856731b882a9e0e7f9b5cc1cdbb3e3e7af4beeca4ddff3a4f010442663">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="16h" href="get-chart.php?y=2026&m=8&n=16h&d=ylch&f=pdf&k=b16e2bed5ed44380d950505c05b0e691ee4c750af2ef3c6886551e0ae40eac5a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="16h" href="get-chart.php?y=2026&m=8&n=16h&d=ylch&f=xls&k=4bd6326733bc3ebc461f9ca036913edb3bde4a3af61852da093caeb3d5d9d3a6">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">17</span>Probability of Losing a Job in the Next 5 Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="17r" href="get-chart.php?y=2026&m=8&n=17r&d=ylch&f=pdf&k=aadfd79e84d08dd0258f0563b5f96c09838cbe118cde8aad3b72b5ca8e15c06d">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="17r" href="get-chart.php?y=2026&m=8&n=17r&d=ylch&f=xls&k=e40143b217336dc7c6ed2b930ec89ea94433856318133c9a358ac4342c2adfd1">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="17h" href="get-chart.php?y=2026&m=8&n=17h&d=ylch&f=pdf&k=13b3696c89a6ecd487ef92e5a80930da9b5a6f2b092b758a0124b39ec5287e30">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="17h" href="get-chart.php?y=2026&m=8&n=17h&d=ylch&f=xls&k=8789278157961416ee67466ec6b2083fca1a316d59e1aeb0d5bb445e7d5994bf">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Savings and Retirement            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">18</span>Probability Retirement Income Will be Adequate                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="18r" href="get-chart.php?y=2026&m=8&n=18r&d=ylch&f=pdf&k=1bdd90a04470dba0690ef02861df5f253564a52116f64757e1694e0c64a7bbfd">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="18r" href="get-chart.php?y=2026&m=8&n=18r&d=ylch&f=xls&k=5eea0976be491062ef753afcf560bec819af980769082f71825e0805a5c8b849">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="18h" href="get-chart.php?y=2026&m=8&n=18h&d=ylch&f=pdf&k=af6b3d5e701f37be5bc4ce0428c3806c9fb651896f3b6e3af90813835a3a83e9">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="18h" href="get-chart.php?y=2026&m=8&n=18h&d=ylch&f=xls&k=9bef39c3e524a3fe5fc0b9b39293c0c6320711958a4a84a00563cc14ba621790">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">19</span>Change in Likelihood of Comfortable Retirement                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="19r" href="get-chart.php?y=2026&m=8&n=19r&d=ylch&f=pdf&k=ba07658223813c9e25275cb50ddea5192936a64ad4fe2ed3a2d3931a7a6a473c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="19r" href="get-chart.php?y=2026&m=8&n=19r&d=ylch&f=xls&k=9d777aaa90672b3eaf75d6ff4542ac00a5180b9f7b3069f20869478081b61f71">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="19h" href="get-chart.php?y=2026&m=8&n=19h&d=ylch&f=pdf&k=f61b6f008b1e3841679df79cae4122c404e5499fe2a293243df7e6d1f6357dd9">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="19h" href="get-chart.php?y=2026&m=8&n=19h&d=ylch&f=xls&k=86521f85a6a88b071780571dd39f482fa37ff3eed0391513c827e4f7474994d9">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">20</span>Probability of An Increase in Stock Market Price in the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="20r" href="get-chart.php?y=2026&m=8&n=20r&d=ylch&f=pdf&k=09fff0d5377cc8866e6785faf46824d29bad1f307f0b285298878f1eedaa9ae6">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="20r" href="get-chart.php?y=2026&m=8&n=20r&d=ylch&f=xls&k=fad9464f46c111009c1e368a8974f3b4523593024e7cf2bf1bf6d89cfe20cf2b">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="20h" href="get-chart.php?y=2026&m=8&n=20h&d=ylch&f=pdf&k=0dbbdd8134addd440c00550fddda693b30714860045f39ceac1e72647b416d05">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="20h" href="get-chart.php?y=2026&m=8&n=20h&d=ylch&f=xls&k=e569b620e4bf3aa2a6183ca7917c875acb90af70e55f220f507c9e57f88b1c66">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">21</span>Current Value of Stock Market investments                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="21r" href="get-chart.php?y=2026&m=8&n=21r&d=ylch&f=pdf&k=0cf509762610be97dceb6f54e8dce6a82cbc4daa94fd069a8b64d55783425b3f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="21r" href="get-chart.php?y=2026&m=8&n=21r&d=ylch&f=xls&k=432dcf0ca81147c7baeb4da521c553ccc2f53797ac5f02ae80f335e180fe5d05">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="21h" href="get-chart.php?y=2026&m=8&n=21h&d=ylch&f=pdf&k=9d496be923acc9269c57dfbf169f9aba818b4d0c409808dd3d736e8b25867771">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="21h" href="get-chart.php?y=2026&m=8&n=21h&d=ylch&f=xls&k=bd80e31130c49c80099fc1c3149e7aaf0a812c6ebb48d85a7491e4b2c9de50b8">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">22</span>Current Market Value of Primary Residence                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="22r" href="get-chart.php?y=2026&m=8&n=22r&d=ylch&f=pdf&k=0f23d6c6552f4b84803fb4ab9f7b0d3b5d9a1a0f4a88311610723dba18e41065">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="22r" href="get-chart.php?y=2026&m=8&n=22r&d=ylch&f=xls&k=0c79707f8124fa6a310b729dc432427028306819052d6d2b14dc2b3e6805b9d6">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="22h" href="get-chart.php?y=2026&m=8&n=22h&d=ylch&f=pdf&k=dc220a81c5332341ec516a05fca26ca6991dba2ec9f91bf62513138d0f414c7c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="22h" href="get-chart.php?y=2026&m=8&n=22h&d=ylch&f=xls&k=1e2d4b03bbdd56ba1b803e8f3b5d1df332122ecc75dd9aa390f02d6bed988843">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Economic Conditions            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">23</span>News Heard of Recent Changes in Business Conditions                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="23r" href="get-chart.php?y=2026&m=8&n=23r&d=ylch&f=pdf&k=0754ec41a2c290043993c2e32414005a8a12b0b439fbeb576fb417874f1b7e8a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="23r" href="get-chart.php?y=2026&m=8&n=23r&d=ylch&f=xls&k=bdbb22ff99ead1881a3af3e8cbe1051880463cfb183183fa4e2734b5e4983e48">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="23h" href="get-chart.php?y=2026&m=8&n=23h&d=ylch&f=pdf&k=86226fd888d352a54df95926d802867942f4b91238b97ee183cdf06572dd8403">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="23h" href="get-chart.php?y=2026&m=8&n=23h&d=ylch&f=xls&k=a75fcc4659993fed1d4ec6d4710bd2fee57d9ecbe81779d9e7be3a6e0f9c6788">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">24a</span>News Heard About Price Changes                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="24ar" href="get-chart.php?y=2026&m=8&n=24ar&d=ylch&f=pdf&k=02e9dceb615d3de0ac4fe1c6959a367d1000a52c681109e5055b28d475e045d2">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="24ar" href="get-chart.php?y=2026&m=8&n=24ar&d=ylch&f=xls&k=f8153108211b8d81bbe2f73caef6954aff1336f8860d0406eebbda2336434fb2">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="24ah" href="get-chart.php?y=2026&m=8&n=24ah&d=ylch&f=pdf&k=c6a62034bbf6aa2c3ddcda98f92448110f168ec2ef0571f50be3631d8187a24f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="24ah" href="get-chart.php?y=2026&m=8&n=24ah&d=ylch&f=xls&k=038ac87281a19b24147b306759ba519c6c0498e6f7d52ceede94749fb5adb7f2">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">24b</span>News Heard About Change in Employment                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="24br" href="get-chart.php?y=2026&m=8&n=24br&d=ylch&f=pdf&k=207ab4e260abb94a2b18fe9f125da7df2a63bf62d95d3710bbb42759879c0c5f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="24br" href="get-chart.php?y=2026&m=8&n=24br&d=ylch&f=xls&k=a6290e6d6f65b83f22159fea839ed7778afd0991c7c028b03a925adb99b10121">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="24bh" href="get-chart.php?y=2026&m=8&n=24bh&d=ylch&f=pdf&k=56d74e9050f020b5fb2b0bb71b13b84cf62afb380cb4d1438702c4b4e57bd78b">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="24bh" href="get-chart.php?y=2026&m=8&n=24bh&d=ylch&f=xls&k=6c13bd19dc9cf7a9facfb682be79e1fc6c14b81d2e2e9e89187cd99e6fa0082c">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">24c</span>News Heard About Government Economic Policies                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="24cr" href="get-chart.php?y=2026&m=8&n=24cr&d=ylch&f=pdf&k=4b239d205634a16c73d53cbe4146e66b662e8d4030d96c3c2309c5e03f89089c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="24cr" href="get-chart.php?y=2026&m=8&n=24cr&d=ylch&f=xls&k=6b4c3b5363e9e63e365449ad17dbe70d7f5ac50dca8ae85dda16383e966c9db7">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="24ch" href="get-chart.php?y=2026&m=8&n=24ch&d=ylch&f=pdf&k=af49a9da801222fce2dbb6924e6b9c21c98682405e64d9e323e2feb01e7475b7">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="24ch" href="get-chart.php?y=2026&m=8&n=24ch&d=ylch&f=xls&k=791a6062d50d876a31f603869b2bc65f3c37e147a16895cf44c09ed49d598719">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">25</span>Current Business Conditions Compared with a Year Ago                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="25r" href="get-chart.php?y=2026&m=8&n=25r&d=ylch&f=pdf&k=34c41b9edbc1504f82406d07cfd8868680de7b03e15ba6034a04ad26dd504d68">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="25r" href="get-chart.php?y=2026&m=8&n=25r&d=ylch&f=xls&k=0c0d9985718040f5223ed9e4f1f0f06418c63840cf00b248a4f11c9adaae761d">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="25h" href="get-chart.php?y=2026&m=8&n=25h&d=ylch&f=pdf&k=37543b2f3f2f6f6f0afd57c7a8a969df1c0f37e03f2952ee90d9e1bc2744214a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="25h" href="get-chart.php?y=2026&m=8&n=25h&d=ylch&f=xls&k=c6241e866a6314c0c0c9b75288234bb99664460b970456675010447d1c196d7b">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">26</span>Expected Change in Business Conditions in a Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="26r" href="get-chart.php?y=2026&m=8&n=26r&d=ylch&f=pdf&k=1fb21712c26eda8f6f7365b1b07255e58e4022b209bd0b1bbd0999c965863f18">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="26r" href="get-chart.php?y=2026&m=8&n=26r&d=ylch&f=xls&k=7fdcb2350bd7430df039e279826795c979ec3dd7622927c300cd326a1e87bedc">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="26h" href="get-chart.php?y=2026&m=8&n=26h&d=ylch&f=pdf&k=74024c7e324906ce6a0fb08590b2be63c14073c6e9355f28b06620d5230b21eb">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="26h" href="get-chart.php?y=2026&m=8&n=26h&d=ylch&f=xls&k=3229210ef216b695e30e4aa7e5d56ddea60cb51263214e5a583ed166f5ac12ac">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">27</span>Trend in Past and Expected Business Conditions                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="27r" href="get-chart.php?y=2026&m=8&n=27r&d=ylch&f=pdf&k=7b79febe5ef71c9696f819b17aadcb65459e4742fac5633293fe5056238a5c46">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="27r" href="get-chart.php?y=2026&m=8&n=27r&d=ylch&f=xls&k=1005c1a77635ad1fd1e44e479864d8e455844813bc68a684ff07b49b7e58054d">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="27h" href="get-chart.php?y=2026&m=8&n=27h&d=ylch&f=pdf&k=f4a7c0967378b8a4510f66b45f97908e09125b0baf21348cb8f013ce514958fe">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="27h" href="get-chart.php?y=2026&m=8&n=27h&d=ylch&f=xls&k=58fb61bae9bcec3b4c153c40b4be679316d1ee21d2d2801e692434b03de6878c">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">28</span>Business Conditions Expected During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="28r" href="get-chart.php?y=2026&m=8&n=28r&d=ylch&f=pdf&k=319cf62853a90d7ff4332221f67d37cb32dc68868cb38a43ccdbb6ac4a9e6966">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="28r" href="get-chart.php?y=2026&m=8&n=28r&d=ylch&f=xls&k=583ac0932ae81cd9bcf609dfe2a48c7f175d730c4af917ddb9c471c4ae7f226f">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="28h" href="get-chart.php?y=2026&m=8&n=28h&d=ylch&f=pdf&k=b45750098553db7be45b04e39e0d28cc2ac69ab259263f9f9d91b8f099bb43bb">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="28h" href="get-chart.php?y=2026&m=8&n=28h&d=ylch&f=xls&k=03dc79e835e0fd7a8cafb930a4c38559a4112e4aaca10a957cdb6af56f7598ec">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">29</span>Business Conditions Expected During the Next Five Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="29r" href="get-chart.php?y=2026&m=8&n=29r&d=ylch&f=pdf&k=ec01cb45cc04ca2cb1b74cedbac1385bb860784ee9ec6715028d502468bc0073">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="29r" href="get-chart.php?y=2026&m=8&n=29r&d=ylch&f=xls&k=1f6b7f20981a365848dc945f874f70b630e756f2097309e38a371fa2b61833b0">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="29h" href="get-chart.php?y=2026&m=8&n=29h&d=ylch&f=pdf&k=f9814c7fb3c01c3b647ec4d66afc0ce2bcbf0c362699fc6027641f46d4de11e8">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="29h" href="get-chart.php?y=2026&m=8&n=29h&d=ylch&f=xls&k=7e7e69a52119e9597c5552725c6860ef52bb550dfe8640e2f1378fbccbbf9ca5">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Unemployment, Interest Rates, Prices, Government Expectations            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">30</span>Expected Change in Unemployment During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="30r" href="get-chart.php?y=2026&m=8&n=30r&d=ylch&f=pdf&k=3f90b2113a422137be61c29cdfd551e5c18ad9fdd7ba2b1704e596e21675ce1c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="30r" href="get-chart.php?y=2026&m=8&n=30r&d=ylch&f=xls&k=339dae0e84f8e92496aa61d951e1169137e98fd9ed8491c1b8af804972b6149e">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="30h" href="get-chart.php?y=2026&m=8&n=30h&d=ylch&f=pdf&k=a417640c6da3209137da593f3ffd4f8232347fa7b0e3db77caff9df4e9edaa34">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="30h" href="get-chart.php?y=2026&m=8&n=30h&d=ylch&f=xls&k=0f3dabf506853bfe34cf02967b1527d7ed0840b955f48a403c91c80a6ed3e7f9">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">31</span>Expected Change in Interest Rates During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="31r" href="get-chart.php?y=2026&m=8&n=31r&d=ylch&f=pdf&k=891353cd7f0351dde6b37f093a394e4214cfb4a8f957ff1364411c1645b6fc69">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="31r" href="get-chart.php?y=2026&m=8&n=31r&d=ylch&f=xls&k=9ade7ed9ee69f37d86e6ffa2dc00e12dfcf68748281ca195d5f836ae40afffa2">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="31h" href="get-chart.php?y=2026&m=8&n=31h&d=ylch&f=pdf&k=6ae5db5597976ae171b53bdb8511e80d98ca2292266800cdf2b539d6eb186dfe">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="31h" href="get-chart.php?y=2026&m=8&n=31h&d=ylch&f=xls&k=e33ff05f9644d931c88e918063b8412462dda51faa568fc7609b2d5247f5788e">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">32</span>Expected Change in Prices During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="32r" href="get-chart.php?y=2026&m=8&n=32r&d=ylch&f=pdf&k=b7ee510a8cb43deb4e7957114a9df399863037517f760b512510bb28fe40c722">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="32r" href="get-chart.php?y=2026&m=8&n=32r&d=ylch&f=xls&k=ba8878fcd7d7a5494078068752d498e8fdf294cf6842b9ce43ba3c0fb17beaf4">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="32h" href="get-chart.php?y=2026&m=8&n=32h&d=ylch&f=pdf&k=387fdd4003b1892459d2c6a796970b533a69141ee5add69522b174df2709fcca">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="32h" href="get-chart.php?y=2026&m=8&n=32h&d=ylch&f=xls&k=1d378770e89f7c063e2279a4fafe38355f9b5e11d7ed82d8800d2336dfee606e">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">33</span>Expected Change in Prices During the Next 5 Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="33r" href="get-chart.php?y=2026&m=8&n=33r&d=ylch&f=pdf&k=88fd4b778aeee3c1b72ad82637fd118d429b4c8dfb75df3dc3f0f23682bdc439">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="33r" href="get-chart.php?y=2026&m=8&n=33r&d=ylch&f=xls&k=3df87208ba22858b1ab66d49aba7f8ab6ec063f3ccd232fce21c338d9496f5cc">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="33h" href="get-chart.php?y=2026&m=8&n=33h&d=ylch&f=pdf&k=02cfa4a5cf7ea031235573d725bdb4228016dc8bdd41ea54dca038363bdf70fc">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="33h" href="get-chart.php?y=2026&m=8&n=33h&d=ylch&f=xls&k=e8de251d4f6dd9de3f241d711eaac311b408fe23478a1feb7c5e4d56a0e8866a">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">34</span>Opinions About the Government's Economic Policy                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="34r" href="get-chart.php?y=2026&m=8&n=34r&d=ylch&f=pdf&k=1085ad62313d3394aea2d0b03ef9c4001ef15ee05d168dfd9564f8a900573bca">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="34r" href="get-chart.php?y=2026&m=8&n=34r&d=ylch&f=xls&k=531d3a1798b91894bbac22f795e70b83feb785a01b34189e66bdba151fee1afb">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="34h" href="get-chart.php?y=2026&m=8&n=34h&d=ylch&f=pdf&k=d3c9cf784240486f70146c08943b183e42f7cf97089683cebe292734724541cd">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="34h" href="get-chart.php?y=2026&m=8&n=34h&d=ylch&f=xls&k=359453f98a26f3361f8641d9f8a0d64eac83144795d755d0a4910e664bcc27c0">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Household Durables Buying Conditions            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">35</span>Buying Conditions for Large Household Durables                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="35r" href="get-chart.php?y=2026&m=8&n=35r&d=ylch&f=pdf&k=51aee3a5e457798793ef301a27ea41a0b973d6375e05437798c0a445aa6aa5bb">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="35r" href="get-chart.php?y=2026&m=8&n=35r&d=ylch&f=xls&k=ae3e0ffba93fe62a0e2abbadfc3d1e82903d6f129bbff5c8ee9abb19510595e4">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="35h" href="get-chart.php?y=2026&m=8&n=35h&d=ylch&f=pdf&k=1be9d903a190b73957ba4f0e8d3bbf1aad14b075e42e8e47d7d58cc2b1871a5e">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="35h" href="get-chart.php?y=2026&m=8&n=35h&d=ylch&f=xls&k=d8081e5b2f5f04f5311ef5ed608dfd94ff3728d86c487c2b02ef5ea66f749bc2">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">36a</span>Price References for Large Household Durables                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36ar" href="get-chart.php?y=2026&m=8&n=36ar&d=ylch&f=pdf&k=1c9e11b80ae8f58b4351e8e5ca3d497c5fd3405a1bbcd5b9d2af098bcf0715c0">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36ar" href="get-chart.php?y=2026&m=8&n=36ar&d=ylch&f=xls&k=70ff557c2f3fc846feb9e47a476802b1ee389b3f890cb6217be8758afbc5fece">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36ah" href="get-chart.php?y=2026&m=8&n=36ah&d=ylch&f=pdf&k=b086dfed06dbfd925178ea1c13bcdd7c76de8573733243168b826b7f034dd91d">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36ah" href="get-chart.php?y=2026&m=8&n=36ah&d=ylch&f=xls&k=f9c5b87a7bb4e0484acab489b95b708a94b39c381aab3ce31d634cb1e761f4c1">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">36b</span>Advance Buying Reasons for Large Household Durables                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36br" href="get-chart.php?y=2026&m=8&n=36br&d=ylch&f=pdf&k=e2f90c8967da937a3d6ce9081a9036bf2b57d094886b5c99ff99196964c1202e">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36br" href="get-chart.php?y=2026&m=8&n=36br&d=ylch&f=xls&k=b56952762e7ccb782f211f3e17ccf076bc66bd449555463fa4b12d00c7663e9d">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36bh" href="get-chart.php?y=2026&m=8&n=36bh&d=ylch&f=pdf&k=b9144400d33a0b98e5b6782de1697006564a613f164c9c53d06eab6b83f62316">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36bh" href="get-chart.php?y=2026&m=8&n=36bh&d=ylch&f=xls&k=1df9c651d002df6e245ffce31643f920b51430e1487273147c1f6f60c181d41c">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">36c</span>Interest Rate Reasons for Large Household Durables                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36cr" href="get-chart.php?y=2026&m=8&n=36cr&d=ylch&f=pdf&k=fccf4196939ca482e879543c5a00083230d3227d2be450b9ef27d883193481af">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36cr" href="get-chart.php?y=2026&m=8&n=36cr&d=ylch&f=xls&k=a137a49348664e8787614334e12d32f01ab093acac316ff0e4ea340c44622367">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36ch" href="get-chart.php?y=2026&m=8&n=36ch&d=ylch&f=pdf&k=84855c0310e3178d28b0cd9cee3938d94c66017d3f9999fd5eac684b2efb2c32">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36ch" href="get-chart.php?y=2026&m=8&n=36ch&d=ylch&f=xls&k=4ebcb6fe4387f6feec6a70c98611a0c9908b2ee4dbfa1f0426d6218c91696c40">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">36d</span>Economic Uncertainty Reasons for Large Household Durables                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36dr" href="get-chart.php?y=2026&m=8&n=36dr&d=ylch&f=pdf&k=f7661ca8767559073c1ebd937713475f60a30d4b340879603c9e3a2dc2a64d77">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36dr" href="get-chart.php?y=2026&m=8&n=36dr&d=ylch&f=xls&k=49eb8e3b1f564f52116ae0ad403f661d465fb91188ba5169dc8788c658ef6acd">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="36dh" href="get-chart.php?y=2026&m=8&n=36dh&d=ylch&f=pdf&k=b5166d4a665f23374446e57cb3a15fd18e84ac9d3e9ba839c16492ad86562170">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="36dh" href="get-chart.php?y=2026&m=8&n=36dh&d=ylch&f=xls&k=0678150ff53379176472ad916145bd9e498b2e8215d19a01f741efc651d1cae5">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Vehicle Buying Conditions            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">37</span>Buying Conditions for Vehicles                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="37r" href="get-chart.php?y=2026&m=8&n=37r&d=ylch&f=pdf&k=6ba29846115e76a28629810c9bdc9bbc82c7b476a301b27df62371d8f04e60aa">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="37r" href="get-chart.php?y=2026&m=8&n=37r&d=ylch&f=xls&k=3c575cb9de6ddeb4b7ef0b627627938fbd8f9465365b3d9888fcabd7024d9f98">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="37h" href="get-chart.php?y=2026&m=8&n=37h&d=ylch&f=pdf&k=df6bfd32c6abaa106aa4a5cd28b150eba6e227a580fc4cb5e0e26f0f4551d2c7">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="37h" href="get-chart.php?y=2026&m=8&n=37h&d=ylch&f=xls&k=6e358a0b0c7074989a4224b4199a09b3b1859e6e1e1d98cc7c47aa798a2aeaec">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">38a</span>Price Reasons for Buying Conditions for Vehicles                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38ar" href="get-chart.php?y=2026&m=8&n=38ar&d=ylch&f=pdf&k=c0777866b60310c64b52e43a5c6bba297b6bfadef1de5ea9529a0201dc956aa0">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38ar" href="get-chart.php?y=2026&m=8&n=38ar&d=ylch&f=xls&k=d1eed7c41f59ea038c178384e605e6538c5f49e98a7df7bb3f3a41187e2305c5">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38ah" href="get-chart.php?y=2026&m=8&n=38ah&d=ylch&f=pdf&k=3c28d4b4f1dc5a08561318856c48ce6ffc3f1cf434b98e1e8e60e516049a99b8">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38ah" href="get-chart.php?y=2026&m=8&n=38ah&d=ylch&f=xls&k=ae2b6a9cb5bd1b9fb421c5c1d771d8510ced1815e6eb1b0d38a2725870a6dbc6">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">38b</span>Advance Buying Rationales for Buying Conditions for Vehicles                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38br" href="get-chart.php?y=2026&m=8&n=38br&d=ylch&f=pdf&k=3c13e1e8ee0caa6bcaa17bbeee1f1d55852f62bf860c224e6ef2f6ff5742c744">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38br" href="get-chart.php?y=2026&m=8&n=38br&d=ylch&f=xls&k=cf78aea6615bd762fa9af5b77193460ab62406567e9d810b3a22c92c9ba0eb04">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38bh" href="get-chart.php?y=2026&m=8&n=38bh&d=ylch&f=pdf&k=536cf6760e334f2ab6aa37e20a80413c47a1fa1154203464ce7af69e8e69ff76">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38bh" href="get-chart.php?y=2026&m=8&n=38bh&d=ylch&f=xls&k=6ecdbf52582225df57d00e1cfd2cb3882216d279e9bac2e92d390498371e02d9">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">38c</span>Interest Rate Reasons for Buying Conditions for Vehicles                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38cr" href="get-chart.php?y=2026&m=8&n=38cr&d=ylch&f=pdf&k=5da648b2f3ec8e3bfc6860989372ab9b2b2cfa82b673908f7f5608fdda23068b">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38cr" href="get-chart.php?y=2026&m=8&n=38cr&d=ylch&f=xls&k=ec38d6c64502094077c25e60d69d33b6154772af2b8b05f4cf22b25aa0a726ab">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38ch" href="get-chart.php?y=2026&m=8&n=38ch&d=ylch&f=pdf&k=c40f362c3e92aedef61c4134d31be263f41461a3d2812d67516e266a98c33377">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38ch" href="get-chart.php?y=2026&m=8&n=38ch&d=ylch&f=xls&k=8675c09ec2abb10e9118f3a93bf584785c6f69e5ca2fd7253da33070f4b23d9a">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">38d</span>Economic Uncertainty Reasons for Buying Conditions for Vehicles                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38dr" href="get-chart.php?y=2026&m=8&n=38dr&d=ylch&f=pdf&k=5277482dc2004f56387040d705a17de9f2e85e6eca76916d08c9753cc892c66f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38dr" href="get-chart.php?y=2026&m=8&n=38dr&d=ylch&f=xls&k=8570fba18598f45c5cd7ba38e764e8f604805606aa9c65456cbc6fae3c961c14">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="38dh" href="get-chart.php?y=2026&m=8&n=38dh&d=ylch&f=pdf&k=95e6dc1e405f65ce10cd511db7ce4376d1c727f364a30731372db3647f127e29">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="38dh" href="get-chart.php?y=2026&m=8&n=38dh&d=ylch&f=xls&k=adbcc09fb424aee95c0111e9ef5b8aac0a14c02d82983c605572ab6c4f9b392b">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">39</span>Expected Change in Gasoline Prices During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="39r" href="get-chart.php?y=2026&m=8&n=39r&d=ylch&f=pdf&k=7279b7ebdad6ce9abd5cdb8ccf79e2f8f19127e1419a05814fa712068f6fe0c4">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="39r" href="get-chart.php?y=2026&m=8&n=39r&d=ylch&f=xls&k=39c39fd408cfd5c696ccdac6d239497359a6283c872382b26fa617d217cefd1d">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="39h" href="get-chart.php?y=2026&m=8&n=39h&d=ylch&f=pdf&k=9224c7e4c13cab436581fbd93b72f6e82e951043468ea8a7e85bc4f367395cf5">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="39h" href="get-chart.php?y=2026&m=8&n=39h&d=ylch&f=xls&k=04830928afd02fcb777ea38a59bc458fa562f17f4825dc763f90e3761ca57497">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">40</span>Expected Change in Gasoline Prices During the Next 5 Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="40r" href="get-chart.php?y=2026&m=8&n=40r&d=ylch&f=pdf&k=eaaabec202d0a45b1c30aad2ebad9e861e019647464a953a49381f943b99960a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="40r" href="get-chart.php?y=2026&m=8&n=40r&d=ylch&f=xls&k=1bb942e100f674a6bdc76399bcfcf14f0f0e31e1bdab4158adbb402ab6af310c">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="40h" href="get-chart.php?y=2026&m=8&n=40h&d=ylch&f=pdf&k=13cd9081ee6ca8ebd8cf01694193c208a927de85b460ff75d457115af3df7c54">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="40h" href="get-chart.php?y=2026&m=8&n=40h&d=ylch&f=xls&k=dbce1f7331194aeb3bef1a2e92988d31004e307fedbf528b26fa412d38eed470">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="grid_16 tables_heading">
+                Home Buying and Selling Conditions            </div>
+                    <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">41</span>Buying Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="41r" href="get-chart.php?y=2026&m=8&n=41r&d=ylch&f=pdf&k=a3de5b5f4ec54a19a2e73b34fba432f7bed9c144967b035ab83a8fb886682a26">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="41r" href="get-chart.php?y=2026&m=8&n=41r&d=ylch&f=xls&k=54e84d08759c6c7e3692f79f737359b267e196aad5a4cf624e7eeb87f35d377c">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="41h" href="get-chart.php?y=2026&m=8&n=41h&d=ylch&f=pdf&k=ec1a2f80ecd3267e6e22e705fdfee5f5ad4440a1ab1e75ef8fbd732147862a92">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="41h" href="get-chart.php?y=2026&m=8&n=41h&d=ylch&f=xls&k=ff8b2e9955ac7fc545cc930f45a1cf4e72d432f944b3240bab4b8cde8ce1973e">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">42a</span>Price Reasons for Buying Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42ar" href="get-chart.php?y=2026&m=8&n=42ar&d=ylch&f=pdf&k=c57065988766cdac36dcea68c34033af2ec6b3cc7b4a2b178ec24eb10104410c">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42ar" href="get-chart.php?y=2026&m=8&n=42ar&d=ylch&f=xls&k=84762626819a33786889a68f495538860213ff695462dea03c2684b80b945b89">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42ah" href="get-chart.php?y=2026&m=8&n=42ah&d=ylch&f=pdf&k=6541e76fa3d80011e44f303e5cf36fbfb1303d2537ff5bb5209ed8e74c13be1b">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42ah" href="get-chart.php?y=2026&m=8&n=42ah&d=ylch&f=xls&k=4414131488838e9a2f3ec5447df16ba7b622900bb3416b7a86dff557262c5998">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">42b</span>Advance Buying Rationales for Buying Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42br" href="get-chart.php?y=2026&m=8&n=42br&d=ylch&f=pdf&k=16a0aa9e60b122c22ba333c7b5e5aa7f995a943fe04d275d3f626dec4a818455">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42br" href="get-chart.php?y=2026&m=8&n=42br&d=ylch&f=xls&k=6a6164a5f890cd7cb12a0289fff091c87677a92eefecece6b49b18aa862bdfff">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42bh" href="get-chart.php?y=2026&m=8&n=42bh&d=ylch&f=pdf&k=f4c2638abb695c937da2561119e473691b551624fab54d106dca7be8e8923f76">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42bh" href="get-chart.php?y=2026&m=8&n=42bh&d=ylch&f=xls&k=92d1231c0e85bd480fe1d9a5d93065dde8bd99ab60baf5c3f61378f7b3aae05c">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">42c</span>Interest Rate Reasons for Buying Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42cr" href="get-chart.php?y=2026&m=8&n=42cr&d=ylch&f=pdf&k=b226de045840bf8efbb6fd18a5b4aaba6465c586f188764b0ead82439d443302">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42cr" href="get-chart.php?y=2026&m=8&n=42cr&d=ylch&f=xls&k=1cc1373a886e5fab919c0a2aa16a9493c664d70d1c0d036ffd99dc517f058954">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42ch" href="get-chart.php?y=2026&m=8&n=42ch&d=ylch&f=pdf&k=c0868bc3a5eaee55f6d8c0db4fb4307fde6221bb55b3ce0c3f983e97a24a50bd">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42ch" href="get-chart.php?y=2026&m=8&n=42ch&d=ylch&f=xls&k=6fa7629cc20aaea2fe8477e3318f60e11299fada51c5b7366dde74bc66ba4d8a">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">42d</span>Economic Uncertainty Reasons for Buying Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42dr" href="get-chart.php?y=2026&m=8&n=42dr&d=ylch&f=pdf&k=8fc2ae398ceb8c2d08aa23d7919b8cff53833b143557d9826e0ada4db7bf382e">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42dr" href="get-chart.php?y=2026&m=8&n=42dr&d=ylch&f=xls&k=6d82a5c9f42567410f80872a7327b8d4b410f71e6ed38c1a32dc8e2965c53af1">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42dh" href="get-chart.php?y=2026&m=8&n=42dh&d=ylch&f=pdf&k=85b6d26f6fee518355b2dd66ef0273f8482708ab5b81ecf02cd9b7d14a2f214a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42dh" href="get-chart.php?y=2026&m=8&n=42dh&d=ylch&f=xls&k=2a2ae7118c5ad98dd3b931b04a06dd416057fe586f0cbd9caa86da2a0c9b0a98">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">42e</span>Capital Gain Reasons for Buying Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42er" href="get-chart.php?y=2026&m=8&n=42er&d=ylch&f=pdf&k=5ebd93f726455555b06235731e714c5238b3a1da239c3f4e67300baaa60b4d35">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42er" href="get-chart.php?y=2026&m=8&n=42er&d=ylch&f=xls&k=06450b6d07dc9a74d1f6d0ef3d0e581977e98ec8e331196d81bf4edfb1b1a6c4">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="42eh" href="get-chart.php?y=2026&m=8&n=42eh&d=ylch&f=pdf&k=c9142f3c68f2b4a37b5e43b9a037c8def397096f5ec9d07070d09181a7fa1c89">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="42eh" href="get-chart.php?y=2026&m=8&n=42eh&d=ylch&f=xls&k=4032d4f551df933dc1ab2bed2000514ada5b1c4d7f2ed4e5a0dd0ea780be20fa">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">43</span>Selling Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="43r" href="get-chart.php?y=2026&m=8&n=43r&d=ylch&f=pdf&k=58c01d056a8a012d8b8ec79e14ea04607651c2b137671594e0b454fc7008c7f5">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="43r" href="get-chart.php?y=2026&m=8&n=43r&d=ylch&f=xls&k=c8f18d00e9f21a68899df877c22a5e42d613221d062177ac3ae82f12658345c2">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="43h" href="get-chart.php?y=2026&m=8&n=43h&d=ylch&f=pdf&k=0320af5f02e5d6ac15c5585b4d8f9d5ce5244596f3890f647a5b2a32744426ac">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="43h" href="get-chart.php?y=2026&m=8&n=43h&d=ylch&f=xls&k=0d231d6a381e05393724d1186c752e8ee0efa910fa910659e0475ad5eda6dfc0">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">44a</span>Price Reasons for Selling Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44ar" href="get-chart.php?y=2026&m=8&n=44ar&d=ylch&f=pdf&k=aceaa9ec853125bca10c2a811ec5a4051f8578ebea1af693604c11531b2218dd">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44ar" href="get-chart.php?y=2026&m=8&n=44ar&d=ylch&f=xls&k=a25a7543dbe54fb2a0ffd3d8b46714fdd7d2f1d93a9d16e8f88249f17aeda787">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44ah" href="get-chart.php?y=2026&m=8&n=44ah&d=ylch&f=pdf&k=b05c753a1f1f5d745d175be58f2cd737eea5060d470b443facfe8e5ed2601b5e">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44ah" href="get-chart.php?y=2026&m=8&n=44ah&d=ylch&f=xls&k=32aacf69022b88cd2ceb78517ffcdf6d2acf71988fbeba43f62065d86fb8621b">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">44b</span>Selling in Advance Rationales for Selling Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44br" href="get-chart.php?y=2026&m=8&n=44br&d=ylch&f=pdf&k=92d5cbcde4a82327f7d1762390469732bdeb2ee96ed7671c7c5d52fed6b02ba7">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44br" href="get-chart.php?y=2026&m=8&n=44br&d=ylch&f=xls&k=0657cf218c08003c82a77e0265ca5db2c17cebbc6d1ac61e6d40843b116a9570">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44bh" href="get-chart.php?y=2026&m=8&n=44bh&d=ylch&f=pdf&k=1ae12f304c9d852a987917fc2eb7c7078e23ec4ecad0545c49e13c9ee56a4f25">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44bh" href="get-chart.php?y=2026&m=8&n=44bh&d=ylch&f=xls&k=87259f4506c3a4e605b6d97fb7a1a77af2d711a2892b2334b30cd98b58e73d7d">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">44c</span>Interest Rate Reasons for Selling Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44cr" href="get-chart.php?y=2026&m=8&n=44cr&d=ylch&f=pdf&k=d7a4b1f439ad5f74b90ea8df9190304e768961fb369ce061f2863c7a3612e225">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44cr" href="get-chart.php?y=2026&m=8&n=44cr&d=ylch&f=xls&k=bbcea46cf45afa4f195b3ba2119beec80a743f4670ae1b8c1ead5d299ff61c80">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44ch" href="get-chart.php?y=2026&m=8&n=44ch&d=ylch&f=pdf&k=5ec1f80681924ce42d9e6b1130b8f9ecfdcd53b8076c796bdc0a7e02cceb0ce9">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44ch" href="get-chart.php?y=2026&m=8&n=44ch&d=ylch&f=xls&k=408c262eed24fc17b1cf3dfb4ec338ba6bf2325aafdfe38dcb1b2c8b53fae601">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">44d</span>Economic Uncertainty Reasons for Selling Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44dr" href="get-chart.php?y=2026&m=8&n=44dr&d=ylch&f=pdf&k=9fcf5869d8bb209d82836626a93ccf346c21c903957f4babb39117627b724f42">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44dr" href="get-chart.php?y=2026&m=8&n=44dr&d=ylch&f=xls&k=2b2c6c9728b734cc1f72014247c7d75878d14b2ca30d703f7158f114a4d0ce8a">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44dh" href="get-chart.php?y=2026&m=8&n=44dh&d=ylch&f=pdf&k=a461e2bdc6e8288e94d81185499883f1233ed5cf42608fd1c81b45fc028583e3">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44dh" href="get-chart.php?y=2026&m=8&n=44dh&d=ylch&f=xls&k=d76937bef7cacffa6a15786cc872eb1e42086f2f11cd5dd46c3249af0014bd88">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">44e</span>Capital Gain Reasons for Selling Conditions for Houses                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44er" href="get-chart.php?y=2026&m=8&n=44er&d=ylch&f=pdf&k=e14b477f5f1bda6c9b8848e7f492c33dab21e1f68befb1a2940bf53d93163d0b">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44er" href="get-chart.php?y=2026&m=8&n=44er&d=ylch&f=xls&k=b391dbc03d5be40e9a429a760520aa7e14e0ba2b69cddb768e415890c4e32cc4">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="44eh" href="get-chart.php?y=2026&m=8&n=44eh&d=ylch&f=pdf&k=b289732626660395cb34531c4c2b0012ef36ac34b92c2c108f6f9dfbc20a41a8">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="44eh" href="get-chart.php?y=2026&m=8&n=44eh&d=ylch&f=xls&k=6a5604292413b0c4b4191a2f0180415e47a11e5b935c163da2c619b6728fd766">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">45</span>Change in Home Values During the Past Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="45r" href="get-chart.php?y=2026&m=8&n=45r&d=ylch&f=pdf&k=a747ff83ad8cbccf10d22db9a7022a1b42a909562c4afe452614d44d5cf0e7d6">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="45r" href="get-chart.php?y=2026&m=8&n=45r&d=ylch&f=xls&k=a3b5daac0fcb3eef81ec6bddb4009d1313ab47c50b5859c4ab903f9ed0d518e4">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="45h" href="get-chart.php?y=2026&m=8&n=45h&d=ylch&f=pdf&k=bd0e16b4ac56d79c2e7a07e7d42015d005cd222c357d1644e2bd419266485325">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="45h" href="get-chart.php?y=2026&m=8&n=45h&d=ylch&f=xls&k=79d382b1ed31dbd66f834347bb32db6a84655f0e2e17876f2077351ca60d8e96">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="alt">
+                <div class="grid_10 table_name">
+                    <span class="table_number">46</span>Expected Change in Home Values During the Next Year                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="46r" href="get-chart.php?y=2026&m=8&n=46r&d=ylch&f=pdf&k=16376396938c33ab07b7b12776478459a269f856b8ba3aa1ff6cadef1fdb1237">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="46r" href="get-chart.php?y=2026&m=8&n=46r&d=ylch&f=xls&k=841df1f065d9dd3086667c7eb32bcbcea8d838087624b0f5c1a95fca7bdeb0af">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="46h" href="get-chart.php?y=2026&m=8&n=46h&d=ylch&f=pdf&k=2a8262044a1471bfff53985cbe2c5fa7a693632c8bf86d34336ae63d38f74b1a">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="46h" href="get-chart.php?y=2026&m=8&n=46h&d=ylch&f=xls&k=7ce6d31977270902b6125ceaf3a3ad908be54be5f4f449759b65921e26ae7f85">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                        <div class="">
+                <div class="grid_10 table_name">
+                    <span class="table_number">47</span>Expected Change in Home Values During the Next Five Years                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="47r" href="get-chart.php?y=2026&m=8&n=47r&d=ylch&f=pdf&k=dd1f10f8695ce6bac31e40e11e749d855c747aa7bc28f4ff447aebd1d633bba6">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="47r" href="get-chart.php?y=2026&m=8&n=47r&d=ylch&f=xls&k=27ec1de0be6bc5763ef5f8e192bfdfb94fef3948752b24020d5a98dbb5866661">Excel</a>                     &nbsp;
+                </div>
+                <div class="grid_3 table_link">
+                    <a data-doctype="chart: pdf" data-docname="47h" href="get-chart.php?y=2026&m=8&n=47h&d=ylch&f=pdf&k=c135fbfad96f0a761ed95b62c2cd4eee93b1d70132eb3c276ed325562521be3f">PDF</a> &middot;
+            <a data-doctype="chart: xls" data-docname="47h" href="get-chart.php?y=2026&m=8&n=47h&d=ylch&f=xls&k=99876cdf5a8754c8aa27a05b531ef414a5279a909a6994969a89f1c147df3d8f">Excel</a>                 </div>
+                <div class="clear"></div>
+            </div>
+                <div class='clear'></div>
+</div>
+    </div>
+    <div id='footer'>
+      <div class='container_12'>
+        <div class='grid_10'>
+          <img src="/images/footer-logos.png"/><br/>
+          Copyright &copy; 2026, The Regents of the University of Michigan.  All Rights Reserved.
+          <a href="/agreement.php">Usage agreement.</a>
+					<br/>
+        </div>
+        <div class="grid_2 rightalign">
+          5:26:07 pm        <div class='clear'></div>
+        <br/>
+      </div>
+    </div>
+  </body>
+  <script src="/jquery-ui-1.8.14.custom.min.js" type="text/javascript"></script>
+  <script src="/jquery.qtip.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $('.loginlink').qtip({
+      style: { classes: 'ui-tooltip-tipsy' },
+      content: "Sponsors: log in here",
+      position: {
+         at: 'bottom center',
+         my: 'top right'
+      },
+      show: {
+      // Slide up/down effects
+        effect: function(offset) {
+          $(this).show('drop', {distance: 5, direction: 'down'}, 400);
+        }
+      },
+      hide: {
+        effect: function(offset) {
+          $(this).hide('drop', {distance: 10, direction: 'down'}, 300);
+        }
+      }
+
+    });
+          $().ready(function () {
+        setTimeout(function() { $('.loginlink').qtip('toggle', true); }, 1000);
+        setTimeout(function() { $('.loginlink').qtip('toggle', false); }, 8000);
+      });
+      </script>
+</html>
+<!-- 0 -->

@@ -1,0 +1,222 @@
+[
+  {
+    "window": "All scored",
+    "model": "Persistence",
+    "n": 105,
+    "RMSE": 4.748974826713857,
+    "MAE": 3.7333333333333334,
+    "mean_error": -0.28571428571428553,
+    "OOS_R2_vs_window_mean": 0.9157688246145896,
+    "interval_n": 81,
+    "interval_coverage": 0.9753086419753086
+  },
+  {
+    "window": "All scored",
+    "model": "Economic",
+    "n": 105,
+    "RMSE": 14.098261464370808,
+    "MAE": 10.824732237056217,
+    "mean_error": -8.581835126486796,
+    "OOS_R2_vs_window_mean": 0.25765763294552724,
+    "interval_n": 81,
+    "interval_coverage": 0.9382716049382716
+  },
+  {
+    "window": "All scored",
+    "model": "Economic plus persistence",
+    "n": 105,
+    "RMSE": 5.1905934961449685,
+    "MAE": 3.984991844916804,
+    "mean_error": -1.2549171293900956,
+    "OOS_R2_vs_window_mean": 0.8993747059511347,
+    "interval_n": 81,
+    "interval_coverage": 0.9753086419753086
+  },
+  {
+    "window": "All scored",
+    "model": "Economic plus household controls",
+    "n": 105,
+    "RMSE": 5.5405468943300145,
+    "MAE": 4.195139872415569,
+    "mean_error": -1.5799372397213745,
+    "OOS_R2_vs_window_mean": 0.885348855058653,
+    "interval_n": 81,
+    "interval_coverage": 0.9753086419753086
+  },
+  {
+    "window": "All scored",
+    "model": "Economic plus seasonal and method controls",
+    "n": 105,
+    "RMSE": 5.216197640748242,
+    "MAE": 3.8993667167904844,
+    "mean_error": -0.8362330755308681,
+    "OOS_R2_vs_window_mean": 0.8983795291678424,
+    "interval_n": 81,
+    "interval_coverage": 0.9753086419753086
+  },
+  {
+    "window": "Pre pandemic",
+    "model": "Persistence",
+    "n": 24,
+    "RMSE": 3.5515254938312544,
+    "MAE": 2.658333333333333,
+    "mean_error": 0.19999999999999987,
+    "OOS_R2_vs_window_mean": -0.6726248031604829,
+    "interval_n": 0,
+    "interval_coverage": null
+  },
+  {
+    "window": "Pre pandemic",
+    "model": "Economic",
+    "n": 24,
+    "RMSE": 3.421982347419381,
+    "MAE": 2.599280603708733,
+    "mean_error": -0.8032338270461169,
+    "OOS_R2_vs_window_mean": -0.552830988563674,
+    "interval_n": 0,
+    "interval_coverage": null
+  },
+  {
+    "window": "Pre pandemic",
+    "model": "Economic plus persistence",
+    "n": 24,
+    "RMSE": 3.2709897545764646,
+    "MAE": 2.194405784982228,
+    "mean_error": -0.4968448720628847,
+    "OOS_R2_vs_window_mean": -0.4188191031801576,
+    "interval_n": 0,
+    "interval_coverage": null
+  },
+  {
+    "window": "Pre pandemic",
+    "model": "Economic plus household controls",
+    "n": 24,
+    "RMSE": 3.555874503127122,
+    "MAE": 2.6005477829515216,
+    "mean_error": -1.2737076487550187,
+    "OOS_R2_vs_window_mean": -0.6767237260974628,
+    "interval_n": 0,
+    "interval_coverage": null
+  },
+  {
+    "window": "Pre pandemic",
+    "model": "Economic plus seasonal and method controls",
+    "n": 24,
+    "RMSE": 3.4585158924490966,
+    "MAE": 2.4104101227047376,
+    "mean_error": -1.164392986569436,
+    "OOS_R2_vs_window_mean": -0.5861644461129447,
+    "interval_n": 0,
+    "interval_coverage": null
+  },
+  {
+    "window": "Pandemic",
+    "model": "Persistence",
+    "n": 24,
+    "RMSE": 6.267940916547741,
+    "MAE": 4.8791666666666655,
+    "mean_error": -0.8291666666666663,
+    "OOS_R2_vs_window_mean": 0.4619680543116169,
+    "interval_n": 24,
+    "interval_coverage": 0.9166666666666666
+  },
+  {
+    "window": "Pandemic",
+    "model": "Economic",
+    "n": 24,
+    "RMSE": 12.327210911010946,
+    "MAE": 8.365630543854982,
+    "mean_error": -0.3490024617763717,
+    "OOS_R2_vs_window_mean": -1.0810759377477117,
+    "interval_n": 24,
+    "interval_coverage": 0.9166666666666666
+  },
+  {
+    "window": "Pandemic",
+    "model": "Economic plus persistence",
+    "n": 24,
+    "RMSE": 7.154998061370606,
+    "MAE": 5.3532836849683605,
+    "mean_error": -0.01717534280909098,
+    "OOS_R2_vs_window_mean": 0.2989042806078086,
+    "interval_n": 24,
+    "interval_coverage": 0.9166666666666666
+  },
+  {
+    "window": "Pandemic",
+    "model": "Economic plus household controls",
+    "n": 24,
+    "RMSE": 8.00357177753869,
+    "MAE": 5.87836410423144,
+    "mean_error": -1.2673713069648336,
+    "OOS_R2_vs_window_mean": 0.12274477638538428,
+    "interval_n": 24,
+    "interval_coverage": 0.9166666666666666
+  },
+  {
+    "window": "Pandemic",
+    "model": "Economic plus seasonal and method controls",
+    "n": 24,
+    "RMSE": 7.756115867160249,
+    "MAE": 5.664967373774029,
+    "mean_error": -1.6465833418273705,
+    "OOS_R2_vs_window_mean": 0.17615245620756337,
+    "interval_n": 24,
+    "interval_coverage": 0.9166666666666666
+  },
+  {
+    "window": "Inflation and recovery",
+    "model": "Persistence",
+    "n": 57,
+    "RMSE": 4.43753922641422,
+    "MAE": 3.7035087719298243,
+    "mean_error": -0.2614035087719295,
+    "OOS_R2_vs_window_mean": 0.7170629852451853,
+    "interval_n": 57,
+    "interval_coverage": 1.0
+  },
+  {
+    "window": "Inflation and recovery",
+    "model": "Economic",
+    "n": 57,
+    "RMSE": 17.240212226799915,
+    "MAE": 15.323491532445152,
+    "mean_error": -15.323491532445152,
+    "OOS_R2_vs_window_mean": -3.270616485219332,
+    "interval_n": 57,
+    "interval_coverage": 0.9473684210526315
+  },
+  {
+    "window": "Inflation and recovery",
+    "model": "Economic plus persistence",
+    "n": 57,
+    "RMSE": 4.854906143684341,
+    "MAE": 4.162799937499129,
+    "mean_error": -2.0952598847198707,
+    "OOS_R2_vs_window_mean": 0.6613375595283455,
+    "interval_n": 57,
+    "interval_coverage": 1.0
+  },
+  {
+    "window": "Inflation and recovery",
+    "model": "Economic plus household controls",
+    "n": 57,
+    "RMSE": 4.924732739998352,
+    "MAE": 4.157821075635855,
+    "mean_error": -1.8404827233941732,
+    "OOS_R2_vs_window_mean": 0.6515257513670558,
+    "interval_n": 57,
+    "interval_coverage": 1.0
+  },
+  {
+    "window": "Inflation and recovery",
+    "model": "Economic plus seasonal and method controls",
+    "n": 57,
+    "RMSE": 4.444723659470382,
+    "MAE": 3.782885006096674,
+    "mean_error": -0.3568603692845228,
+    "OOS_R2_vs_window_mean": 0.716146086281338,
+    "interval_n": 57,
+    "interval_coverage": 1.0
+  }
+]

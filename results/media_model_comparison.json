@@ -1,0 +1,13 @@
+{
+  "status": "not_estimable",
+  "usable_months": 3,
+  "required_months": 48,
+  "minimum_news_items_per_month": 10,
+  "reason": "insufficient historical news coverage",
+  "models": [
+    "Economic",
+    "Economic plus media",
+    "Economic plus media plus household controls"
+  ],
+  "missing_months_are_zero_filled": false
+}

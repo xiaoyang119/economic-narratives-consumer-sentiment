@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Economy or lives? It\u2019s not that simple: 7 ways to talk politics in the COVID-19 era",
+    "source": "Chicago Tribune",
+    "source_kind": "local",
+    "published_date": "2020-04-28",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM2hjTFlSV295bWRrc2tnTjRmcTN2bk5fRkxmczM2VEI5dE9JWVF2ZV9fN2ZJNlUtVnluREViWFJWLTUzQnpKakJ2OThyMWFRWHR6MjlXbEZtdUdySW5fbUdxT2tQeHhWU3lUbGt4WUdfcFZFY19JQndXWnFtVEhQbUdZcmg0ZHB1ZlFkTnpIekllTVlTTURHZWZxd2libDcxYnk2Wm44NXF5WnBTZ1lFZVFNWGhUcGxmdElPV1N0THM?oc=5",
+    "publisher_url": "https://www.chicagotribune.com",
+    "observation_unit": "headline",
+    "retrieval_query": "(economy OR inflation OR unemployment OR \"cost of living\") (site:texastribune.org OR site:calmatters.org OR site:chicagotribune.com OR site:inquirer.com OR site:startribune.com OR site:seattletimes.com OR site:denverpost.com OR site:ajc.com OR site:cleveland.com OR site:detroitnews.com) after:2020-04-01 before:2020-05-01",
+    "collection_file": "data\\raw\\news\\2020-04_local.xml",
+    "geographic_relevance": "inferred_from_US_outlet_or_community_not_individually_verified",
+    "item_id": "f9b2d741abcc13b6",
+    "duplicate_count": 0
+  },
+  {
+    "text": "Texas unemployment: Tips and a guide for navigating a confusing system",
+    "source": "The Texas Tribune",
+    "source_kind": "local",
+    "published_date": "2020-12-04",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB4ckYxOTd1SUktUGNTSWRubHBUSFBCX0o5bkhqbWxRR1JCd09NZS1tNnVLWWJmRUl6VGtQajdUTjhGZGhucjloeEtYMXJWNFRhTXVBSXNlR1lkcEJyLUpjel9EN2NXWnhZOVg4eE1aSGZJZlgwdnJKU00yMm8?oc=5",
+    "publisher_url": "https://www.texastribune.org",
+    "observation_unit": "headline",
+    "retrieval_query": "(economy OR inflation OR unemployment OR \"cost of living\") (site:texastribune.org OR site:calmatters.org OR site:chicagotribune.com OR site:inquirer.com OR site:startribune.com OR site:seattletimes.com OR site:denverpost.com OR site:ajc.com OR site:cleveland.com OR site:detroitnews.com) after:2020-12-01 before:2021-01-01",
+    "collection_file": "data\\raw\\news\\2020-12_local.xml",
+    "geographic_relevance": "explicit_US_or_cross_border",
+    "item_id": "cea25203c4ddeed8",
+    "duplicate_count": 0
+  },
+  {
+    "text": "Inflation is still voters\u2019 top concern. We took a look at what Fetterman and Oz say they would do.",
+    "source": "Inquirer.com",
+    "source_kind": "local",
+    "published_date": "2022-10-19",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWkxOeEFWamtkNnlVM2tJZGM0MV9IOWpKVUZzTkI0ZnpLSUwwQXNlemRhTk1kWV90QWFtUWtIRjA4Qm1tbzFfbU50T1hlMnRfNUtuTGExU2drd0lVUlRqMnRTZnFNVnBNYVEyeDZQOUszSDhwSnFsYkJtOUZUcGZBLUluQS1xR19DbG9MNDI1YUVldUxkVHY2cVNqLXU5NFh5WUxrdnNoa1NrUQ?oc=5",
+    "publisher_url": "https://www.inquirer.com",
+    "observation_unit": "headline",
+    "retrieval_query": "(economy OR inflation OR unemployment OR \"cost of living\") (site:texastribune.org OR site:calmatters.org OR site:chicagotribune.com OR site:inquirer.com OR site:startribune.com OR site:seattletimes.com OR site:denverpost.com OR site:ajc.com OR site:cleveland.com OR site:detroitnews.com) after:2022-10-01 before:2022-11-01",
+    "collection_file": "data\\raw\\news\\2022-10_local.xml",
+    "geographic_relevance": "inferred_from_US_outlet_or_community_not_individually_verified",
+    "item_id": "f9da8a89965b8694",
+    "duplicate_count": 0
+  },
+  {
+    "text": "Inflation is putting the squeeze on Minnesota's small businesses",
+    "source": "Star Tribune",
+    "source_kind": "local",
+    "published_date": "2022-10-08",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWFXekNfZF83Q2NsNzhBMGhua2hKLTRqa2UtRXhsck1wbzk5YnRqU1R0YVIxZUJoRGdPd0NJYU9GVGN4M2RvM0hMRmo3eGdNNEhJSzNNel9TcS03LWc4YUZvMkFFLTZucnZZbFZHemVvNk5peVNDa0Q3NFp0ZVVkWC1XbngxQW5yOGc?oc=5",
+    "publisher_url": "https://www.startribune.com",
+    "observation_unit": "headline",
+    "retrieval_query": "(economy OR inflation OR unemployment OR \"cost of living\") (site:texastribune.org OR site:calmatters.org OR site:chicagotribune.com OR site:inquirer.com OR site:startribune.com OR site:seattletimes.com OR site:denverpost.com OR site:ajc.com OR site:cleveland.com OR site:detroitnews.com) after:2022-10-01 before:2022-11-01",
+    "collection_file": "data\\raw\\news\\2022-10_local.xml",
+    "geographic_relevance": "inferred_from_US_outlet_or_community_not_individually_verified",
+    "item_id": "fe3782ae024b24f9",
+    "duplicate_count": 0
+  },
+  {
+    "text": "Gas prices, the economy, and Trump were on the minds of N.J. voters in a low-turnout primary",
+    "source": "Inquirer.com",
+    "source_kind": "local",
+    "published_date": "2026-06-02",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVXRtTnF3MWo2X3hSZDhWUkMtWXVRN1dCUzlTUWZWRUhUekZoQVZmTmJkei0zS3V3RXB4bm5zSl9xTVRWT0tFZEhJREZYN1lsMEJBeE5RcHNWR3NpZWJRdm9QWkpuUHNvS0xFRnc2ZjV3dUotRjdneEdQck5SOFBUekJ2T0JnV2RIOU1yQlhTb1Y1Q19ZSWoxR1plUlA?oc=5",
+    "publisher_url": "https://www.inquirer.com",
+    "observation_unit": "headline",
+    "retrieval_query": "(economy OR inflation OR unemployment OR \"cost of living\") (site:texastribune.org OR site:calmatters.org OR site:chicagotribune.com OR site:inquirer.com OR site:startribune.com OR site:seattletimes.com OR site:denverpost.com OR site:ajc.com OR site:cleveland.com OR site:detroitnews.com) after:2026-06-01 before:2026-07-01",
+    "collection_file": "data\\raw\\news\\2026-06_local.xml",
+    "geographic_relevance": "inferred_from_US_outlet_or_community_not_individually_verified",
+    "item_id": "dc007563cfc57209",
+    "duplicate_count": 0
+  }
+]

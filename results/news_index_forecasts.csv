@@ -1,0 +1,631 @@
+month,model,prediction,actual,error,information_status
+2018-01-01,Macro baseline,96.53172347606527,95.7,-0.8317234760652639,retrospective_news_index_without_historical_vintages
+2018-01-01,Macro plus news index,98.09386073881001,95.7,-2.3938607388100053,retrospective_news_index_without_historical_vintages
+2018-01-01,Macro plus news and controls,98.51098841971672,95.7,-2.810988419716722,retrospective_news_index_without_historical_vintages
+2018-01-01,Dynamic economic baseline,96.45873134108052,95.7,-0.7587313410805194,retrospective_news_index_without_historical_vintages
+2018-01-01,Dynamic plus news index,96.5447041517024,95.7,-0.8447041517024019,retrospective_news_index_without_historical_vintages
+2018-01-01,Dynamic plus news and controls,96.92011019200957,95.7,-1.220110192009571,retrospective_news_index_without_historical_vintages
+2018-02-01,Macro baseline,96.08937636533531,99.7,3.610623634664691,retrospective_news_index_without_historical_vintages
+2018-02-01,Macro plus news index,97.57269259060487,99.7,2.1273074093951294,retrospective_news_index_without_historical_vintages
+2018-02-01,Macro plus news and controls,98.24782370201785,99.7,1.4521762979821489,retrospective_news_index_without_historical_vintages
+2018-02-01,Dynamic economic baseline,96.0919100381914,99.7,3.608089961808602,retrospective_news_index_without_historical_vintages
+2018-02-01,Dynamic plus news index,96.1597385013983,99.7,3.5402614986017085,retrospective_news_index_without_historical_vintages
+2018-02-01,Dynamic plus news and controls,96.75714433651963,99.7,2.9428556634803726,retrospective_news_index_without_historical_vintages
+2018-03-01,Macro baseline,96.07293842232644,101.4,5.327061577673561,retrospective_news_index_without_historical_vintages
+2018-03-01,Macro plus news index,97.33036454107601,101.4,4.069635458923997,retrospective_news_index_without_historical_vintages
+2018-03-01,Macro plus news and controls,98.02588643227156,101.4,3.3741135677284433,retrospective_news_index_without_historical_vintages
+2018-03-01,Dynamic economic baseline,96.08383767494439,101.4,5.316162325055615,retrospective_news_index_without_historical_vintages
+2018-03-01,Dynamic plus news index,96.14121956487071,101.4,5.258780435129296,retrospective_news_index_without_historical_vintages
+2018-03-01,Dynamic plus news and controls,96.75494026524218,101.4,4.645059734757822,retrospective_news_index_without_historical_vintages
+2018-04-01,Macro baseline,96.45795026007173,98.8,2.342049739928271,retrospective_news_index_without_historical_vintages
+2018-04-01,Macro plus news index,96.62966417345085,98.8,2.170335826549149,retrospective_news_index_without_historical_vintages
+2018-04-01,Macro plus news and controls,98.03459543679004,98.8,0.7654045632099553,retrospective_news_index_without_historical_vintages
+2018-04-01,Dynamic economic baseline,98.77762148155198,98.8,0.022378518448022078,retrospective_news_index_without_historical_vintages
+2018-04-01,Dynamic plus news index,98.7348449520794,98.8,0.06515504792059801,retrospective_news_index_without_historical_vintages
+2018-04-01,Dynamic plus news and controls,99.99077580463111,98.8,-1.1907758046311159,retrospective_news_index_without_historical_vintages
+2018-05-01,Macro baseline,95.7245529589642,98.0,2.275447041035804,retrospective_news_index_without_historical_vintages
+2018-05-01,Macro plus news index,95.25903336289034,98.0,2.740966637109665,retrospective_news_index_without_historical_vintages
+2018-05-01,Macro plus news and controls,96.39821418590729,98.0,1.6017858140927075,retrospective_news_index_without_historical_vintages
+2018-05-01,Dynamic economic baseline,97.98940000441327,98.0,0.010599995586730415,retrospective_news_index_without_historical_vintages
+2018-05-01,Dynamic plus news index,97.8487096801967,98.0,0.15129031980329444,retrospective_news_index_without_historical_vintages
+2018-05-01,Dynamic plus news and controls,98.78115498470417,98.0,-0.7811549847041732,retrospective_news_index_without_historical_vintages
+2018-06-01,Macro baseline,96.82546974909924,98.2,1.3745302509007615,retrospective_news_index_without_historical_vintages
+2018-06-01,Macro plus news index,94.72922827128109,98.2,3.4707717287189155,retrospective_news_index_without_historical_vintages
+2018-06-01,Macro plus news and controls,96.344540202689,98.2,1.8554597973109992,retrospective_news_index_without_historical_vintages
+2018-06-01,Dynamic economic baseline,97.8988073529701,98.2,0.30119264702990733,retrospective_news_index_without_historical_vintages
+2018-06-01,Dynamic plus news index,97.604708326488,98.2,0.5952916735120084,retrospective_news_index_without_historical_vintages
+2018-06-01,Dynamic plus news and controls,98.84925488201573,98.2,-0.6492548820157253,retrospective_news_index_without_historical_vintages
+2018-07-01,Macro baseline,96.63617450257337,97.9,1.2638254974266374,retrospective_news_index_without_historical_vintages
+2018-07-01,Macro plus news index,95.17403733277392,97.9,2.725962667226085,retrospective_news_index_without_historical_vintages
+2018-07-01,Macro plus news and controls,96.7310315512165,97.9,1.1689684487835024,retrospective_news_index_without_historical_vintages
+2018-07-01,Dynamic economic baseline,97.90377754710026,97.9,-0.003777547100256129,retrospective_news_index_without_historical_vintages
+2018-07-01,Dynamic plus news index,97.69139384285339,97.9,0.2086061571466189,retrospective_news_index_without_historical_vintages
+2018-07-01,Dynamic plus news and controls,98.78500411318839,97.9,-0.885004113188387,retrospective_news_index_without_historical_vintages
+2018-08-01,Macro baseline,97.71633008449353,96.2,-1.5163300844935321,retrospective_news_index_without_historical_vintages
+2018-08-01,Macro plus news index,94.47280034072814,96.2,1.7271996592718608,retrospective_news_index_without_historical_vintages
+2018-08-01,Macro plus news and controls,96.88363141316304,96.2,-0.6836314131630417,retrospective_news_index_without_historical_vintages
+2018-08-01,Dynamic economic baseline,98.30140791278605,96.2,-2.101407912786044,retrospective_news_index_without_historical_vintages
+2018-08-01,Dynamic plus news index,97.9050301438921,96.2,-1.7050301438921025,retrospective_news_index_without_historical_vintages
+2018-08-01,Dynamic plus news and controls,99.81132087327744,96.2,-3.6113208732774353,retrospective_news_index_without_historical_vintages
+2018-09-01,Macro baseline,98.09004271682615,100.1,2.009957283173847,retrospective_news_index_without_historical_vintages
+2018-09-01,Macro plus news index,94.50086169905215,100.1,5.599138300947843,retrospective_news_index_without_historical_vintages
+2018-09-01,Macro plus news and controls,96.58973720611368,100.1,3.5102627938863122,retrospective_news_index_without_historical_vintages
+2018-09-01,Dynamic economic baseline,97.3216357416687,100.1,2.778364258331294,retrospective_news_index_without_historical_vintages
+2018-09-01,Dynamic plus news index,96.7895740203616,100.1,3.3104259796383957,retrospective_news_index_without_historical_vintages
+2018-09-01,Dynamic plus news and controls,98.28707106219721,100.1,1.8129289378027806,retrospective_news_index_without_historical_vintages
+2018-10-01,Macro baseline,98.37653017709813,98.6,0.2234698229018619,retrospective_news_index_without_historical_vintages
+2018-10-01,Macro plus news index,96.38883136981524,98.6,2.2111686301847584,retrospective_news_index_without_historical_vintages
+2018-10-01,Macro plus news and controls,98.3602674566632,98.6,0.2397325433367996,retrospective_news_index_without_historical_vintages
+2018-10-01,Dynamic economic baseline,99.92669771279448,98.6,-1.3266977127944841,retrospective_news_index_without_historical_vintages
+2018-10-01,Dynamic plus news index,99.69587832832698,98.6,-1.0958783283269895,retrospective_news_index_without_historical_vintages
+2018-10-01,Dynamic plus news and controls,100.99141984678664,98.6,-2.391419846786647,retrospective_news_index_without_historical_vintages
+2018-11-01,Macro baseline,99.23395645171003,97.5,-1.7339564517100285,retrospective_news_index_without_historical_vintages
+2018-11-01,Macro plus news index,97.71231448726135,97.5,-0.21231448726135227,retrospective_news_index_without_historical_vintages
+2018-11-01,Macro plus news and controls,99.70863242654563,97.5,-2.208632426545634,retrospective_news_index_without_historical_vintages
+2018-11-01,Dynamic economic baseline,99.25023400465071,97.5,-1.7502340046507072,retrospective_news_index_without_historical_vintages
+2018-11-01,Dynamic plus news index,99.06793309462537,97.5,-1.5679330946253742,retrospective_news_index_without_historical_vintages
+2018-11-01,Dynamic plus news and controls,100.29480868519049,97.5,-2.794808685190489,retrospective_news_index_without_historical_vintages
+2018-12-01,Macro baseline,99.18006808803483,98.3,-0.8800680880348324,retrospective_news_index_without_historical_vintages
+2018-12-01,Macro plus news index,98.22384383668785,98.3,0.0761561633121488,retrospective_news_index_without_historical_vintages
+2018-12-01,Macro plus news and controls,100.07005188820484,98.3,-1.770051888204847,retrospective_news_index_without_historical_vintages
+2018-12-01,Dynamic economic baseline,98.52148294440548,98.3,-0.22148294440548,retrospective_news_index_without_historical_vintages
+2018-12-01,Dynamic plus news index,98.41092558566666,98.3,-0.11092558566666355,retrospective_news_index_without_historical_vintages
+2018-12-01,Dynamic plus news and controls,99.52994605364782,98.3,-1.2299460536478222,retrospective_news_index_without_historical_vintages
+2019-01-01,Macro baseline,99.27411207606477,91.2,-8.074112076064765,retrospective_news_index_without_historical_vintages
+2019-01-01,Macro plus news index,98.38123187795286,91.2,-7.181231877952854,retrospective_news_index_without_historical_vintages
+2019-01-01,Macro plus news and controls,100.1015306789394,91.2,-8.901530678939395,retrospective_news_index_without_historical_vintages
+2019-01-01,Dynamic economic baseline,99.04402268021087,91.2,-7.84402268021087,retrospective_news_index_without_historical_vintages
+2019-01-01,Dynamic plus news index,98.92786937477506,91.2,-7.727869374775054,retrospective_news_index_without_historical_vintages
+2019-01-01,Dynamic plus news and controls,99.93731511884042,91.2,-8.737315118840414,retrospective_news_index_without_historical_vintages
+2019-02-01,Macro baseline,98.26921523880344,93.8,-4.469215238803443,retrospective_news_index_without_historical_vintages
+2019-02-01,Macro plus news index,96.89051892666667,93.8,-3.0905189266666753,retrospective_news_index_without_historical_vintages
+2019-02-01,Macro plus news and controls,98.57393393348902,93.8,-4.773933933489019,retrospective_news_index_without_historical_vintages
+2019-02-01,Dynamic economic baseline,98.62982432989162,93.8,-4.829824329891622,retrospective_news_index_without_historical_vintages
+2019-02-01,Dynamic plus news index,98.42736842937659,93.8,-4.627368429376588,retrospective_news_index_without_historical_vintages
+2019-02-01,Dynamic plus news and controls,99.37169357673226,93.8,-5.571693576732258,retrospective_news_index_without_historical_vintages
+2019-03-01,Macro baseline,96.758195184328,98.4,1.6418048156720033,retrospective_news_index_without_historical_vintages
+2019-03-01,Macro plus news index,94.31674143958043,98.4,4.08325856041958,retrospective_news_index_without_historical_vintages
+2019-03-01,Macro plus news and controls,95.65979117735642,98.4,2.740208822643581,retrospective_news_index_without_historical_vintages
+2019-03-01,Dynamic economic baseline,93.55852575691678,98.4,4.841474243083226,retrospective_news_index_without_historical_vintages
+2019-03-01,Dynamic plus news index,93.25643634270271,98.4,5.1435636572972925,retrospective_news_index_without_historical_vintages
+2019-03-01,Dynamic plus news and controls,93.97367820503443,98.4,4.426321794965574,retrospective_news_index_without_historical_vintages
+2019-04-01,Macro baseline,98.35399957319349,97.2,-1.153999573193488,retrospective_news_index_without_historical_vintages
+2019-04-01,Macro plus news index,96.73795764038607,97.2,0.4620423596139318,retrospective_news_index_without_historical_vintages
+2019-04-01,Macro plus news and controls,98.01125877574297,97.2,-0.8112587757429708,retrospective_news_index_without_historical_vintages
+2019-04-01,Dynamic economic baseline,98.57884074000371,97.2,-1.3788407400037102,retrospective_news_index_without_historical_vintages
+2019-04-01,Dynamic plus news index,98.29126162494508,97.2,-1.0912616249450764,retrospective_news_index_without_historical_vintages
+2019-04-01,Dynamic plus news and controls,98.84690697904,97.2,-1.646906979039997,retrospective_news_index_without_historical_vintages
+2019-05-01,Macro baseline,98.93140263843549,100.0,1.068597361564514,retrospective_news_index_without_historical_vintages
+2019-05-01,Macro plus news index,98.64610767672984,100.0,1.3538923232701592,retrospective_news_index_without_historical_vintages
+2019-05-01,Macro plus news and controls,99.59342650814158,100.0,0.40657349185842406,retrospective_news_index_without_historical_vintages
+2019-05-01,Dynamic economic baseline,98.13256374863236,100.0,1.8674362513676357,retrospective_news_index_without_historical_vintages
+2019-05-01,Dynamic plus news index,98.11606284090082,100.0,1.883937159099176,retrospective_news_index_without_historical_vintages
+2019-05-01,Dynamic plus news and controls,98.464883646,100.0,1.535116353999996,retrospective_news_index_without_historical_vintages
+2019-06-01,Macro baseline,99.8122687861357,98.2,-1.6122687861357008,retrospective_news_index_without_historical_vintages
+2019-06-01,Macro plus news index,99.50639998653034,98.2,-1.3063999865303373,retrospective_news_index_without_historical_vintages
+2019-06-01,Macro plus news and controls,100.3106504363686,98.2,-2.1106504363686014,retrospective_news_index_without_historical_vintages
+2019-06-01,Dynamic economic baseline,100.15857408568095,98.2,-1.9585740856809508,retrospective_news_index_without_historical_vintages
+2019-06-01,Dynamic plus news index,100.08603938404013,98.2,-1.8860393840401315,retrospective_news_index_without_historical_vintages
+2019-06-01,Dynamic plus news and controls,100.33288180563947,98.2,-2.132881805639471,retrospective_news_index_without_historical_vintages
+2019-07-01,Macro baseline,99.8043229803614,98.4,-1.4043229803613997,retrospective_news_index_without_historical_vintages
+2019-07-01,Macro plus news index,99.21053531808653,98.4,-0.8105353180865222,retrospective_news_index_without_historical_vintages
+2019-07-01,Macro plus news and controls,100.0210271099011,98.4,-1.6210271099010924,retrospective_news_index_without_historical_vintages
+2019-07-01,Dynamic economic baseline,99.07994868414409,98.4,-0.6799486841440796,retrospective_news_index_without_historical_vintages
+2019-07-01,Dynamic plus news index,99.00094960349743,98.4,-0.6009496034974262,retrospective_news_index_without_historical_vintages
+2019-07-01,Dynamic plus news and controls,99.28023859922136,98.4,-0.8802385992213573,retrospective_news_index_without_historical_vintages
+2019-08-01,Macro baseline,98.7343338734023,89.8,-8.93433387340231,retrospective_news_index_without_historical_vintages
+2019-08-01,Macro plus news index,95.08100876816577,89.8,-5.281008768165776,retrospective_news_index_without_historical_vintages
+2019-08-01,Macro plus news and controls,96.23159589625426,89.8,-6.431595896254265,retrospective_news_index_without_historical_vintages
+2019-08-01,Dynamic economic baseline,98.59990218529228,89.8,-8.799902185292282,retrospective_news_index_without_historical_vintages
+2019-08-01,Dynamic plus news index,97.91052080227999,89.8,-8.110520802279993,retrospective_news_index_without_historical_vintages
+2019-08-01,Dynamic plus news and controls,98.34050937209956,89.8,-8.540509372099564,retrospective_news_index_without_historical_vintages
+2019-09-01,Macro baseline,98.40828632748561,93.2,-5.2082863274856095,retrospective_news_index_without_historical_vintages
+2019-09-01,Macro plus news index,95.55030997395805,93.2,-2.3503099739580477,retrospective_news_index_without_historical_vintages
+2019-09-01,Macro plus news and controls,96.38531404379289,93.2,-3.1853140437928857,retrospective_news_index_without_historical_vintages
+2019-09-01,Dynamic economic baseline,93.47243768289769,93.2,-0.27243768289768866,retrospective_news_index_without_historical_vintages
+2019-09-01,Dynamic plus news index,92.94260091207221,93.2,0.2573990879277943,retrospective_news_index_without_historical_vintages
+2019-09-01,Dynamic plus news and controls,93.27254631786582,93.2,-0.07254631786581456,retrospective_news_index_without_historical_vintages
+2019-10-01,Macro baseline,98.12583233913718,95.5,-2.625832339137176,retrospective_news_index_without_historical_vintages
+2019-10-01,Macro plus news index,93.78623250292098,95.5,1.7137674970790187,retrospective_news_index_without_historical_vintages
+2019-10-01,Macro plus news and controls,94.34745386906728,95.5,1.1525461309327198,retrospective_news_index_without_historical_vintages
+2019-10-01,Dynamic economic baseline,95.35027622962012,95.5,0.14972377037987883,retrospective_news_index_without_historical_vintages
+2019-10-01,Dynamic plus news index,94.15159717781579,95.5,1.3484028221842124,retrospective_news_index_without_historical_vintages
+2019-10-01,Dynamic plus news and controls,94.29978401735308,95.5,1.2002159826469239,retrospective_news_index_without_historical_vintages
+2019-11-01,Macro baseline,99.18572387417093,96.8,-2.3857238741709352,retrospective_news_index_without_historical_vintages
+2019-11-01,Macro plus news index,95.2970808679176,96.8,1.502919132082397,retrospective_news_index_without_historical_vintages
+2019-11-01,Macro plus news and controls,96.0704088296251,96.8,0.7295911703749027,retrospective_news_index_without_historical_vintages
+2019-11-01,Dynamic economic baseline,97.16912603360261,96.8,-0.36912603360261187,retrospective_news_index_without_historical_vintages
+2019-11-01,Dynamic plus news index,96.09765938153585,96.8,0.7023406184641487,retrospective_news_index_without_historical_vintages
+2019-11-01,Dynamic plus news and controls,96.42628015828086,96.8,0.3737198417191365,retrospective_news_index_without_historical_vintages
+2019-12-01,Macro baseline,98.88480570499055,99.3,0.41519429500944227,retrospective_news_index_without_historical_vintages
+2019-12-01,Macro plus news index,94.96009233995683,99.3,4.339907660043167,retrospective_news_index_without_historical_vintages
+2019-12-01,Macro plus news and controls,95.1777452955695,99.3,4.122254704430503,retrospective_news_index_without_historical_vintages
+2019-12-01,Dynamic economic baseline,97.8246910160588,99.3,1.4753089839412041,retrospective_news_index_without_historical_vintages
+2019-12-01,Dynamic plus news index,96.66329321830914,99.3,2.6367067816908616,retrospective_news_index_without_historical_vintages
+2019-12-01,Dynamic plus news and controls,96.5712153986495,99.3,2.7287846013504975,retrospective_news_index_without_historical_vintages
+2020-01-01,Macro baseline,98.99342849607272,99.8,0.8065715039272732,retrospective_news_index_without_historical_vintages
+2020-01-01,Macro plus news index,97.25355377133302,99.8,2.54644622866698,retrospective_news_index_without_historical_vintages
+2020-01-01,Macro plus news and controls,98.05354391554647,99.8,1.746456084453527,retrospective_news_index_without_historical_vintages
+2020-01-01,Dynamic economic baseline,99.32584010042548,99.8,0.47415989957451643,retrospective_news_index_without_historical_vintages
+2020-01-01,Dynamic plus news index,98.78250644587004,99.8,1.0174935541299561,retrospective_news_index_without_historical_vintages
+2020-01-01,Dynamic plus news and controls,99.07616982211533,99.8,0.7238301778846647,retrospective_news_index_without_historical_vintages
+2020-02-01,Macro baseline,98.66169600683348,101.0,2.3383039931665195,retrospective_news_index_without_historical_vintages
+2020-02-01,Macro plus news index,98.75144981920893,101.0,2.248550180791071,retrospective_news_index_without_historical_vintages
+2020-02-01,Macro plus news and controls,99.0633281641802,101.0,1.9366718358197943,retrospective_news_index_without_historical_vintages
+2020-02-01,Dynamic economic baseline,99.45730643224246,101.0,1.5426935677575386,retrospective_news_index_without_historical_vintages
+2020-02-01,Dynamic plus news index,99.41740945054302,101.0,1.582590549456981,retrospective_news_index_without_historical_vintages
+2020-02-01,Dynamic plus news and controls,99.30814678282054,101.0,1.6918532171794567,retrospective_news_index_without_historical_vintages
+2020-03-01,Macro baseline,97.99742444785112,89.1,-8.897424447851122,retrospective_news_index_without_historical_vintages
+2020-03-01,Macro plus news index,98.6594956193828,89.1,-9.559495619382801,retrospective_news_index_without_historical_vintages
+2020-03-01,Macro plus news and controls,99.0943914313052,89.1,-9.994391431305203,retrospective_news_index_without_historical_vintages
+2020-03-01,Dynamic economic baseline,99.8750927257948,89.1,-10.775092725794806,retrospective_news_index_without_historical_vintages
+2020-03-01,Dynamic plus news index,99.9121325160923,89.1,-10.812132516092305,retrospective_news_index_without_historical_vintages
+2020-03-01,Dynamic plus news and controls,99.96793926615979,89.1,-10.867939266159794,retrospective_news_index_without_historical_vintages
+2020-04-01,Macro baseline,98.11698389782619,71.8,-26.31698389782619,retrospective_news_index_without_historical_vintages
+2020-04-01,Macro plus news index,97.47695208379115,71.8,-25.67695208379115,retrospective_news_index_without_historical_vintages
+2020-04-01,Macro plus news and controls,97.64991483770586,71.8,-25.849914837705867,retrospective_news_index_without_historical_vintages
+2020-04-01,Dynamic economic baseline,92.99197062242261,71.8,-21.191970622422616,retrospective_news_index_without_historical_vintages
+2020-04-01,Dynamic plus news index,93.23188686594423,71.8,-21.431886865944236,retrospective_news_index_without_historical_vintages
+2020-04-01,Dynamic plus news and controls,93.25612521079279,71.8,-21.45612521079279,retrospective_news_index_without_historical_vintages
+2020-05-01,Macro baseline,87.82347099757551,72.3,-15.523470997575515,retrospective_news_index_without_historical_vintages
+2020-05-01,Macro plus news index,82.99697716086767,72.3,-10.696977160867675,retrospective_news_index_without_historical_vintages
+2020-05-01,Macro plus news and controls,80.9068155791218,72.3,-8.6068155791218,retrospective_news_index_without_historical_vintages
+2020-05-01,Dynamic economic baseline,76.54921885263468,72.3,-4.249218852634684,retrospective_news_index_without_historical_vintages
+2020-05-01,Dynamic plus news index,76.20223509642595,72.3,-3.9022350964259545,retrospective_news_index_without_historical_vintages
+2020-05-01,Dynamic plus news and controls,74.19437547598,72.3,-1.8943754759799987,retrospective_news_index_without_historical_vintages
+2020-06-01,Macro baseline,39.14862897114208,78.1,38.95137102885791,retrospective_news_index_without_historical_vintages
+2020-06-01,Macro plus news index,35.434538793235795,78.1,42.6654612067642,retrospective_news_index_without_historical_vintages
+2020-06-01,Macro plus news and controls,46.23656626534557,78.1,31.86343373465442,retrospective_news_index_without_historical_vintages
+2020-06-01,Dynamic economic baseline,62.75502284512655,78.1,15.344977154873447,retrospective_news_index_without_historical_vintages
+2020-06-01,Dynamic plus news index,60.81186937853166,78.1,17.288130621468333,retrospective_news_index_without_historical_vintages
+2020-06-01,Dynamic plus news and controls,67.55416331785065,78.1,10.545836682149343,retrospective_news_index_without_historical_vintages
+2020-07-01,Macro baseline,55.75553347493231,72.5,16.744466525067693,retrospective_news_index_without_historical_vintages
+2020-07-01,Macro plus news index,53.16963096176822,72.5,19.33036903823178,retrospective_news_index_without_historical_vintages
+2020-07-01,Macro plus news and controls,59.54021640029008,72.5,12.959783599709922,retrospective_news_index_without_historical_vintages
+2020-07-01,Dynamic economic baseline,75.7165423982581,72.5,-3.216542398258099,retrospective_news_index_without_historical_vintages
+2020-07-01,Dynamic plus news index,76.53791355068978,72.5,-4.03791355068978,retrospective_news_index_without_historical_vintages
+2020-07-01,Dynamic plus news and controls,75.7863699745913,72.5,-3.2863699745912953,retrospective_news_index_without_historical_vintages
+2020-08-01,Macro baseline,57.94669293717027,74.1,16.153307062829725,retrospective_news_index_without_historical_vintages
+2020-08-01,Macro plus news index,62.547690753102195,74.1,11.5523092468978,retrospective_news_index_without_historical_vintages
+2020-08-01,Macro plus news and controls,53.595795171072126,74.1,20.504204828927868,retrospective_news_index_without_historical_vintages
+2020-08-01,Dynamic economic baseline,66.94793945127724,74.1,7.152060548722758,retrospective_news_index_without_historical_vintages
+2020-08-01,Dynamic plus news index,66.40537747429333,74.1,7.694622525706663,retrospective_news_index_without_historical_vintages
+2020-08-01,Dynamic plus news and controls,60.93348031879596,74.1,13.166519681204036,retrospective_news_index_without_historical_vintages
+2020-09-01,Macro baseline,73.24062681349712,80.4,7.15937318650289,retrospective_news_index_without_historical_vintages
+2020-09-01,Macro plus news index,75.11624595394095,80.4,5.283754046059059,retrospective_news_index_without_historical_vintages
+2020-09-01,Macro plus news and controls,75.92580909984554,80.4,4.474190900154468,retrospective_news_index_without_historical_vintages
+2020-09-01,Dynamic economic baseline,74.1886385788471,80.4,6.211361421152901,retrospective_news_index_without_historical_vintages
+2020-09-01,Dynamic plus news index,74.08002112803894,80.4,6.3199788719610694,retrospective_news_index_without_historical_vintages
+2020-09-01,Dynamic plus news and controls,74.18293628657443,80.4,6.217063713425574,retrospective_news_index_without_historical_vintages
+2020-10-01,Macro baseline,80.39740392526056,81.8,1.402596074739435,retrospective_news_index_without_historical_vintages
+2020-10-01,Macro plus news index,82.44804000630711,81.8,-0.648040006307113,retrospective_news_index_without_historical_vintages
+2020-10-01,Macro plus news and controls,83.60363277988887,81.8,-1.803632779888872,retrospective_news_index_without_historical_vintages
+2020-10-01,Dynamic economic baseline,75.43226110549651,81.8,6.367738894503489,retrospective_news_index_without_historical_vintages
+2020-10-01,Dynamic plus news index,75.29075780614585,81.8,6.509242193854149,retrospective_news_index_without_historical_vintages
+2020-10-01,Dynamic plus news and controls,76.30484241098405,81.8,5.495157589015946,retrospective_news_index_without_historical_vintages
+2020-11-01,Macro baseline,75.7870783313699,76.9,1.1129216686301078,retrospective_news_index_without_historical_vintages
+2020-11-01,Macro plus news index,70.65334857590108,76.9,6.246651424098928,retrospective_news_index_without_historical_vintages
+2020-11-01,Macro plus news and controls,85.54183227655793,76.9,-8.64183227655792,retrospective_news_index_without_historical_vintages
+2020-11-01,Dynamic economic baseline,78.0958343331005,76.9,-1.1958343331004926,retrospective_news_index_without_historical_vintages
+2020-11-01,Dynamic plus news index,77.97352018659532,76.9,-1.0735201865953172,retrospective_news_index_without_historical_vintages
+2020-11-01,Dynamic plus news and controls,82.81322509787516,76.9,-5.913225097875156,retrospective_news_index_without_historical_vintages
+2020-12-01,Macro baseline,80.70936058030826,80.7,-0.00936058030825393,retrospective_news_index_without_historical_vintages
+2020-12-01,Macro plus news index,77.68293206697408,80.7,3.0170679330259276,retrospective_news_index_without_historical_vintages
+2020-12-01,Macro plus news and controls,85.84154507324699,80.7,-5.141545073246988,retrospective_news_index_without_historical_vintages
+2020-12-01,Dynamic economic baseline,74.82610289523541,80.7,5.873897104764595,retrospective_news_index_without_historical_vintages
+2020-12-01,Dynamic plus news index,74.66559136892343,80.7,6.034408631076573,retrospective_news_index_without_historical_vintages
+2020-12-01,Dynamic plus news and controls,78.073685979172,80.7,2.626314020828005,retrospective_news_index_without_historical_vintages
+2021-01-01,Macro baseline,81.66637871021348,79.0,-2.666378710213479,retrospective_news_index_without_historical_vintages
+2021-01-01,Macro plus news index,79.74576234707408,79.0,-0.7457623470740771,retrospective_news_index_without_historical_vintages
+2021-01-01,Macro plus news and controls,82.52989179967444,79.0,-3.529891799674445,retrospective_news_index_without_historical_vintages
+2021-01-01,Dynamic economic baseline,79.21809070245286,79.0,-0.2180907024528551,retrospective_news_index_without_historical_vintages
+2021-01-01,Dynamic plus news index,79.31294527066085,79.0,-0.31294527066084754,retrospective_news_index_without_historical_vintages
+2021-01-01,Dynamic plus news and controls,80.5178914793002,79.0,-1.5178914793002036,retrospective_news_index_without_historical_vintages
+2021-02-01,Macro baseline,84.42564070795902,76.8,-7.625640707959022,retrospective_news_index_without_historical_vintages
+2021-02-01,Macro plus news index,83.48059983002419,76.8,-6.680599830024192,retrospective_news_index_without_historical_vintages
+2021-02-01,Macro plus news and controls,83.97923067035985,76.8,-7.179230670359857,retrospective_news_index_without_historical_vintages
+2021-02-01,Dynamic economic baseline,80.25376803629007,76.8,-3.4537680362900716,retrospective_news_index_without_historical_vintages
+2021-02-01,Dynamic plus news index,80.28818150986453,76.8,-3.488181509864532,retrospective_news_index_without_historical_vintages
+2021-02-01,Dynamic plus news and controls,80.89380997117757,76.8,-4.093809971177578,retrospective_news_index_without_historical_vintages
+2021-03-01,Macro baseline,85.3574891632185,84.9,-0.4574891632184972,retrospective_news_index_without_historical_vintages
+2021-03-01,Macro plus news index,84.81746843435438,84.9,0.08253156564562403,retrospective_news_index_without_historical_vintages
+2021-03-01,Macro plus news and controls,105.35476118606522,84.9,-20.454761186065213,retrospective_news_index_without_historical_vintages
+2021-03-01,Dynamic economic baseline,78.55885034350078,84.9,6.341149656499226,retrospective_news_index_without_historical_vintages
+2021-03-01,Dynamic plus news index,78.56225391399771,84.9,6.337746086002298,retrospective_news_index_without_historical_vintages
+2021-03-01,Dynamic plus news and controls,87.2698414577244,84.9,-2.369841457724391,retrospective_news_index_without_historical_vintages
+2021-04-01,Macro baseline,85.38119975020628,88.3,2.918800249793719,retrospective_news_index_without_historical_vintages
+2021-04-01,Macro plus news index,85.26047101941992,88.3,3.039528980580073,retrospective_news_index_without_historical_vintages
+2021-04-01,Macro plus news and controls,86.9452085976823,88.3,1.3547914023177015,retrospective_news_index_without_historical_vintages
+2021-04-01,Dynamic economic baseline,84.96217236043061,88.3,3.337827639569383,retrospective_news_index_without_historical_vintages
+2021-04-01,Dynamic plus news index,84.96520185677694,88.3,3.334798143223054,retrospective_news_index_without_historical_vintages
+2021-04-01,Dynamic plus news and controls,85.7787690342933,88.3,2.5212309657066925,retrospective_news_index_without_historical_vintages
+2021-05-01,Macro baseline,83.34103822840557,82.9,-0.44103822840556006,retrospective_news_index_without_historical_vintages
+2021-05-01,Macro plus news index,83.82201392700796,82.9,-0.9220139270079528,retrospective_news_index_without_historical_vintages
+2021-05-01,Macro plus news and controls,123.10115059456575,82.9,-40.201150594565746,retrospective_news_index_without_historical_vintages
+2021-05-01,Dynamic economic baseline,86.75027416321628,82.9,-3.8502741632162696,retrospective_news_index_without_historical_vintages
+2021-05-01,Dynamic plus news index,86.74084805103858,82.9,-3.840848051038577,retrospective_news_index_without_historical_vintages
+2021-05-01,Dynamic plus news and controls,105.48905423421266,82.9,-22.589054234212654,retrospective_news_index_without_historical_vintages
+2021-06-01,Macro baseline,78.63234691333902,85.5,6.8676530866609795,retrospective_news_index_without_historical_vintages
+2021-06-01,Macro plus news index,79.80257797500241,85.5,5.697422024997593,retrospective_news_index_without_historical_vintages
+2021-06-01,Macro plus news and controls,77.93462699077892,85.5,7.5653730092210765,retrospective_news_index_without_historical_vintages
+2021-06-01,Dynamic economic baseline,80.87337618753259,85.5,4.626623812467415,retrospective_news_index_without_historical_vintages
+2021-06-01,Dynamic plus news index,80.82911404011203,85.5,4.670885959887968,retrospective_news_index_without_historical_vintages
+2021-06-01,Dynamic plus news and controls,80.30823402519485,85.5,5.191765974805151,retrospective_news_index_without_historical_vintages
+2021-07-01,Macro baseline,79.4558273952333,81.2,1.7441726047667032,retrospective_news_index_without_historical_vintages
+2021-07-01,Macro plus news index,80.60270253495068,81.2,0.5972974650493228,retrospective_news_index_without_historical_vintages
+2021-07-01,Macro plus news and controls,80.05238096416201,81.2,1.147619035837991,retrospective_news_index_without_historical_vintages
+2021-07-01,Dynamic economic baseline,83.24697425634129,81.2,-2.0469742563412865,retrospective_news_index_without_historical_vintages
+2021-07-01,Dynamic plus news index,83.24042687248043,81.2,-2.040426872480424,retrospective_news_index_without_historical_vintages
+2021-07-01,Dynamic plus news and controls,83.04334178955949,81.2,-1.8433417895594886,retrospective_news_index_without_historical_vintages
+2021-08-01,Macro baseline,79.00210826186537,70.3,-8.702108261865376,retrospective_news_index_without_historical_vintages
+2021-08-01,Macro plus news index,79.75337947226348,70.3,-9.453379472263478,retrospective_news_index_without_historical_vintages
+2021-08-01,Macro plus news and controls,78.92068579939817,70.3,-8.620685799398174,retrospective_news_index_without_historical_vintages
+2021-08-01,Dynamic economic baseline,79.51403370639957,70.3,-9.214033706399576,retrospective_news_index_without_historical_vintages
+2021-08-01,Dynamic plus news index,79.50030318866044,70.3,-9.200303188660442,retrospective_news_index_without_historical_vintages
+2021-08-01,Dynamic plus news and controls,79.23292967913687,70.3,-8.932929679136876,retrospective_news_index_without_historical_vintages
+2021-09-01,Macro baseline,79.45848789858427,72.8,-6.658487898584269,retrospective_news_index_without_historical_vintages
+2021-09-01,Macro plus news index,80.00069702264679,72.8,-7.200697022646793,retrospective_news_index_without_historical_vintages
+2021-09-01,Macro plus news and controls,79.07155237804619,72.8,-6.271552378046195,retrospective_news_index_without_historical_vintages
+2021-09-01,Dynamic economic baseline,70.28058776697124,72.8,2.51941223302876,retrospective_news_index_without_historical_vintages
+2021-09-01,Dynamic plus news index,70.20718787048953,72.8,2.592812129510463,retrospective_news_index_without_historical_vintages
+2021-09-01,Dynamic plus news and controls,70.03877417785279,72.8,2.7612258221472104,retrospective_news_index_without_historical_vintages
+2021-10-01,Macro baseline,80.23623883840686,71.7,-8.53623883840686,retrospective_news_index_without_historical_vintages
+2021-10-01,Macro plus news index,80.39203378668857,71.7,-8.692033786688569,retrospective_news_index_without_historical_vintages
+2021-10-01,Macro plus news and controls,79.3702751131892,71.7,-7.6702751131891915,retrospective_news_index_without_historical_vintages
+2021-10-01,Dynamic economic baseline,70.42734181815743,71.7,1.2726581818425728,retrospective_news_index_without_historical_vintages
+2021-10-01,Dynamic plus news index,70.37639743107778,71.7,1.323602568922226,retrospective_news_index_without_historical_vintages
+2021-10-01,Dynamic plus news and controls,70.1918273709329,71.7,1.5081726290671043,retrospective_news_index_without_historical_vintages
+2021-11-01,Macro baseline,80.10882368306807,67.4,-12.708823683068061,retrospective_news_index_without_historical_vintages
+2021-11-01,Macro plus news index,79.60454016406929,67.4,-12.204540164069286,retrospective_news_index_without_historical_vintages
+2021-11-01,Macro plus news and controls,79.23793748372739,67.4,-11.837937483727387,retrospective_news_index_without_historical_vintages
+2021-11-01,Dynamic economic baseline,72.43370853641852,67.4,-5.033708536418516,retrospective_news_index_without_historical_vintages
+2021-11-01,Dynamic plus news index,72.43655281349943,67.4,-5.036552813499426,retrospective_news_index_without_historical_vintages
+2021-11-01,Dynamic plus news and controls,72.38138902344667,67.4,-4.981389023446667,retrospective_news_index_without_historical_vintages
+2021-12-01,Macro baseline,76.63215065229404,70.6,-6.03215065229405,retrospective_news_index_without_historical_vintages
+2021-12-01,Macro plus news index,75.44075053611598,70.6,-4.840750536115991,retrospective_news_index_without_historical_vintages
+2021-12-01,Macro plus news and controls,75.781811694295,70.6,-5.181811694295007,retrospective_news_index_without_historical_vintages
+2021-12-01,Dynamic economic baseline,67.63126000884543,70.6,2.968739991154564,retrospective_news_index_without_historical_vintages
+2021-12-01,Dynamic plus news index,67.65650003446135,70.6,2.943499965538649,retrospective_news_index_without_historical_vintages
+2021-12-01,Dynamic plus news and controls,67.80313808596543,70.6,2.796861914034565,retrospective_news_index_without_historical_vintages
+2022-01-01,Macro baseline,74.21537059138873,67.2,-7.015370591388731,retrospective_news_index_without_historical_vintages
+2022-01-01,Macro plus news index,74.54731288274795,67.2,-7.347312882747943,retrospective_news_index_without_historical_vintages
+2022-01-01,Macro plus news and controls,75.97608553958278,67.2,-8.77608553958278,retrospective_news_index_without_historical_vintages
+2022-01-01,Dynamic economic baseline,69.89821172175442,67.2,-2.6982117217544186,retrospective_news_index_without_historical_vintages
+2022-01-01,Dynamic plus news index,69.86857434073642,67.2,-2.668574340736413,retrospective_news_index_without_historical_vintages
+2022-01-01,Dynamic plus news and controls,70.21831703807095,67.2,-3.018317038070947,retrospective_news_index_without_historical_vintages
+2022-02-01,Macro baseline,73.50149056498016,62.8,-10.701490564980162,retrospective_news_index_without_historical_vintages
+2022-02-01,Macro plus news index,73.17588270191521,62.8,-10.375882701915216,retrospective_news_index_without_historical_vintages
+2022-02-01,Macro plus news and controls,74.01617808424128,62.8,-11.216178084241278,retrospective_news_index_without_historical_vintages
+2022-02-01,Dynamic economic baseline,66.61162657076713,62.8,-3.8116265707671317,retrospective_news_index_without_historical_vintages
+2022-02-01,Dynamic plus news index,66.60578754527542,62.8,-3.8057875452754217,retrospective_news_index_without_historical_vintages
+2022-02-01,Dynamic plus news and controls,66.77842416241944,62.8,-3.9784241624194436,retrospective_news_index_without_historical_vintages
+2022-03-01,Macro baseline,70.19208729968527,59.4,-10.79208729968527,retrospective_news_index_without_historical_vintages
+2022-03-01,Macro plus news index,70.00533790959406,59.4,-10.605337909594063,retrospective_news_index_without_historical_vintages
+2022-03-01,Macro plus news and controls,66.69647903803272,59.4,-7.296479038032722,retrospective_news_index_without_historical_vintages
+2022-03-01,Dynamic economic baseline,62.09481103272831,59.4,-2.6948110327283104,retrospective_news_index_without_historical_vintages
+2022-03-01,Dynamic plus news index,62.07576497612212,59.4,-2.6757649761221245,retrospective_news_index_without_historical_vintages
+2022-03-01,Dynamic plus news and controls,61.19186510045285,59.4,-1.7918651004528527,retrospective_news_index_without_historical_vintages
+2022-04-01,Macro baseline,67.92263535930736,65.2,-2.722635359307361,retrospective_news_index_without_historical_vintages
+2022-04-01,Macro plus news index,67.26457044909,65.2,-2.0645704490899988,retrospective_news_index_without_historical_vintages
+2022-04-01,Macro plus news and controls,67.6186107005038,65.2,-2.418610700503791,retrospective_news_index_without_historical_vintages
+2022-04-01,Dynamic economic baseline,58.70801245456951,65.2,6.49198754543049,retrospective_news_index_without_historical_vintages
+2022-04-01,Dynamic plus news index,58.71398120132587,65.2,6.486018798674131,retrospective_news_index_without_historical_vintages
+2022-04-01,Dynamic plus news and controls,58.74863995381594,65.2,6.451360046184064,retrospective_news_index_without_historical_vintages
+2022-05-01,Macro baseline,67.87405548823341,58.4,-9.474055488233411,retrospective_news_index_without_historical_vintages
+2022-05-01,Macro plus news index,66.43028596943336,58.4,-8.030285969433358,retrospective_news_index_without_historical_vintages
+2022-05-01,Macro plus news and controls,58.54335535567289,58.4,-0.14335535567288815,retrospective_news_index_without_historical_vintages
+2022-05-01,Dynamic economic baseline,64.6647817954073,58.4,-6.264781795407295,retrospective_news_index_without_historical_vintages
+2022-05-01,Dynamic plus news index,64.74874313642948,58.4,-6.3487431364294835,retrospective_news_index_without_historical_vintages
+2022-05-01,Dynamic plus news and controls,62.442138608279954,58.4,-4.042138608279956,retrospective_news_index_without_historical_vintages
+2022-06-01,Macro baseline,68.39667135463942,50.0,-18.396671354639423,retrospective_news_index_without_historical_vintages
+2022-06-01,Macro plus news index,67.81385071648558,50.0,-17.813850716485575,retrospective_news_index_without_historical_vintages
+2022-06-01,Macro plus news and controls,66.6883302564385,50.0,-16.688330256438505,retrospective_news_index_without_historical_vintages
+2022-06-01,Dynamic economic baseline,59.07608315185,50.0,-9.07608315185,retrospective_news_index_without_historical_vintages
+2022-06-01,Dynamic plus news index,59.0749753426511,50.0,-9.0749753426511,retrospective_news_index_without_historical_vintages
+2022-06-01,Dynamic plus news and controls,58.85074188560654,50.0,-8.850741885606539,retrospective_news_index_without_historical_vintages
+2022-07-01,Macro baseline,65.92104403227445,51.5,-14.421044032274452,retrospective_news_index_without_historical_vintages
+2022-07-01,Macro plus news index,65.59393350483182,51.5,-14.093933504831824,retrospective_news_index_without_historical_vintages
+2022-07-01,Macro plus news and controls,65.25338128037217,51.5,-13.753381280372167,retrospective_news_index_without_historical_vintages
+2022-07-01,Dynamic economic baseline,51.079203379824826,51.5,0.4207966201751745,retrospective_news_index_without_historical_vintages
+2022-07-01,Dynamic plus news index,51.06348074486338,51.5,0.4365192551366235,retrospective_news_index_without_historical_vintages
+2022-07-01,Dynamic plus news and controls,51.25377736272201,51.5,0.2462226372779881,retrospective_news_index_without_historical_vintages
+2022-08-01,Macro baseline,61.77736631061333,58.2,-3.5773663106133284,retrospective_news_index_without_historical_vintages
+2022-08-01,Macro plus news index,61.168539010676895,58.2,-2.968539010676892,retrospective_news_index_without_historical_vintages
+2022-08-01,Macro plus news and controls,60.37280713680618,58.2,-2.1728071368061777,retrospective_news_index_without_historical_vintages
+2022-08-01,Dynamic economic baseline,51.570644028834515,58.2,6.629355971165488,retrospective_news_index_without_historical_vintages
+2022-08-01,Dynamic plus news index,51.568874749261155,58.2,6.631125250738847,retrospective_news_index_without_historical_vintages
+2022-08-01,Dynamic plus news and controls,51.58448723121917,58.2,6.615512768780832,retrospective_news_index_without_historical_vintages
+2022-09-01,Macro baseline,64.87081585663547,58.6,-6.270815856635473,retrospective_news_index_without_historical_vintages
+2022-09-01,Macro plus news index,63.404267221110125,58.6,-4.804267221110123,retrospective_news_index_without_historical_vintages
+2022-09-01,Macro plus news and controls,61.79678418363101,58.6,-3.19678418363101,retrospective_news_index_without_historical_vintages
+2022-09-01,Dynamic economic baseline,58.50174392987654,58.6,0.09825607012346183,retrospective_news_index_without_historical_vintages
+2022-09-01,Dynamic plus news index,58.51985995727105,58.6,0.08014004272894937,retrospective_news_index_without_historical_vintages
+2022-09-01,Dynamic plus news and controls,58.301558306761926,58.6,0.29844169323807535,retrospective_news_index_without_historical_vintages
+2022-10-01,Macro baseline,63.81054860311539,59.9,-3.9105486031153944,retrospective_news_index_without_historical_vintages
+2022-10-01,Macro plus news index,63.289937139711725,59.9,-3.3899371397117264,retrospective_news_index_without_historical_vintages
+2022-10-01,Macro plus news and controls,60.975712259064586,59.9,-1.0757122590645878,retrospective_news_index_without_historical_vintages
+2022-10-01,Dynamic economic baseline,58.71995393945737,59.9,1.1800460605426295,retrospective_news_index_without_historical_vintages
+2022-10-01,Dynamic plus news index,58.722496190916914,59.9,1.1775038090830847,retrospective_news_index_without_historical_vintages
+2022-10-01,Dynamic plus news and controls,58.314271160887586,59.9,1.585728839112413,retrospective_news_index_without_historical_vintages
+2022-11-01,Macro baseline,64.15625832300674,56.7,-7.456258323006736,retrospective_news_index_without_historical_vintages
+2022-11-01,Macro plus news index,63.49458843587464,56.7,-6.794588435874637,retrospective_news_index_without_historical_vintages
+2022-11-01,Macro plus news and controls,61.68627878631281,56.7,-4.986278786312809,retrospective_news_index_without_historical_vintages
+2022-11-01,Dynamic economic baseline,59.75160324247835,56.7,-3.0516032424783504,retrospective_news_index_without_historical_vintages
+2022-11-01,Dynamic plus news index,59.757648988520465,56.7,-3.0576489885204623,retrospective_news_index_without_historical_vintages
+2022-11-01,Dynamic plus news and controls,59.64437112633404,56.7,-2.9443711263340404,retrospective_news_index_without_historical_vintages
+2022-12-01,Macro baseline,62.904733383215984,59.8,-3.1047333832159865,retrospective_news_index_without_historical_vintages
+2022-12-01,Macro plus news index,61.199121797376485,59.8,-1.3991217973764876,retrospective_news_index_without_historical_vintages
+2022-12-01,Macro plus news and controls,59.33856585822674,59.8,0.46143414177326036,retrospective_news_index_without_historical_vintages
+2022-12-01,Dynamic economic baseline,56.95687225995342,59.8,2.843127740046576,retrospective_news_index_without_historical_vintages
+2022-12-01,Dynamic plus news index,56.973962413627035,59.8,2.826037586372962,retrospective_news_index_without_historical_vintages
+2022-12-01,Dynamic plus news and controls,56.755538483162866,59.8,3.0444615168371314,retrospective_news_index_without_historical_vintages
+2023-01-01,Macro baseline,67.4677389353577,64.9,-2.5677389353576956,retrospective_news_index_without_historical_vintages
+2023-01-01,Macro plus news index,66.5816360584949,64.9,-1.6816360584948882,retrospective_news_index_without_historical_vintages
+2023-01-01,Macro plus news and controls,63.39628678384412,64.9,1.5037132161558873,retrospective_news_index_without_historical_vintages
+2023-01-01,Dynamic economic baseline,60.580164400277354,64.9,4.319835599722651,retrospective_news_index_without_historical_vintages
+2023-01-01,Dynamic plus news index,60.589516280291456,64.9,4.31048371970855,retrospective_news_index_without_historical_vintages
+2023-01-01,Dynamic plus news and controls,60.19500752255424,64.9,4.704992477445764,retrospective_news_index_without_historical_vintages
+2023-02-01,Macro baseline,71.63008679196483,66.9,-4.730086791964823,retrospective_news_index_without_historical_vintages
+2023-02-01,Macro plus news index,70.53607877270721,66.9,-3.636078772707208,retrospective_news_index_without_historical_vintages
+2023-02-01,Macro plus news and controls,67.13709771043979,66.9,-0.23709771043978378,retrospective_news_index_without_historical_vintages
+2023-02-01,Dynamic economic baseline,65.88389089272872,66.9,1.0161091072712907,retrospective_news_index_without_historical_vintages
+2023-02-01,Dynamic plus news index,65.90488009575857,66.9,0.9951199042414345,retrospective_news_index_without_historical_vintages
+2023-02-01,Dynamic plus news and controls,65.6854812133779,66.9,1.2145187866221079,retrospective_news_index_without_historical_vintages
+2023-03-01,Macro baseline,69.39368118049237,62.0,-7.393681180492365,retrospective_news_index_without_historical_vintages
+2023-03-01,Macro plus news index,68.5621664517107,62.0,-6.562166451710695,retrospective_news_index_without_historical_vintages
+2023-03-01,Macro plus news and controls,66.94176945534278,62.0,-4.941769455342779,retrospective_news_index_without_historical_vintages
+2023-03-01,Dynamic economic baseline,67.01504681065175,62.0,-5.015046810651754,retrospective_news_index_without_historical_vintages
+2023-03-01,Dynamic plus news index,67.03769742197981,62.0,-5.037697421979814,retrospective_news_index_without_historical_vintages
+2023-03-01,Dynamic plus news and controls,67.70732284852751,62.0,-5.707322848527511,retrospective_news_index_without_historical_vintages
+2023-04-01,Macro baseline,70.98924811628986,63.7,-7.289248116289855,retrospective_news_index_without_historical_vintages
+2023-04-01,Macro plus news index,70.81947186228544,63.7,-7.119471862285437,retrospective_news_index_without_historical_vintages
+2023-04-01,Macro plus news and controls,68.05917600051242,63.7,-4.35917600051242,retrospective_news_index_without_historical_vintages
+2023-04-01,Dynamic economic baseline,63.488504491907506,63.7,0.21149550809249718,retrospective_news_index_without_historical_vintages
+2023-04-01,Dynamic plus news index,63.477859608727215,63.7,0.22214039127278795,retrospective_news_index_without_historical_vintages
+2023-04-01,Dynamic plus news and controls,63.66180247567541,63.7,0.03819752432459467,retrospective_news_index_without_historical_vintages
+2023-05-01,Macro baseline,77.00516665006299,59.0,-18.00516665006299,retrospective_news_index_without_historical_vintages
+2023-05-01,Macro plus news index,75.67734406861044,59.0,-16.677344068610438,retrospective_news_index_without_historical_vintages
+2023-05-01,Macro plus news and controls,70.65063698493006,59.0,-11.65063698493006,retrospective_news_index_without_historical_vintages
+2023-05-01,Dynamic economic baseline,66.28748950566538,59.0,-7.287489505665377,retrospective_news_index_without_historical_vintages
+2023-05-01,Dynamic plus news index,66.29679210932588,59.0,-7.296792109325878,retrospective_news_index_without_historical_vintages
+2023-05-01,Dynamic plus news and controls,66.08877597411022,59.0,-7.08877597411022,retrospective_news_index_without_historical_vintages
+2023-06-01,Macro baseline,75.60008930005455,64.2,-11.400089300054546,retrospective_news_index_without_historical_vintages
+2023-06-01,Macro plus news index,73.2306056820295,64.2,-9.030605682029503,retrospective_news_index_without_historical_vintages
+2023-06-01,Macro plus news and controls,65.86888356929998,64.2,-1.6688835692999788,retrospective_news_index_without_historical_vintages
+2023-06-01,Dynamic economic baseline,62.26133921118179,64.2,1.9386607888182112,retrospective_news_index_without_historical_vintages
+2023-06-01,Dynamic plus news index,62.2732767210761,64.2,1.9267232789239017,retrospective_news_index_without_historical_vintages
+2023-06-01,Dynamic plus news and controls,61.12732081913389,64.2,3.0726791808661105,retrospective_news_index_without_historical_vintages
+2023-07-01,Macro baseline,77.83179571867336,71.5,-6.331795718673362,retrospective_news_index_without_historical_vintages
+2023-07-01,Macro plus news index,73.8077028924498,71.5,-2.3077028924497966,retrospective_news_index_without_historical_vintages
+2023-07-01,Macro plus news and controls,65.85838400700082,71.5,5.641615992999178,retrospective_news_index_without_historical_vintages
+2023-07-01,Dynamic economic baseline,67.04690009301562,71.5,4.453099906984377,retrospective_news_index_without_historical_vintages
+2023-07-01,Dynamic plus news index,67.09697608275225,71.5,4.403023917247751,retrospective_news_index_without_historical_vintages
+2023-07-01,Dynamic plus news and controls,65.9866575327322,71.5,5.513342467267805,retrospective_news_index_without_historical_vintages
+2023-08-01,Macro baseline,84.32427799390503,69.4,-14.924277993905022,retrospective_news_index_without_historical_vintages
+2023-08-01,Macro plus news index,80.4781526686605,69.4,-11.078152668660493,retrospective_news_index_without_historical_vintages
+2023-08-01,Macro plus news and controls,72.02970206322787,69.4,-2.6297020632278674,retrospective_news_index_without_historical_vintages
+2023-08-01,Dynamic economic baseline,74.3765987086796,69.4,-4.976598708679589,retrospective_news_index_without_historical_vintages
+2023-08-01,Dynamic plus news index,74.52076752284292,69.4,-5.120767522842911,retrospective_news_index_without_historical_vintages
+2023-08-01,Dynamic plus news and controls,73.73864686204537,69.4,-4.3386468620453655,retrospective_news_index_without_historical_vintages
+2023-09-01,Macro baseline,82.26952206485252,67.8,-14.469522064852526,retrospective_news_index_without_historical_vintages
+2023-09-01,Macro plus news index,81.40063281754661,67.8,-13.600632817546611,retrospective_news_index_without_historical_vintages
+2023-09-01,Macro plus news and controls,72.5548664924273,67.8,-4.754866492427297,retrospective_news_index_without_historical_vintages
+2023-09-01,Dynamic economic baseline,72.1256445813348,67.8,-4.3256445813347995,retrospective_news_index_without_historical_vintages
+2023-09-01,Dynamic plus news index,72.1185294525828,67.8,-4.318529452582808,retrospective_news_index_without_historical_vintages
+2023-09-01,Dynamic plus news and controls,71.0504415207975,67.8,-3.2504415207975086,retrospective_news_index_without_historical_vintages
+2023-10-01,Macro baseline,79.58939157019239,63.8,-15.789391570192393,retrospective_news_index_without_historical_vintages
+2023-10-01,Macro plus news index,78.88544508132341,63.8,-15.085445081323414,retrospective_news_index_without_historical_vintages
+2023-10-01,Macro plus news and controls,69.13320793083862,63.8,-5.3332079308386255,retrospective_news_index_without_historical_vintages
+2023-10-01,Dynamic economic baseline,70.15229442420473,63.8,-6.352294424204729,retrospective_news_index_without_historical_vintages
+2023-10-01,Dynamic plus news index,70.14303008006584,63.8,-6.343030080065844,retrospective_news_index_without_historical_vintages
+2023-10-01,Dynamic plus news and controls,68.67547122227703,63.8,-4.875471222277028,retrospective_news_index_without_historical_vintages
+2023-11-01,Macro baseline,79.56604384798847,61.3,-18.26604384798847,retrospective_news_index_without_historical_vintages
+2023-11-01,Macro plus news index,79.07891300101292,61.3,-17.778913001012924,retrospective_news_index_without_historical_vintages
+2023-11-01,Macro plus news and controls,68.31214538079178,61.3,-7.012145380791779,retrospective_news_index_without_historical_vintages
+2023-11-01,Dynamic economic baseline,66.51644562940481,61.3,-5.2164456294048165,retrospective_news_index_without_historical_vintages
+2023-11-01,Dynamic plus news index,66.48709626089244,61.3,-5.187096260892446,retrospective_news_index_without_historical_vintages
+2023-11-01,Dynamic plus news and controls,64.73623779858971,61.3,-3.4362377985897155,retrospective_news_index_without_historical_vintages
+2023-12-01,Macro baseline,82.07702313167849,69.7,-12.377023131678484,retrospective_news_index_without_historical_vintages
+2023-12-01,Macro plus news index,80.8102609145514,69.7,-11.110260914551404,retrospective_news_index_without_historical_vintages
+2023-12-01,Macro plus news and controls,68.73677002622136,69.7,0.9632299737786383,retrospective_news_index_without_historical_vintages
+2023-12-01,Dynamic economic baseline,64.78709591222938,69.7,4.912904087770627,retrospective_news_index_without_historical_vintages
+2023-12-01,Dynamic plus news index,64.75292309324286,69.7,4.947076906757147,retrospective_news_index_without_historical_vintages
+2023-12-01,Dynamic plus news and controls,62.903401731724706,69.7,6.796598268275297,retrospective_news_index_without_historical_vintages
+2024-01-01,Macro baseline,85.28044154156062,79.0,-6.28044154156062,retrospective_news_index_without_historical_vintages
+2024-01-01,Macro plus news index,85.14576772429686,79.0,-6.14576772429686,retrospective_news_index_without_historical_vintages
+2024-01-01,Macro plus news and controls,72.29997709791556,79.0,6.7000229020844415,retrospective_news_index_without_historical_vintages
+2024-01-01,Dynamic economic baseline,72.5595476691469,79.0,6.440452330853105,retrospective_news_index_without_historical_vintages
+2024-01-01,Dynamic plus news index,72.51929266201081,79.0,6.4807073379891875,retrospective_news_index_without_historical_vintages
+2024-01-01,Dynamic plus news and controls,70.73504211309086,79.0,8.264957886909144,retrospective_news_index_without_historical_vintages
+2024-02-01,Macro baseline,85.64574669988934,76.9,-8.745746699889338,retrospective_news_index_without_historical_vintages
+2024-02-01,Macro plus news index,86.60794804213414,76.9,-9.707948042134134,retrospective_news_index_without_historical_vintages
+2024-02-01,Macro plus news and controls,73.74387388908048,76.9,3.15612611091953,retrospective_news_index_without_historical_vintages
+2024-02-01,Dynamic economic baseline,72.73911732170357,76.9,4.160882678296431,retrospective_news_index_without_historical_vintages
+2024-02-01,Dynamic plus news index,72.66921110582962,76.9,4.230788894170388,retrospective_news_index_without_historical_vintages
+2024-02-01,Dynamic plus news and controls,70.99530627086033,76.9,5.90469372913968,retrospective_news_index_without_historical_vintages
+2024-03-01,Macro baseline,86.97971062515694,79.4,-7.579710625156935,retrospective_news_index_without_historical_vintages
+2024-03-01,Macro plus news index,87.30274744104241,79.4,-7.902747441042408,retrospective_news_index_without_historical_vintages
+2024-03-01,Macro plus news and controls,74.42843531586517,79.4,4.971564684134833,retrospective_news_index_without_historical_vintages
+2024-03-01,Dynamic economic baseline,80.64318622449318,79.4,-1.2431862244931722,retrospective_news_index_without_historical_vintages
+2024-03-01,Dynamic plus news index,80.633685954404,79.4,-1.2336859544039953,retrospective_news_index_without_historical_vintages
+2024-03-01,Dynamic plus news and controls,78.81505729614766,79.4,0.5849427038523487,retrospective_news_index_without_historical_vintages
+2024-04-01,Macro baseline,85.75295170358048,77.2,-8.552951703580476,retrospective_news_index_without_historical_vintages
+2024-04-01,Macro plus news index,87.31380504158356,77.2,-10.11380504158356,retrospective_news_index_without_historical_vintages
+2024-04-01,Macro plus news and controls,74.82621640781763,77.2,2.3737835921823773,retrospective_news_index_without_historical_vintages
+2024-04-01,Dynamic economic baseline,80.79046780179927,77.2,-3.5904678017992637,retrospective_news_index_without_historical_vintages
+2024-04-01,Dynamic plus news index,80.8060404932589,77.2,-3.6060404932589023,retrospective_news_index_without_historical_vintages
+2024-04-01,Dynamic plus news and controls,79.33461742084853,77.2,-2.134617420848528,retrospective_news_index_without_historical_vintages
+2024-05-01,Macro baseline,84.18911732955281,69.1,-15.08911732955282,retrospective_news_index_without_historical_vintages
+2024-05-01,Macro plus news index,85.93719541277576,69.1,-16.83719541277577,retrospective_news_index_without_historical_vintages
+2024-05-01,Macro plus news and controls,74.57819647315803,69.1,-5.478196473158036,retrospective_news_index_without_historical_vintages
+2024-05-01,Dynamic economic baseline,78.77318244001889,69.1,-9.673182440018891,retrospective_news_index_without_historical_vintages
+2024-05-01,Dynamic plus news index,78.75465371986495,69.1,-9.654653719864953,retrospective_news_index_without_historical_vintages
+2024-05-01,Dynamic plus news and controls,77.32751202462832,69.1,-8.227512024628325,retrospective_news_index_without_historical_vintages
+2024-06-01,Macro baseline,84.09245121575948,68.2,-15.892451215759479,retrospective_news_index_without_historical_vintages
+2024-06-01,Macro plus news index,85.22967004934452,68.2,-17.029670049344517,retrospective_news_index_without_historical_vintages
+2024-06-01,Macro plus news and controls,74.11605810220112,68.2,-5.91605810220112,retrospective_news_index_without_historical_vintages
+2024-06-01,Dynamic economic baseline,72.27003232618156,68.2,-4.070032326181561,retrospective_news_index_without_historical_vintages
+2024-06-01,Dynamic plus news index,72.13664042043071,68.2,-3.936640420430706,retrospective_news_index_without_historical_vintages
+2024-06-01,Dynamic plus news and controls,70.80343096264279,68.2,-2.60343096264279,retrospective_news_index_without_historical_vintages
+2024-07-01,Macro baseline,84.25142206602415,66.4,-17.851422066024142,retrospective_news_index_without_historical_vintages
+2024-07-01,Macro plus news index,84.60556797890615,66.4,-18.205567978906146,retrospective_news_index_without_historical_vintages
+2024-07-01,Macro plus news and controls,74.15227805637474,66.4,-7.752278056374735,retrospective_news_index_without_historical_vintages
+2024-07-01,Dynamic economic baseline,71.47527833655968,66.4,-5.075278336559677,retrospective_news_index_without_historical_vintages
+2024-07-01,Dynamic plus news index,71.35170203704351,66.4,-4.951702037043503,retrospective_news_index_without_historical_vintages
+2024-07-01,Dynamic plus news and controls,70.19288122838694,66.4,-3.792881228386932,retrospective_news_index_without_historical_vintages
+2024-08-01,Macro baseline,84.06984344741416,67.9,-16.169843447414152,retrospective_news_index_without_historical_vintages
+2024-08-01,Macro plus news index,84.6941133234896,67.9,-16.794113323489597,retrospective_news_index_without_historical_vintages
+2024-08-01,Macro plus news and controls,74.40542942999888,67.9,-6.50542942999887,retrospective_news_index_without_historical_vintages
+2024-08-01,Dynamic economic baseline,69.74904112151023,67.9,-1.8490411215102256,retrospective_news_index_without_historical_vintages
+2024-08-01,Dynamic plus news index,69.56311829216735,67.9,-1.66311829216734,retrospective_news_index_without_historical_vintages
+2024-08-01,Dynamic plus news and controls,68.67766498053447,67.9,-0.7776649805344675,retrospective_news_index_without_historical_vintages
+2024-09-01,Macro baseline,83.39744870920131,70.1,-13.29744870920132,retrospective_news_index_without_historical_vintages
+2024-09-01,Macro plus news index,84.14670708905228,70.1,-14.04670708905229,retrospective_news_index_without_historical_vintages
+2024-09-01,Macro plus news and controls,74.25561297732312,70.1,-4.1556129773231305,retrospective_news_index_without_historical_vintages
+2024-09-01,Dynamic economic baseline,70.78547020398999,70.1,-0.6854702039899934,retrospective_news_index_without_historical_vintages
+2024-09-01,Dynamic plus news index,70.59325173619872,70.1,-0.4932517361987294,retrospective_news_index_without_historical_vintages
+2024-09-01,Dynamic plus news and controls,69.73154799265346,70.1,0.3684520073465336,retrospective_news_index_without_historical_vintages
+2024-10-01,Macro baseline,85.48696350944881,70.5,-14.986963509448813,retrospective_news_index_without_historical_vintages
+2024-10-01,Macro plus news index,85.34416915144581,70.5,-14.844169151445811,retrospective_news_index_without_historical_vintages
+2024-10-01,Macro plus news and controls,75.97702161463417,70.5,-5.477021614634168,retrospective_news_index_without_historical_vintages
+2024-10-01,Dynamic economic baseline,72.98418025616402,70.5,-2.4841802561640236,retrospective_news_index_without_historical_vintages
+2024-10-01,Dynamic plus news index,72.8935077229024,70.5,-2.393507722902399,retrospective_news_index_without_historical_vintages
+2024-10-01,Dynamic plus news and controls,72.20391510364365,70.5,-1.7039151036436522,retrospective_news_index_without_historical_vintages
+2024-11-01,Macro baseline,86.69324894619234,71.8,-14.893248946192344,retrospective_news_index_without_historical_vintages
+2024-11-01,Macro plus news index,87.04066986078237,71.8,-15.240669860782376,retrospective_news_index_without_historical_vintages
+2024-11-01,Macro plus news and controls,77.21303852270887,71.8,-5.413038522708874,retrospective_news_index_without_historical_vintages
+2024-11-01,Dynamic economic baseline,73.49589605841871,71.8,-1.695896058418711,retrospective_news_index_without_historical_vintages
+2024-11-01,Dynamic plus news index,73.3403852679173,71.8,-1.5403852679173013,retrospective_news_index_without_historical_vintages
+2024-11-01,Dynamic plus news and controls,72.7201368893669,71.8,-0.9201368893669013,retrospective_news_index_without_historical_vintages
+2024-12-01,Macro baseline,85.00065539957059,74.0,-11.00065539957059,retrospective_news_index_without_historical_vintages
+2024-12-01,Macro plus news index,86.31247011193723,74.0,-12.31247011193723,retrospective_news_index_without_historical_vintages
+2024-12-01,Macro plus news and controls,77.31136234033042,74.0,-3.311362340330419,retrospective_news_index_without_historical_vintages
+2024-12-01,Dynamic economic baseline,74.18620354693039,74.0,-0.1862035469303862,retrospective_news_index_without_historical_vintages
+2024-12-01,Dynamic plus news index,73.92881962971637,74.0,0.07118037028362778,retrospective_news_index_without_historical_vintages
+2024-12-01,Dynamic plus news and controls,73.42272545587345,74.0,0.5772745441265528,retrospective_news_index_without_historical_vintages
+2025-01-01,Macro baseline,83.62362910488987,71.7,-11.92362910488987,retrospective_news_index_without_historical_vintages
+2025-01-01,Macro plus news index,85.9015675749709,71.7,-14.201567574970895,retrospective_news_index_without_historical_vintages
+2025-01-01,Macro plus news and controls,77.99081223498483,71.7,-6.290812234984827,retrospective_news_index_without_historical_vintages
+2025-01-01,Dynamic economic baseline,75.71859154168251,71.7,-4.018591541682511,retrospective_news_index_without_historical_vintages
+2025-01-01,Dynamic plus news index,75.3590142106178,71.7,-3.659014210617798,retrospective_news_index_without_historical_vintages
+2025-01-01,Dynamic plus news and controls,74.97810066937292,71.7,-3.278100669372918,retrospective_news_index_without_historical_vintages
+2025-02-01,Macro baseline,83.07007859645036,64.7,-18.370078596450355,retrospective_news_index_without_historical_vintages
+2025-02-01,Macro plus news index,84.51033793917608,64.7,-19.81033793917608,retrospective_news_index_without_historical_vintages
+2025-02-01,Macro plus news and controls,77.91020940842405,64.7,-13.21020940842405,retrospective_news_index_without_historical_vintages
+2025-02-01,Dynamic economic baseline,73.71153719236193,64.7,-9.011537192361928,retrospective_news_index_without_historical_vintages
+2025-02-01,Dynamic plus news index,73.37459133940001,64.7,-8.67459133940001,retrospective_news_index_without_historical_vintages
+2025-02-01,Dynamic plus news and controls,73.30789869466943,64.7,-8.60789869466943,retrospective_news_index_without_historical_vintages
+2025-03-01,Macro baseline,83.54184937514721,57.0,-26.54184937514721,retrospective_news_index_without_historical_vintages
+2025-03-01,Macro plus news index,84.38058165737822,57.0,-27.380581657378215,retrospective_news_index_without_historical_vintages
+2025-03-01,Macro plus news and controls,77.80137683625242,57.0,-20.801376836252416,retrospective_news_index_without_historical_vintages
+2025-03-01,Dynamic economic baseline,67.8003593665677,57.0,-10.800359366567704,retrospective_news_index_without_historical_vintages
+2025-03-01,Dynamic plus news index,67.4049146384447,57.0,-10.404914638444694,retrospective_news_index_without_historical_vintages
+2025-03-01,Dynamic plus news and controls,67.91110619950175,57.0,-10.911106199501745,retrospective_news_index_without_historical_vintages
+2025-04-01,Macro baseline,82.7819636530934,52.2,-30.581963653093396,retrospective_news_index_without_historical_vintages
+2025-04-01,Macro plus news index,83.00563393567874,52.2,-30.805633935678742,retrospective_news_index_without_historical_vintages
+2025-04-01,Macro plus news and controls,77.12116778271444,52.2,-24.921167782714434,retrospective_news_index_without_historical_vintages
+2025-04-01,Dynamic economic baseline,60.703484968483906,52.2,-8.503484968483903,retrospective_news_index_without_historical_vintages
+2025-04-01,Dynamic plus news index,60.331815951613294,52.2,-8.13181595161329,retrospective_news_index_without_historical_vintages
+2025-04-01,Dynamic plus news and controls,61.484554834853604,52.2,-9.284554834853601,retrospective_news_index_without_historical_vintages
+2025-05-01,Macro baseline,83.9863350807163,52.2,-31.7863350807163,retrospective_news_index_without_historical_vintages
+2025-05-01,Macro plus news index,83.18166119870085,52.2,-30.98166119870085,retrospective_news_index_without_historical_vintages
+2025-05-01,Macro plus news and controls,78.39502590598754,52.2,-26.195025905987535,retrospective_news_index_without_historical_vintages
+2025-05-01,Dynamic economic baseline,56.341656200660566,52.2,-4.141656200660563,retrospective_news_index_without_historical_vintages
+2025-05-01,Dynamic plus news index,56.28711103809516,52.2,-4.087111038095159,retrospective_news_index_without_historical_vintages
+2025-05-01,Dynamic plus news and controls,57.6855032564783,52.2,-5.485503256478296,retrospective_news_index_without_historical_vintages
+2025-06-01,Macro baseline,84.72740805670632,60.7,-24.02740805670632,retrospective_news_index_without_historical_vintages
+2025-06-01,Macro plus news index,83.1486724064599,60.7,-22.44867240645989,retrospective_news_index_without_historical_vintages
+2025-06-01,Macro plus news and controls,78.92232452970276,60.7,-18.22232452970276,retrospective_news_index_without_historical_vintages
+2025-06-01,Dynamic economic baseline,56.10112701735741,60.7,4.59887298264259,retrospective_news_index_without_historical_vintages
+2025-06-01,Dynamic plus news index,56.282758032670465,60.7,4.417241967329538,retrospective_news_index_without_historical_vintages
+2025-06-01,Dynamic plus news and controls,57.56182937915151,60.7,3.1381706208484914,retrospective_news_index_without_historical_vintages
+2025-07-01,Macro baseline,83.09028466505711,61.7,-21.39028466505711,retrospective_news_index_without_historical_vintages
+2025-07-01,Macro plus news index,82.2143832483332,61.7,-20.514383248333203,retrospective_news_index_without_historical_vintages
+2025-07-01,Macro plus news and controls,78.80348823204241,61.7,-17.10348823204241,retrospective_news_index_without_historical_vintages
+2025-07-01,Dynamic economic baseline,63.71688506642182,61.7,-2.016885066421814,retrospective_news_index_without_historical_vintages
+2025-07-01,Dynamic plus news index,63.721790369498756,61.7,-2.0217903694987527,retrospective_news_index_without_historical_vintages
+2025-07-01,Dynamic plus news and controls,64.48548853295983,61.7,-2.785488532959832,retrospective_news_index_without_historical_vintages
+2025-08-01,Macro baseline,81.70882162709331,58.2,-23.50882162709331,retrospective_news_index_without_historical_vintages
+2025-08-01,Macro plus news index,80.53540925475001,58.2,-22.335409254750004,retrospective_news_index_without_historical_vintages
+2025-08-01,Macro plus news and controls,79.28404321631444,58.2,-21.08404321631444,retrospective_news_index_without_historical_vintages
+2025-08-01,Dynamic economic baseline,63.266771877503366,58.2,-5.066771877503363,retrospective_news_index_without_historical_vintages
+2025-08-01,Dynamic plus news index,63.38008703950759,58.2,-5.18008703950759,retrospective_news_index_without_historical_vintages
+2025-08-01,Dynamic plus news and controls,64.41109242665853,58.2,-6.211092426658524,retrospective_news_index_without_historical_vintages
+2025-09-01,Macro baseline,80.97677828491824,55.1,-25.876778284918238,retrospective_news_index_without_historical_vintages
+2025-09-01,Macro plus news index,80.34361921924938,55.1,-25.243619219249375,retrospective_news_index_without_historical_vintages
+2025-09-01,Macro plus news and controls,78.6497319201558,55.1,-23.5497319201558,retrospective_news_index_without_historical_vintages
+2025-09-01,Dynamic economic baseline,60.72892355283811,55.1,-5.62892355283811,retrospective_news_index_without_historical_vintages
+2025-09-01,Dynamic plus news index,60.6222166693686,55.1,-5.522216669368596,retrospective_news_index_without_historical_vintages
+2025-09-01,Dynamic plus news and controls,61.62034231209314,55.1,-6.520342312093142,retrospective_news_index_without_historical_vintages
+2025-10-01,Macro baseline,79.47590148987575,53.6,-25.87590148987575,retrospective_news_index_without_historical_vintages
+2025-10-01,Macro plus news index,79.64795061435149,53.6,-26.047950614351485,retrospective_news_index_without_historical_vintages
+2025-10-01,Macro plus news and controls,77.77940076866119,53.6,-24.17940076866119,retrospective_news_index_without_historical_vintages
+2025-10-01,Dynamic economic baseline,57.53175886944854,53.6,-3.9317588694485366,retrospective_news_index_without_historical_vintages
+2025-10-01,Dynamic plus news index,57.18021599156475,53.6,-3.5802159915647493,retrospective_news_index_without_historical_vintages
+2025-10-01,Dynamic plus news and controls,58.19914451447259,53.6,-4.5991445144725915,retrospective_news_index_without_historical_vintages
+2025-11-01,Macro baseline,79.27096321290058,51.0,-28.270963212900583,retrospective_news_index_without_historical_vintages
+2025-11-01,Macro plus news index,78.52013196780166,51.0,-27.52013196780166,retrospective_news_index_without_historical_vintages
+2025-11-01,Macro plus news and controls,76.9660385816761,51.0,-25.966038581676102,retrospective_news_index_without_historical_vintages
+2025-11-01,Dynamic economic baseline,55.99521608959645,51.0,-4.995216089596447,retrospective_news_index_without_historical_vintages
+2025-11-01,Dynamic plus news index,55.89243520396886,51.0,-4.892435203968859,retrospective_news_index_without_historical_vintages
+2025-11-01,Dynamic plus news and controls,56.78575779477996,51.0,-5.785757794779961,retrospective_news_index_without_historical_vintages
+2025-12-01,Macro baseline,78.78681837466848,52.9,-25.886818374668486,retrospective_news_index_without_historical_vintages
+2025-12-01,Macro plus news index,76.97637063103251,52.9,-24.07637063103251,retrospective_news_index_without_historical_vintages
+2025-12-01,Macro plus news and controls,75.7251007075142,52.9,-22.825100707514203,retrospective_news_index_without_historical_vintages
+2025-12-01,Dynamic economic baseline,53.377854400016716,52.9,-0.4778544000167173,retrospective_news_index_without_historical_vintages
+2025-12-01,Dynamic plus news index,53.53715142501236,52.9,-0.6371514250123624,retrospective_news_index_without_historical_vintages
+2025-12-01,Dynamic plus news and controls,54.30281495978868,52.9,-1.402814959788678,retrospective_news_index_without_historical_vintages
+2026-01-01,Macro baseline,77.73964656684628,56.4,-21.339646566846277,retrospective_news_index_without_historical_vintages
+2026-01-01,Macro plus news index,76.47077720175038,56.4,-20.07077720175038,retrospective_news_index_without_historical_vintages
+2026-01-01,Macro plus news and controls,75.09122965876512,56.4,-18.691229658765117,retrospective_news_index_without_historical_vintages
+2026-01-01,Dynamic economic baseline,54.9631447480066,56.4,1.4368552519934,retrospective_news_index_without_historical_vintages
+2026-01-01,Dynamic plus news index,54.973061728183865,56.4,1.4269382718161339,retrospective_news_index_without_historical_vintages
+2026-01-01,Dynamic plus news and controls,55.59480359104141,56.4,0.8051964089585866,retrospective_news_index_without_historical_vintages
+2026-02-01,Macro baseline,78.21297777374265,56.6,-21.61297777374265,retrospective_news_index_without_historical_vintages
+2026-02-01,Macro plus news index,77.95053275076398,56.6,-21.350532750763982,retrospective_news_index_without_historical_vintages
+2026-02-01,Macro plus news and controls,76.92801898261143,56.6,-20.328018982611432,retrospective_news_index_without_historical_vintages
+2026-02-01,Dynamic economic baseline,58.23195373405376,56.6,-1.6319537340537593,retrospective_news_index_without_historical_vintages
+2026-02-01,Dynamic plus news index,58.01986586416195,56.6,-1.4198658641619488,retrospective_news_index_without_historical_vintages
+2026-02-01,Dynamic plus news and controls,58.59837339469759,56.6,-1.9983733946975875,retrospective_news_index_without_historical_vintages
+2026-03-01,Macro baseline,77.35981738281909,53.3,-24.05981738281909,retrospective_news_index_without_historical_vintages
+2026-03-01,Macro plus news index,77.57632074778732,53.3,-24.276320747787324,retrospective_news_index_without_historical_vintages
+2026-03-01,Macro plus news and controls,76.38351165636296,53.3,-23.08351165636296,retrospective_news_index_without_historical_vintages
+2026-03-01,Dynamic economic baseline,58.471272707120875,53.3,-5.1712727071208775,retrospective_news_index_without_historical_vintages
+2026-03-01,Dynamic plus news index,58.161116101439916,53.3,-4.861116101439919,retrospective_news_index_without_historical_vintages
+2026-03-01,Dynamic plus news and controls,58.676967463078476,53.3,-5.376967463078479,retrospective_news_index_without_historical_vintages
+2026-04-01,Macro baseline,77.40699541695668,49.8,-27.60699541695668,retrospective_news_index_without_historical_vintages
+2026-04-01,Macro plus news index,77.86527838868446,49.8,-28.06527838868446,retrospective_news_index_without_historical_vintages
+2026-04-01,Macro plus news and controls,77.20265991886038,49.8,-27.40265991886038,retrospective_news_index_without_historical_vintages
+2026-04-01,Dynamic economic baseline,55.39374166282619,49.8,-5.59374166282619,retrospective_news_index_without_historical_vintages
+2026-04-01,Dynamic plus news index,54.97549780205839,49.8,-5.175497802058395,retrospective_news_index_without_historical_vintages
+2026-04-01,Dynamic plus news and controls,55.63417999312663,49.8,-5.834179993126632,retrospective_news_index_without_historical_vintages
+2026-05-01,Macro baseline,72.61372461714961,44.8,-27.813724617149617,retrospective_news_index_without_historical_vintages
+2026-05-01,Macro plus news index,70.70239868591358,44.8,-25.90239868591358,retrospective_news_index_without_historical_vintages
+2026-05-01,Macro plus news and controls,71.31980893069553,44.8,-26.519808930695532,retrospective_news_index_without_historical_vintages
+2026-05-01,Dynamic economic baseline,51.39423993779409,44.8,-6.594239937794093,retrospective_news_index_without_historical_vintages
+2026-05-01,Dynamic plus news index,51.630722901607015,44.8,-6.830722901607018,retrospective_news_index_without_historical_vintages
+2026-05-01,Dynamic plus news and controls,52.05473922144105,44.8,-7.254739221441049,retrospective_news_index_without_historical_vintages
+2026-06-01,Macro baseline,70.32689469919212,49.5,-20.826894699192124,retrospective_news_index_without_historical_vintages
+2026-06-01,Macro plus news index,68.17114155148894,49.5,-18.671141551488944,retrospective_news_index_without_historical_vintages
+2026-06-01,Macro plus news and controls,69.03738799928487,49.5,-19.537387999284874,retrospective_news_index_without_historical_vintages
+2026-06-01,Dynamic economic baseline,46.353629421016315,49.5,3.146370578983685,retrospective_news_index_without_historical_vintages
+2026-06-01,Dynamic plus news index,46.56440320658547,49.5,2.9355967934145326,retrospective_news_index_without_historical_vintages
+2026-06-01,Dynamic plus news and controls,46.81311024080216,49.5,2.6868897591978396,retrospective_news_index_without_historical_vintages
+2026-07-01,Macro baseline,67.81677519552404,55.2,-12.616775195524042,retrospective_news_index_without_historical_vintages
+2026-07-01,Macro plus news index,67.27248950867019,55.2,-12.072489508670188,retrospective_news_index_without_historical_vintages
+2026-07-01,Macro plus news and controls,68.4386154503642,55.2,-13.238615450364193,retrospective_news_index_without_historical_vintages
+2026-07-01,Dynamic economic baseline,50.5742173247039,55.2,4.625782675296101,retrospective_news_index_without_historical_vintages
+2026-07-01,Dynamic plus news index,50.463488887616855,55.2,4.736511112383148,retrospective_news_index_without_historical_vintages
+2026-07-01,Dynamic plus news and controls,50.87847225377359,55.2,4.3215277462264154,retrospective_news_index_without_historical_vintages
+2026-08-01,Macro baseline,70.90694095370664,51.7,-19.206940953706635,retrospective_news_index_without_historical_vintages
+2026-08-01,Macro plus news index,70.97039104362545,51.7,-19.27039104362545,retrospective_news_index_without_historical_vintages
+2026-08-01,Macro plus news and controls,71.60005187301526,51.7,-19.900051873015258,retrospective_news_index_without_historical_vintages
+2026-08-01,Dynamic economic baseline,56.29431429035958,51.7,-4.594314290359577,retrospective_news_index_without_historical_vintages
+2026-08-01,Dynamic plus news index,56.07959027535865,51.7,-4.379590275358645,retrospective_news_index_without_historical_vintages
+2026-08-01,Dynamic plus news and controls,56.47577357724679,51.7,-4.775773577246788,retrospective_news_index_without_historical_vintages
+2026-09-01,Macro baseline,70.68726955996001,48.1,-22.587269559960014,retrospective_news_index_without_historical_vintages
+2026-09-01,Macro plus news index,71.80843692006563,48.1,-23.70843692006563,retrospective_news_index_without_historical_vintages
+2026-09-01,Macro plus news and controls,72.08413956574962,48.1,-23.984139565749622,retrospective_news_index_without_historical_vintages
+2026-09-01,Dynamic economic baseline,52.95256798451284,48.1,-4.852567984512838,retrospective_news_index_without_historical_vintages
+2026-09-01,Dynamic plus news index,52.44218572934212,48.1,-4.34218572934212,retrospective_news_index_without_historical_vintages
+2026-09-01,Dynamic plus news and controls,52.88424953042136,48.1,-4.784249530421356,retrospective_news_index_without_historical_vintages

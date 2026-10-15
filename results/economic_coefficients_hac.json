@@ -1,0 +1,23 @@
+[
+  {
+    "feature": "unemployment",
+    "coefficient": -2.4343155955474836,
+    "HAC_SE_6_lags": 0.6154849656720051,
+    "normal_95_lower": -3.6406661282646136,
+    "normal_95_upper": -1.2279650628303536
+  },
+  {
+    "feature": "inflation",
+    "coefficient": -7.563976657605689,
+    "HAC_SE_6_lags": 0.8879852050266319,
+    "normal_95_lower": -9.304427659457888,
+    "normal_95_upper": -5.823525655753491
+  },
+  {
+    "feature": "gdp_growth",
+    "coefficient": 0.03239337825102185,
+    "HAC_SE_6_lags": 0.09332097305224726,
+    "normal_95_lower": -0.1505157289313828,
+    "normal_95_upper": 0.21530248543342648
+  }
+]

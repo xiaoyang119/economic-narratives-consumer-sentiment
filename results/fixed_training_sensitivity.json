@@ -1,0 +1,23 @@
+[
+  {
+    "model": "Economic",
+    "training": "fixed 2010\u20132019 vintage available by 2019-12-31",
+    "test_n": 81,
+    "RMSE": 28.750670547174646,
+    "MAE": 26.558902341852136
+  },
+  {
+    "model": "Economic plus persistence",
+    "training": "fixed 2010\u20132019 vintage available by 2019-12-31",
+    "test_n": 81,
+    "RMSE": 13.113953274712351,
+    "MAE": 11.854559901184738
+  },
+  {
+    "model": "Economic plus household controls",
+    "training": "fixed 2010\u20132019 vintage available by 2019-12-31",
+    "test_n": 81,
+    "RMSE": 13.093008722796112,
+    "MAE": 11.805443223619873
+  }
+]

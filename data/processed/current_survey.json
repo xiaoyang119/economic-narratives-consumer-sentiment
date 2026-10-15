@@ -1,0 +1,23 @@
+{
+  "source": "https://www.sca.isr.umich.edu/",
+  "retrieved_date": "2026-10-14",
+  "2026-10": {
+    "status": "preliminary",
+    "sentiment": 46.3,
+    "current_conditions": 44.7,
+    "expectations": 47.3,
+    "release_date": "2026-10-09"
+  },
+  "2026-09": {
+    "status": "final",
+    "sentiment": 48.1,
+    "current_conditions": 50.9,
+    "expectations": 46.3
+  },
+  "2025-10": {
+    "status": "final",
+    "sentiment": 53.6,
+    "current_conditions": 58.6,
+    "expectations": 50.3
+  }
+}

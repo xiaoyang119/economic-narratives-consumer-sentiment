@@ -1,0 +1,2333 @@
+model,month,feature,coefficient
+Economic,2018-01-01,unemployment,-4.868266992815624
+Economic,2018-01-01,inflation,-2.4333546207682684
+Economic,2018-01-01,gdp_growth,0.9092012500898559
+Economic,2018-02-01,unemployment,-4.857007358046143
+Economic,2018-02-01,inflation,-2.455971719126234
+Economic,2018-02-01,gdp_growth,0.9036238905158398
+Economic,2018-03-01,unemployment,-4.857007358046143
+Economic,2018-03-01,inflation,-2.455971719126234
+Economic,2018-03-01,gdp_growth,0.9036238905158398
+Economic,2018-04-01,unemployment,-4.9009822292686405
+Economic,2018-04-01,inflation,-2.369120570900973
+Economic,2018-04-01,gdp_growth,0.9152406175718182
+Economic,2018-05-01,unemployment,-4.9839716113780135
+Economic,2018-05-01,inflation,-2.2037367559066428
+Economic,2018-05-01,gdp_growth,0.9400325162377969
+Economic,2018-06-01,unemployment,-5.010358537723821
+Economic,2018-06-01,inflation,-2.135315980664449
+Economic,2018-06-01,gdp_growth,0.9427215747734735
+Economic,2018-07-01,unemployment,-5.025905979374551
+Economic,2018-07-01,inflation,-2.096981600049349
+Economic,2018-07-01,gdp_growth,0.9433848233978912
+Economic,2018-08-01,unemployment,-5.0407500864645085
+Economic,2018-08-01,inflation,-2.0534936952388687
+Economic,2018-08-01,gdp_growth,0.9425058101559922
+Economic,2018-09-01,unemployment,-5.024124660675341
+Economic,2018-09-01,inflation,-2.097136274785448
+Economic,2018-09-01,gdp_growth,0.9276331393179931
+Economic,2018-10-01,unemployment,-5.045402213265972
+Economic,2018-10-01,inflation,-2.0398607705951255
+Economic,2018-10-01,gdp_growth,0.9472595751423613
+Economic,2018-11-01,unemployment,-5.047543920329686
+Economic,2018-11-01,inflation,-2.0344392241404994
+Economic,2018-11-01,gdp_growth,0.9492386320831269
+Economic,2018-12-01,unemployment,-5.031966312091699
+Economic,2018-12-01,inflation,-2.0670982662086383
+Economic,2018-12-01,gdp_growth,0.9396814049775001
+Economic,2019-01-01,unemployment,-5.024484186306536
+Economic,2019-01-01,inflation,-2.0824828107113325
+Economic,2019-01-01,gdp_growth,0.9350309369727328
+Economic,2019-02-01,unemployment,-5.024484186306536
+Economic,2019-02-01,inflation,-2.0824828107113325
+Economic,2019-02-01,gdp_growth,0.9350309369727328
+Economic,2019-03-01,unemployment,-4.960994134774789
+Economic,2019-03-01,inflation,-2.1931554895443104
+Economic,2019-03-01,gdp_growth,0.8981088830153805
+Economic,2019-04-01,unemployment,-4.9435157526436155
+Economic,2019-04-01,inflation,-2.2217428975290363
+Economic,2019-04-01,gdp_growth,0.8806829274321877
+Economic,2019-05-01,unemployment,-4.93644864379911
+Economic,2019-05-01,inflation,-2.224837780073481
+Economic,2019-05-01,gdp_growth,0.8815044114526848
+Economic,2019-06-01,unemployment,-4.942973871402704
+Economic,2019-06-01,inflation,-2.2208546804546514
+Economic,2019-06-01,gdp_growth,0.8858426509045946
+Economic,2019-07-01,unemployment,-4.932634269220463
+Economic,2019-07-01,inflation,-2.2284309663203437
+Economic,2019-07-01,gdp_growth,0.8804278996183699
+Economic,2019-08-01,unemployment,-4.932634269220463
+Economic,2019-08-01,inflation,-2.2284309663203437
+Economic,2019-08-01,gdp_growth,0.8804278996183699
+Economic,2019-09-01,unemployment,-4.872973382330278
+Economic,2019-09-01,inflation,-2.256120067061937
+Economic,2019-09-01,gdp_growth,0.8888015293617834
+Economic,2019-10-01,unemployment,-4.84363765578985
+Economic,2019-10-01,inflation,-2.271859452799886
+Economic,2019-10-01,gdp_growth,0.8971540141936328
+Economic,2019-11-01,unemployment,-4.828920423193856
+Economic,2019-11-01,inflation,-2.2836166539836724
+Economic,2019-11-01,gdp_growth,0.9019053053321195
+Economic,2019-12-01,unemployment,-4.815319382137961
+Economic,2019-12-01,inflation,-2.2890595383952634
+Economic,2019-12-01,gdp_growth,0.9067590957775472
+Economic,2020-01-01,unemployment,-4.817522361666272
+Economic,2020-01-01,inflation,-2.2886299216788983
+Economic,2020-01-01,gdp_growth,0.9063762672961614
+Economic,2020-02-01,unemployment,-4.822077679038399
+Economic,2020-02-01,inflation,-2.284462827288126
+Economic,2020-02-01,gdp_growth,0.9053036554539977
+Economic,2020-03-01,unemployment,-4.835512171640316
+Economic,2020-03-01,inflation,-2.2642310219498647
+Economic,2020-03-01,gdp_growth,0.901324444945299
+Economic,2020-04-01,unemployment,-4.785821920608507
+Economic,2020-04-01,inflation,-2.3621793594184424
+Economic,2020-04-01,gdp_growth,0.9173165986369125
+Economic,2020-05-01,unemployment,-4.635381044304235
+Economic,2020-05-01,inflation,-2.688487930306684
+Economic,2020-05-01,gdp_growth,0.9628006707151051
+Economic,2020-06-01,unemployment,-4.589852434656274
+Economic,2020-06-01,inflation,-2.848436439467012
+Economic,2020-06-01,gdp_growth,1.4000493544459012
+Economic,2020-07-01,unemployment,-4.092685145840275
+Economic,2020-07-01,inflation,-3.5249640425194935
+Economic,2020-07-01,gdp_growth,0.6031195871281301
+Economic,2020-08-01,unemployment,-3.9522601785700884
+Economic,2020-08-01,inflation,-3.7338620134580367
+Economic,2020-08-01,gdp_growth,0.32394194105492763
+Economic,2020-09-01,unemployment,-3.9840313641439566
+Economic,2020-09-01,inflation,-3.519405301874536
+Economic,2020-09-01,gdp_growth,-0.04499299080047492
+Economic,2020-10-01,unemployment,-3.9840313641439566
+Economic,2020-10-01,inflation,-3.519405301874536
+Economic,2020-10-01,gdp_growth,-0.04499299080047492
+Economic,2020-11-01,unemployment,-3.9921712640102824
+Economic,2020-11-01,inflation,-3.455847663279493
+Economic,2020-11-01,gdp_growth,-0.1222561256614822
+Economic,2020-12-01,unemployment,-3.984918201488661
+Economic,2020-12-01,inflation,-3.47494858697243
+Economic,2020-12-01,gdp_growth,-0.11397204590696115
+Economic,2021-01-01,unemployment,-3.9849569591968637
+Economic,2021-01-01,inflation,-3.474793066937054
+Economic,2021-01-01,gdp_growth,-0.1140274690699709
+Economic,2021-02-01,unemployment,-3.993651993918655
+Economic,2021-02-01,inflation,-3.4350638617495957
+Economic,2021-02-01,gdp_growth,-0.12729389257316184
+Economic,2021-03-01,unemployment,-3.9983034442430454
+Economic,2021-03-01,inflation,-3.403094874600974
+Economic,2021-03-01,gdp_growth,-0.13003851709944442
+Economic,2021-04-01,unemployment,-3.998276723272217
+Economic,2021-04-01,inflation,-3.4030228060111085
+Economic,2021-04-01,gdp_growth,-0.13017258408368312
+Economic,2021-05-01,unemployment,-3.99896924633446
+Economic,2021-05-01,inflation,-3.3970414399967344
+Economic,2021-05-01,gdp_growth,-0.12931540119997992
+Economic,2021-06-01,unemployment,-3.9986353370235994
+Economic,2021-06-01,inflation,-3.4050297940601206
+Economic,2021-06-01,gdp_growth,-0.1294914014142886
+Economic,2021-07-01,unemployment,-4.0067223769822045
+Economic,2021-07-01,inflation,-3.1219814515943014
+Economic,2021-07-01,gdp_growth,-0.12891970165373506
+Economic,2021-08-01,unemployment,-4.009477180179948
+Economic,2021-08-01,inflation,-3.047629320472774
+Economic,2021-08-01,gdp_growth,-0.12897174386170604
+Economic,2021-09-01,unemployment,-3.998157110832998
+Economic,2021-09-01,inflation,-3.3893258921489915
+Economic,2021-09-01,gdp_growth,-0.12883153898269084
+Economic,2021-10-01,unemployment,-3.998157110832998
+Economic,2021-10-01,inflation,-3.3893258921489915
+Economic,2021-10-01,gdp_growth,-0.12883153898269084
+Economic,2021-11-01,unemployment,-3.9708256166065774
+Economic,2021-11-01,inflation,-3.9067722018904507
+Economic,2021-11-01,gdp_growth,-0.12770279538332965
+Economic,2021-12-01,unemployment,-3.937438086823755
+Economic,2021-12-01,inflation,-4.338798495346806
+Economic,2021-12-01,gdp_growth,-0.11764393966894966
+Economic,2022-01-01,unemployment,-3.9219423166535154
+Economic,2022-01-01,inflation,-4.557212041506148
+Economic,2022-01-01,gdp_growth,-0.11275579900394529
+Economic,2022-02-01,unemployment,-3.9036080341137054
+Economic,2022-02-01,inflation,-4.812006274809667
+Economic,2022-02-01,gdp_growth,-0.10724166397133506
+Economic,2022-03-01,unemployment,-3.8790972479385624
+Economic,2022-03-01,inflation,-5.143762485786981
+Economic,2022-03-01,gdp_growth,-0.10616009233988935
+Economic,2022-04-01,unemployment,-3.8596223913546113
+Economic,2022-04-01,inflation,-5.452556500439953
+Economic,2022-04-01,gdp_growth,-0.10506394228987462
+Economic,2022-05-01,unemployment,-3.854862505216479
+Economic,2022-05-01,inflation,-5.524618766071401
+Economic,2022-05-01,gdp_growth,-0.10465678087952344
+Economic,2022-06-01,unemployment,-3.833582472405524
+Economic,2022-06-01,inflation,-5.761098354852741
+Economic,2022-06-01,gdp_growth,-0.09268888086250457
+Economic,2022-07-01,unemployment,-3.7947544871461543
+Economic,2022-07-01,inflation,-6.142505516536475
+Economic,2022-07-01,gdp_growth,-0.07229496141268343
+Economic,2022-08-01,unemployment,-3.7677604250787406
+Economic,2022-08-01,inflation,-6.415705903418123
+Economic,2022-08-01,gdp_growth,-0.057740386735793466
+Economic,2022-09-01,unemployment,-3.7625177897472
+Economic,2022-09-01,inflation,-6.482057203127291
+Economic,2022-09-01,gdp_growth,-0.054741027264328425
+Economic,2022-10-01,unemployment,-3.7520552865960366
+Economic,2022-10-01,inflation,-6.577565563126569
+Economic,2022-10-01,gdp_growth,-0.05027125380933213
+Economic,2022-11-01,unemployment,-3.746948563716925
+Economic,2022-11-01,inflation,-6.632740271472555
+Economic,2022-11-01,gdp_growth,-0.047738983742312543
+Economic,2022-12-01,unemployment,-3.737525417575744
+Economic,2022-12-01,inflation,-6.72848653447912
+Economic,2022-12-01,gdp_growth,-0.046363504079967394
+Economic,2023-01-01,unemployment,-3.7345708649896214
+Economic,2023-01-01,inflation,-6.767950289755525
+Economic,2023-01-01,gdp_growth,-0.046001321866377856
+Economic,2023-02-01,unemployment,-3.7313723485098564
+Economic,2023-02-01,inflation,-6.792645760329645
+Economic,2023-02-01,gdp_growth,-0.04585448625737308
+Economic,2023-03-01,unemployment,-3.7231274971945485
+Economic,2023-03-01,inflation,-6.827987866953439
+Economic,2023-03-01,gdp_growth,-0.04533107141170468
+Economic,2023-04-01,unemployment,-3.710927399286842
+Economic,2023-04-01,inflation,-6.889594505805838
+Economic,2023-04-01,gdp_growth,-0.04423339358270543
+Economic,2023-05-01,unemployment,-3.699199967200657
+Economic,2023-05-01,inflation,-6.942754664931151
+Economic,2023-05-01,gdp_growth,-0.04316514152548491
+Economic,2023-06-01,unemployment,-3.658762531410516
+Economic,2023-06-01,inflation,-7.022958161553026
+Economic,2023-06-01,gdp_growth,-0.03680714050872065
+Economic,2023-07-01,unemployment,-3.633946525597936
+Economic,2023-07-01,inflation,-7.077670939779057
+Economic,2023-07-01,gdp_growth,-0.03315878131003473
+Economic,2023-08-01,unemployment,-3.6211358091864887
+Economic,2023-08-01,inflation,-7.099791740232778
+Economic,2023-08-01,gdp_growth,-0.0319448449925104
+Economic,2023-09-01,unemployment,-3.5811151792181164
+Economic,2023-09-01,inflation,-7.113978065973389
+Economic,2023-09-01,gdp_growth,-0.029915516225519443
+Economic,2023-10-01,unemployment,-3.5423683442211935
+Economic,2023-10-01,inflation,-7.140793114387419
+Economic,2023-10-01,gdp_growth,-0.026991470570265037
+Economic,2023-11-01,unemployment,-3.5099178573651275
+Economic,2023-11-01,inflation,-7.179890281694738
+Economic,2023-11-01,gdp_growth,-0.024278823747582494
+Economic,2023-12-01,unemployment,-3.475643878974397
+Economic,2023-12-01,inflation,-7.222500688441331
+Economic,2023-12-01,gdp_growth,-0.028598099885859797
+Economic,2024-01-01,unemployment,-3.451003122006075
+Economic,2024-01-01,inflation,-7.236839183936173
+Economic,2024-01-01,gdp_growth,-0.03207163960246484
+Economic,2024-02-01,unemployment,-3.451003122006075
+Economic,2024-02-01,inflation,-7.236839183936173
+Economic,2024-02-01,gdp_growth,-0.03207163960246484
+Economic,2024-03-01,unemployment,-3.435376171327225
+Economic,2024-03-01,inflation,-7.236748390864144
+Economic,2024-03-01,gdp_growth,-0.03347422212655306
+Economic,2024-04-01,unemployment,-3.3925614312999217
+Economic,2024-04-01,inflation,-7.230719939892163
+Economic,2024-04-01,gdp_growth,-0.033264915072404505
+Economic,2024-05-01,unemployment,-3.372361131345576
+Economic,2024-05-01,inflation,-7.227297514572261
+Economic,2024-05-01,gdp_growth,-0.033460921266166205
+Economic,2024-06-01,unemployment,-3.336036694954582
+Economic,2024-06-01,inflation,-7.231355434427428
+Economic,2024-06-01,gdp_growth,-0.029766769757177812
+Economic,2024-07-01,unemployment,-3.2993005056697444
+Economic,2024-07-01,inflation,-7.234196664167453
+Economic,2024-07-01,gdp_growth,-0.025243465661599462
+Economic,2024-08-01,unemployment,-3.25981301796237
+Economic,2024-08-01,inflation,-7.233920358640758
+Economic,2024-08-01,gdp_growth,-0.020738233674548846
+Economic,2024-09-01,unemployment,-3.227331638389107
+Economic,2024-09-01,inflation,-7.232452591330425
+Economic,2024-09-01,gdp_growth,-0.0201391899403186
+Economic,2024-10-01,unemployment,-3.204140308572625
+Economic,2024-10-01,inflation,-7.2323660791555415
+Economic,2024-10-01,gdp_growth,-0.020027285101425166
+Economic,2024-11-01,unemployment,-3.1738044497972933
+Economic,2024-11-01,inflation,-7.220314067983043
+Economic,2024-11-01,gdp_growth,-0.019899097528309873
+Economic,2024-12-01,unemployment,-3.140542473896819
+Economic,2024-12-01,inflation,-7.201568186166459
+Economic,2024-12-01,gdp_growth,-0.01933491140168857
+Economic,2025-01-01,unemployment,-3.1177587162535922
+Economic,2025-01-01,inflation,-7.194495362861425
+Economic,2025-01-01,gdp_growth,-0.018929852927105507
+Economic,2025-02-01,unemployment,-3.0959791803521046
+Economic,2025-02-01,inflation,-7.192143420949238
+Economic,2025-02-01,gdp_growth,-0.01897543709987387
+Economic,2025-03-01,unemployment,-3.060811195849232
+Economic,2025-03-01,inflation,-7.192960311619702
+Economic,2025-03-01,gdp_growth,-0.016748614082243915
+Economic,2025-04-01,unemployment,-3.0065340224570667
+Economic,2025-04-01,inflation,-7.18896123397355
+Economic,2025-04-01,gdp_growth,-0.01375893320138899
+Economic,2025-05-01,unemployment,-2.949106960594383
+Economic,2025-05-01,inflation,-7.188950100314812
+Economic,2025-05-01,gdp_growth,-0.010994611480164137
+Economic,2025-06-01,unemployment,-2.883600671098993
+Economic,2025-06-01,inflation,-7.169710292302307
+Economic,2025-06-01,gdp_growth,0.0041326516057348115
+Economic,2025-07-01,unemployment,-2.8323166161212514
+Economic,2025-07-01,inflation,-7.1453904297071995
+Economic,2025-07-01,gdp_growth,0.01532843360289138
+Economic,2025-08-01,unemployment,-2.8323166161212514
+Economic,2025-08-01,inflation,-7.1453904297071995
+Economic,2025-08-01,gdp_growth,0.01532843360289138
+Economic,2025-09-01,unemployment,-2.7490191541449414
+Economic,2025-09-01,inflation,-7.139093485892383
+Economic,2025-09-01,gdp_growth,0.026080605090186455
+Economic,2025-10-01,unemployment,-2.7079988632201704
+Economic,2025-10-01,inflation,-7.145513608402087
+Economic,2025-10-01,gdp_growth,0.024810681751932004
+Economic,2025-11-01,unemployment,-2.6734107865694345
+Economic,2025-11-01,inflation,-7.1640818625174285
+Economic,2025-11-01,gdp_growth,0.021373841052327185
+Economic,2025-12-01,unemployment,-2.6362495142739926
+Economic,2025-12-01,inflation,-7.184204573246938
+Economic,2025-12-01,gdp_growth,0.017649307407046566
+Economic,2026-01-01,unemployment,-2.6056098287855844
+Economic,2026-01-01,inflation,-7.204186461991042
+Economic,2026-01-01,gdp_growth,0.014112564836454513
+Economic,2026-02-01,unemployment,-2.5869887389894433
+Economic,2026-02-01,inflation,-7.2261188424031655
+Economic,2026-02-01,gdp_growth,0.009422017699983265
+Economic,2026-03-01,unemployment,-2.5628750135829828
+Economic,2026-03-01,inflation,-7.244389417957313
+Economic,2026-03-01,gdp_growth,0.004860051280499247
+Economic,2026-04-01,unemployment,-2.531169424487643
+Economic,2026-04-01,inflation,-7.2719463873018535
+Economic,2026-04-01,gdp_growth,0.010179742049983042
+Economic,2026-05-01,unemployment,-2.495897943498472
+Economic,2026-05-01,inflation,-7.299859416912345
+Economic,2026-05-01,gdp_growth,0.019114809128699155
+Economic,2026-06-01,unemployment,-2.4717097974222746
+Economic,2026-06-01,inflation,-7.377397665683609
+Economic,2026-06-01,gdp_growth,0.022931076735165506
+Economic,2026-07-01,unemployment,-2.4570853155739787
+Economic,2026-07-01,inflation,-7.450510344785437
+Economic,2026-07-01,gdp_growth,0.026869750258004834
+Economic,2026-08-01,unemployment,-2.4512387372186097
+Economic,2026-08-01,inflation,-7.504845671580944
+Economic,2026-08-01,gdp_growth,0.028390486091687307
+Economic,2026-09-01,unemployment,-2.4343155955474836
+Economic,2026-09-01,inflation,-7.563976657605689
+Economic,2026-09-01,gdp_growth,0.03239337825102185
+Economic,2026-10-01,unemployment,-2.4343155955474836
+Economic,2026-10-01,inflation,-7.563976657605689
+Economic,2026-10-01,gdp_growth,0.03239337825102185
+Economic plus persistence,2018-01-01,unemployment,-1.9766992213685275
+Economic plus persistence,2018-01-01,inflation,-1.0753455490605257
+Economic plus persistence,2018-01-01,gdp_growth,0.44888078342143656
+Economic plus persistence,2018-01-01,sentiment_last,0.5994526844102059
+Economic plus persistence,2018-02-01,unemployment,-1.9661745690386074
+Economic plus persistence,2018-02-01,inflation,-1.0958586569291235
+Economic plus persistence,2018-02-01,gdp_growth,0.4437526203240697
+Economic plus persistence,2018-02-01,sentiment_last,0.5995051859827613
+Economic plus persistence,2018-03-01,unemployment,-1.9661745690386074
+Economic plus persistence,2018-03-01,inflation,-1.0958586569291235
+Economic plus persistence,2018-03-01,gdp_growth,0.4437526203240697
+Economic plus persistence,2018-03-01,sentiment_last,0.5995051859827613
+Economic plus persistence,2018-04-01,unemployment,-2.0100762455029995
+Economic plus persistence,2018-04-01,inflation,-1.0090485366976218
+Economic plus persistence,2018-04-01,gdp_growth,0.4553544607207588
+Economic plus persistence,2018-04-01,sentiment_last,0.5995139656732119
+Economic plus persistence,2018-05-01,unemployment,-2.0689511878689615
+Economic plus persistence,2018-05-01,inflation,-0.8985292463796364
+Economic plus persistence,2018-05-01,gdp_growth,0.4697882031955977
+Economic plus persistence,2018-05-01,sentiment_last,0.5990261623567467
+Economic plus persistence,2018-06-01,unemployment,-2.0689634913728567
+Economic plus persistence,2018-06-01,inflation,-0.8981639874793913
+Economic plus persistence,2018-06-01,gdp_growth,0.46978294401665377
+Economic plus persistence,2018-06-01,sentiment_last,0.5990486909694481
+Economic plus persistence,2018-07-01,unemployment,-2.0708744649024977
+Economic plus persistence,2018-07-01,inflation,-0.8891525960968956
+Economic plus persistence,2018-07-01,gdp_growth,0.46968849137639873
+Economic plus persistence,2018-07-01,sentiment_last,0.5993520846234942
+Economic plus persistence,2018-08-01,unemployment,-2.0708519395762472
+Economic plus persistence,2018-08-01,inflation,-0.8892911431313338
+Economic plus persistence,2018-08-01,gdp_growth,0.46969459622073906
+Economic plus persistence,2018-08-01,sentiment_last,0.5993476764640794
+Economic plus persistence,2018-09-01,unemployment,-2.053384136126626
+Economic plus persistence,2018-09-01,inflation,-0.9519214781969175
+Economic plus persistence,2018-09-01,gdp_growth,0.44997927791739384
+Economic plus persistence,2018-09-01,sentiment_last,0.5982255153252478
+Economic plus persistence,2018-10-01,unemployment,-2.0924266430931215
+Economic plus persistence,2018-10-01,inflation,-0.8765434681599951
+Economic plus persistence,2018-10-01,gdp_growth,0.4786372217887912
+Economic plus persistence,2018-10-01,sentiment_last,0.5962808638259564
+Economic plus persistence,2018-11-01,unemployment,-2.0891504383257398
+Economic plus persistence,2018-11-01,inflation,-0.9123102876516622
+Economic plus persistence,2018-11-01,gdp_growth,0.46842197518048434
+Economic plus persistence,2018-11-01,sentiment_last,0.5943844907275412
+Economic plus persistence,2018-12-01,unemployment,-2.073560409030782
+Economic plus persistence,2018-12-01,inflation,-0.9453266569360719
+Economic plus persistence,2018-12-01,gdp_growth,0.4587967806875382
+Economic plus persistence,2018-12-01,sentiment_last,0.5943576068538174
+Economic plus persistence,2019-01-01,unemployment,-2.070991751596268
+Economic plus persistence,2019-01-01,inflation,-0.9489352621493338
+Economic plus persistence,2019-01-01,gdp_growth,0.4575155606594464
+Economic plus persistence,2019-01-01,sentiment_last,0.5944956209852813
+Economic plus persistence,2019-02-01,unemployment,-2.070991751596268
+Economic plus persistence,2019-02-01,inflation,-0.9489352621493338
+Economic plus persistence,2019-02-01,gdp_growth,0.4575155606594464
+Economic plus persistence,2019-02-01,sentiment_last,0.5944956209852813
+Economic plus persistence,2019-03-01,unemployment,-2.0007677732095788
+Economic plus persistence,2019-03-01,inflation,-1.053164066590701
+Economic plus persistence,2019-03-01,gdp_growth,0.4202666281134342
+Economic plus persistence,2019-03-01,sentiment_last,0.5962163013864915
+Economic plus persistence,2019-04-01,unemployment,-2.084711037538404
+Economic plus persistence,2019-04-01,inflation,-1.0755748962694212
+Economic plus persistence,2019-04-01,gdp_growth,0.41614129877580797
+Economic plus persistence,2019-04-01,sentiment_last,0.579485863390179
+Economic plus persistence,2019-05-01,unemployment,-2.07776403222133
+Economic plus persistence,2019-05-01,inflation,-1.0798723693463919
+Economic plus persistence,2019-05-01,gdp_growth,0.41736589753106845
+Economic plus persistence,2019-05-01,sentiment_last,0.5791825574964866
+Economic plus persistence,2019-06-01,unemployment,-2.0963291328099483
+Economic plus persistence,2019-06-01,inflation,-1.075792536605942
+Economic plus persistence,2019-06-01,gdp_growth,0.42610388269903116
+Economic plus persistence,2019-06-01,sentiment_last,0.5777290467453317
+Economic plus persistence,2019-07-01,unemployment,-2.087031613674456
+Economic plus persistence,2019-07-01,inflation,-1.0863058013919293
+Economic plus persistence,2019-07-01,gdp_growth,0.420053973194041
+Economic plus persistence,2019-07-01,sentiment_last,0.5770673413347925
+Economic plus persistence,2019-08-01,unemployment,-2.087031613674456
+Economic plus persistence,2019-08-01,inflation,-1.0863058013919293
+Economic plus persistence,2019-08-01,gdp_growth,0.420053973194041
+Economic plus persistence,2019-08-01,sentiment_last,0.5770673413347925
+Economic plus persistence,2019-09-01,unemployment,-2.0252271729459137
+Economic plus persistence,2019-09-01,inflation,-1.1074375475656226
+Economic plus persistence,2019-09-01,gdp_growth,0.42964331626817104
+Economic plus persistence,2019-09-01,sentiment_last,0.5785550829682683
+Economic plus persistence,2019-10-01,unemployment,-2.0175285005616583
+Economic plus persistence,2019-10-01,inflation,-1.105717321940613
+Economic plus persistence,2019-10-01,gdp_growth,0.42905923796670753
+Economic plus persistence,2019-10-01,sentiment_last,0.5798197560777504
+Economic plus persistence,2019-11-01,unemployment,-2.020234824584084
+Economic plus persistence,2019-11-01,inflation,-1.105829899088572
+Economic plus persistence,2019-11-01,gdp_growth,0.4291026305998961
+Economic plus persistence,2019-11-01,sentiment_last,0.5794345603804316
+Economic plus persistence,2019-12-01,unemployment,-2.0148232693103676
+Economic plus persistence,2019-12-01,inflation,-1.1052740812628115
+Economic plus persistence,2019-12-01,gdp_growth,0.4292897696564712
+Economic plus persistence,2019-12-01,sentiment_last,0.5801196355423803
+Economic plus persistence,2020-01-01,unemployment,-2.0295817998129233
+Economic plus persistence,2020-01-01,inflation,-1.1066857822504936
+Economic plus persistence,2020-01-01,gdp_growth,0.42911591267650756
+Economic plus persistence,2020-01-01,sentiment_last,0.5786810618406082
+Economic plus persistence,2020-02-01,unemployment,-2.0315603059116842
+Economic plus persistence,2020-02-01,inflation,-1.1039401753913514
+Economic plus persistence,2020-02-01,gdp_growth,0.4283658127929531
+Economic plus persistence,2020-02-01,sentiment_last,0.5788261423631651
+Economic plus persistence,2020-03-01,unemployment,-2.0349829369704953
+Economic plus persistence,2020-03-01,inflation,-1.0883077245578503
+Economic plus persistence,2020-03-01,gdp_growth,0.42481478815821927
+Economic plus persistence,2020-03-01,sentiment_last,0.5799528525907668
+Economic plus persistence,2020-04-01,unemployment,-2.0641234245003677
+Economic plus persistence,2020-04-01,inflation,-1.2436335581354683
+Economic plus persistence,2020-04-01,gdp_growth,0.45921521538734345
+Economic plus persistence,2020-04-01,sentiment_last,0.5615254487764045
+Economic plus persistence,2020-05-01,unemployment,-1.474577282288049
+Economic plus persistence,2020-05-01,inflation,-1.3007454373336889
+Economic plus persistence,2020-05-01,gdp_growth,0.41460386181824255
+Economic plus persistence,2020-05-01,sentiment_last,0.6592151370952332
+Economic plus persistence,2020-06-01,unemployment,-1.3357462627574639
+Economic plus persistence,2020-06-01,inflation,-1.2837662090754043
+Economic plus persistence,2020-06-01,gdp_growth,0.4993125371416432
+Economic plus persistence,2020-06-01,sentiment_last,0.6858491008048776
+Economic plus persistence,2020-07-01,unemployment,-0.5954521241052314
+Economic plus persistence,2020-07-01,inflation,-1.1861965959706104
+Economic plus persistence,2020-07-01,gdp_growth,0.1083343082980512
+Economic plus persistence,2020-07-01,sentiment_last,0.8123052434792642
+Economic plus persistence,2020-08-01,unemployment,-0.6969361895333787
+Economic plus persistence,2020-08-01,inflation,-1.2039731600504824
+Economic plus persistence,2020-08-01,gdp_growth,0.16558764281643784
+Economic plus persistence,2020-08-01,sentiment_last,0.7941289379481532
+Economic plus persistence,2020-09-01,unemployment,-0.6904483416071839
+Economic plus persistence,2020-09-01,inflation,-1.0938825804190768
+Economic plus persistence,2020-09-01,gdp_growth,0.0025341143720520967
+Economic plus persistence,2020-09-01,sentiment_last,0.7991161369102601
+Economic plus persistence,2020-10-01,unemployment,-0.6904483416071839
+Economic plus persistence,2020-10-01,inflation,-1.0938825804190768
+Economic plus persistence,2020-10-01,gdp_growth,0.0025341143720520967
+Economic plus persistence,2020-10-01,sentiment_last,0.7991161369102601
+Economic plus persistence,2020-11-01,unemployment,-0.7293882503136428
+Economic plus persistence,2020-11-01,inflation,-1.0062389654359079
+Economic plus persistence,2020-11-01,gdp_growth,-0.11217249637839366
+Economic plus persistence,2020-11-01,sentiment_last,0.7953773437571225
+Economic plus persistence,2020-12-01,unemployment,-0.7401559062085632
+Economic plus persistence,2020-12-01,inflation,-0.9879946347373593
+Economic plus persistence,2020-12-01,gdp_growth,-0.12106723642497848
+Economic plus persistence,2020-12-01,sentiment_last,0.7946489462237675
+Economic plus persistence,2021-01-01,unemployment,-0.7556016472907262
+Economic plus persistence,2021-01-01,inflation,-1.1146488272719408
+Economic plus persistence,2021-01-01,gdp_growth,-0.08662584202609562
+Economic plus persistence,2021-01-01,sentiment_last,0.7849825562458084
+Economic plus persistence,2021-02-01,unemployment,-0.7556677316925331
+Economic plus persistence,2021-02-01,inflation,-1.110936223969123
+Economic plus persistence,2021-02-01,gdp_growth,-0.08770305282948528
+Economic plus persistence,2021-02-01,sentiment_last,0.7851389803643515
+Economic plus persistence,2021-03-01,unemployment,-0.7371575459826761
+Economic plus persistence,2021-03-01,inflation,-1.0817816914158844
+Economic plus persistence,2021-03-01,gdp_growth,-0.08868469678825396
+Economic plus persistence,2021-03-01,sentiment_last,0.7901341926324819
+Economic plus persistence,2021-04-01,unemployment,-0.7976646995146456
+Economic plus persistence,2021-04-01,inflation,-1.1255719830515458
+Economic plus persistence,2021-04-01,gdp_growth,-0.08762584297651782
+Economic plus persistence,2021-04-01,sentiment_last,0.7755620408613965
+Economic plus persistence,2021-05-01,unemployment,-0.80044349893985
+Economic plus persistence,2021-05-01,inflation,-1.1201462822894177
+Economic plus persistence,2021-05-01,gdp_growth,-0.0866720907428803
+Economic plus persistence,2021-05-01,sentiment_last,0.7750805771618745
+Economic plus persistence,2021-06-01,unemployment,-0.8157933841594271
+Economic plus persistence,2021-06-01,inflation,-1.2025240081489443
+Economic plus persistence,2021-06-01,gdp_growth,-0.08844412890710751
+Economic plus persistence,2021-06-01,sentiment_last,0.77065811131612
+Economic plus persistence,2021-07-01,unemployment,-0.8077914512761235
+Economic plus persistence,2021-07-01,inflation,-1.0029293992820776
+Economic plus persistence,2021-07-01,gdp_growth,-0.08788645830568656
+Economic plus persistence,2021-07-01,sentiment_last,0.7739120565651157
+Economic plus persistence,2021-08-01,unemployment,-0.8143629114045864
+Economic plus persistence,2021-08-01,inflation,-1.0961778449898827
+Economic plus persistence,2021-08-01,gdp_growth,-0.08795125651947336
+Economic plus persistence,2021-08-01,sentiment_last,0.7715444974137214
+Economic plus persistence,2021-09-01,unemployment,-0.8083971234551521
+Economic plus persistence,2021-09-01,inflation,-1.4616139374800985
+Economic plus persistence,2021-09-01,gdp_growth,-0.08788009369680758
+Economic plus persistence,2021-09-01,sentiment_last,0.770091060717497
+Economic plus persistence,2021-10-01,unemployment,-0.8083971234551521
+Economic plus persistence,2021-10-01,inflation,-1.4616139374800985
+Economic plus persistence,2021-10-01,gdp_growth,-0.08788009369680758
+Economic plus persistence,2021-10-01,sentiment_last,0.770091060717497
+Economic plus persistence,2021-11-01,unemployment,-0.8528701635282193
+Economic plus persistence,2021-11-01,inflation,-1.3633811273737138
+Economic plus persistence,2021-11-01,gdp_growth,-0.08864405816687841
+Economic plus persistence,2021-11-01,sentiment_last,0.7608463244978833
+Economic plus persistence,2021-12-01,unemployment,-0.7946150291488452
+Economic plus persistence,2021-12-01,inflation,-1.4937333500237557
+Economic plus persistence,2021-12-01,gdp_growth,-0.08418047715947549
+Economic plus persistence,2021-12-01,sentiment_last,0.7719063557020172
+Economic plus persistence,2022-01-01,unemployment,-0.8308791658039941
+Economic plus persistence,2022-01-01,inflation,-1.4153490025749602
+Economic plus persistence,2022-01-01,gdp_growth,-0.08682641798284309
+Economic plus persistence,2022-01-01,sentiment_last,0.764820504174606
+Economic plus persistence,2022-02-01,unemployment,-0.811717286840078
+Economic plus persistence,2022-02-01,inflation,-1.5003755788114008
+Economic plus persistence,2022-02-01,gdp_growth,-0.08461698704300752
+Economic plus persistence,2022-02-01,sentiment_last,0.7678279162594953
+Economic plus persistence,2022-03-01,unemployment,-0.7756739169663572
+Economic plus persistence,2022-03-01,inflation,-1.5872386464083157
+Economic plus persistence,2022-03-01,gdp_growth,-0.08403705133534342
+Economic plus persistence,2022-03-01,sentiment_last,0.7746455615643684
+Economic plus persistence,2022-04-01,unemployment,-0.7487895443181066
+Economic plus persistence,2022-04-01,inflation,-1.6373375077652468
+Economic plus persistence,2022-04-01,gdp_growth,-0.08361147887227054
+Economic plus persistence,2022-04-01,sentiment_last,0.7801683398397127
+Economic plus persistence,2022-05-01,unemployment,-0.8183584514010824
+Economic plus persistence,2022-05-01,inflation,-1.5418702840228724
+Economic plus persistence,2022-05-01,gdp_growth,-0.08495998352062388
+Economic plus persistence,2022-05-01,sentiment_last,0.7654914945390524
+Economic plus persistence,2022-06-01,unemployment,-0.7845782225823748
+Economic plus persistence,2022-06-01,inflation,-1.6718109510131376
+Economic plus persistence,2022-06-01,gdp_growth,-0.07694435845932619
+Economic plus persistence,2022-06-01,sentiment_last,0.7704717997499044
+Economic plus persistence,2022-07-01,unemployment,-0.6831945723506883
+Economic plus persistence,2022-07-01,inflation,-1.7437357910405378
+Economic plus persistence,2022-07-01,gdp_growth,-0.06673602025503401
+Economic plus persistence,2022-07-01,sentiment_last,0.7913853564441123
+Economic plus persistence,2022-08-01,unemployment,-0.6895198748335427
+Economic plus persistence,2022-08-01,inflation,-1.7441678954392639
+Economic plus persistence,2022-08-01,gdp_growth,-0.06714379684778089
+Economic plus persistence,2022-08-01,sentiment_last,0.7899642419068623
+Economic plus persistence,2022-09-01,unemployment,-0.7571232246126613
+Economic plus persistence,2022-09-01,inflation,-1.713067022388971
+Economic plus persistence,2022-09-01,gdp_growth,-0.07236261013080875
+Economic plus persistence,2022-09-01,sentiment_last,0.7750359863359971
+Economic plus persistence,2022-10-01,unemployment,-0.7578389240306147
+Economic plus persistence,2022-10-01,inflation,-1.7124670472879697
+Economic plus persistence,2022-10-01,gdp_growth,-0.07242856297473785
+Economic plus persistence,2022-10-01,sentiment_last,0.7748931914755849
+Economic plus persistence,2022-11-01,unemployment,-0.7646668700230072
+Economic plus persistence,2022-11-01,inflation,-1.70455415450321
+Economic plus persistence,2022-11-01,gdp_growth,-0.07314765598704352
+Economic plus persistence,2022-11-01,sentiment_last,0.7735219038461537
+Economic plus persistence,2022-12-01,unemployment,-0.7494254694560776
+Economic plus persistence,2022-12-01,inflation,-1.723776157048963
+Economic plus persistence,2022-12-01,gdp_growth,-0.07269676053951173
+Economic plus persistence,2022-12-01,sentiment_last,0.7765000732188588
+Economic plus persistence,2023-01-01,unemployment,-0.7661776891015619
+Economic plus persistence,2023-01-01,inflation,-1.7142120052236205
+Economic plus persistence,2023-01-01,gdp_growth,-0.07287799328576763
+Economic plus persistence,2023-01-01,sentiment_last,0.7727971684429017
+Economic plus persistence,2023-02-01,unemployment,-0.7976666693650118
+Economic plus persistence,2023-02-01,inflation,-1.7178279567225303
+Economic plus persistence,2023-02-01,gdp_growth,-0.072884473935123
+Economic plus persistence,2023-02-01,sentiment_last,0.7659804708379869
+Economic plus persistence,2023-03-01,unemployment,-0.8053118670856497
+Economic plus persistence,2023-03-01,inflation,-1.7192145971646176
+Economic plus persistence,2023-03-01,gdp_growth,-0.07295707847473543
+Economic plus persistence,2023-03-01,sentiment_last,0.7644980869640502
+Economic plus persistence,2023-04-01,unemployment,-0.7865761880046426
+Economic plus persistence,2023-04-01,inflation,-1.7425906592940525
+Economic plus persistence,2023-04-01,gdp_growth,-0.07231297809816876
+Economic plus persistence,2023-04-01,sentiment_last,0.7672425377020896
+Economic plus persistence,2023-05-01,unemployment,-0.7866685589558939
+Economic plus persistence,2023-05-01,inflation,-1.7426418443241913
+Economic plus persistence,2023-05-01,gdp_growth,-0.07231387349647012
+Economic plus persistence,2023-05-01,sentiment_last,0.7672229470283742
+Economic plus persistence,2023-06-01,unemployment,-0.7071639975620472
+Economic plus persistence,2023-06-01,inflation,-1.6593428981953815
+Economic plus persistence,2023-06-01,gdp_growth,-0.070506981558792
+Economic plus persistence,2023-06-01,sentiment_last,0.7840667676165958
+Economic plus persistence,2023-07-01,unemployment,-0.7338540077705793
+Economic plus persistence,2023-07-01,inflation,-1.6896782788940965
+Economic plus persistence,2023-07-01,gdp_growth,-0.07091783109600544
+Economic plus persistence,2023-07-01,sentiment_last,0.7781765919260795
+Economic plus persistence,2023-08-01,unemployment,-0.780085130468069
+Economic plus persistence,2023-08-01,inflation,-1.7430365403104384
+Economic plus persistence,2023-08-01,gdp_growth,-0.07129408566684935
+Economic plus persistence,2023-08-01,sentiment_last,0.7682067641663264
+Economic plus persistence,2023-09-01,unemployment,-0.7311788676349537
+Economic plus persistence,2023-09-01,inflation,-1.6795500906578495
+Economic plus persistence,2023-09-01,gdp_growth,-0.07114355817055686
+Economic plus persistence,2023-09-01,sentiment_last,0.7779632044595208
+Economic plus persistence,2023-10-01,unemployment,-0.6849985914998159
+Economic plus persistence,2023-10-01,inflation,-1.6230127720361138
+Economic plus persistence,2023-10-01,gdp_growth,-0.07069340731472158
+Economic plus persistence,2023-10-01,sentiment_last,0.7873132367796878
+Economic plus persistence,2023-11-01,unemployment,-0.6315179115410211
+Economic plus persistence,2023-11-01,inflation,-1.5598114932531533
+Economic plus persistence,2023-11-01,gdp_growth,-0.07024767615111141
+Economic plus persistence,2023-11-01,sentiment_last,0.7985280824275887
+Economic plus persistence,2023-12-01,unemployment,-0.5785455005259417
+Economic plus persistence,2023-12-01,inflation,-1.4864786087819748
+Economic plus persistence,2023-12-01,gdp_growth,-0.07213007313314233
+Economic plus persistence,2023-12-01,sentiment_last,0.8106111205505675
+Economic plus persistence,2024-01-01,unemployment,-0.6376916092287392
+Economic plus persistence,2024-01-01,inflation,-1.580047039936014
+Economic plus persistence,2024-01-01,gdp_growth,-0.07008428595995475
+Economic plus persistence,2024-01-01,sentiment_last,0.7966325825236182
+Economic plus persistence,2024-02-01,unemployment,-0.6376916092287392
+Economic plus persistence,2024-02-01,inflation,-1.580047039936014
+Economic plus persistence,2024-02-01,gdp_growth,-0.07008428595995475
+Economic plus persistence,2024-02-01,sentiment_last,0.7966325825236182
+Economic plus persistence,2024-03-01,unemployment,-0.70003577760658
+Economic plus persistence,2024-03-01,inflation,-1.674331722178766
+Economic plus persistence,2024-03-01,gdp_growth,-0.06806030310421438
+Economic plus persistence,2024-03-01,sentiment_last,0.7833673756756488
+Economic plus persistence,2024-04-01,unemployment,-0.7278692295855836
+Economic plus persistence,2024-04-01,inflation,-1.7186615493426391
+Economic plus persistence,2024-04-01,gdp_growth,-0.06776810562499676
+Economic plus persistence,2024-04-01,sentiment_last,0.7770910445586703
+Economic plus persistence,2024-05-01,unemployment,-0.7097245063566895
+Economic plus persistence,2024-05-01,inflation,-1.6971516331019454
+Economic plus persistence,2024-05-01,gdp_growth,-0.06797566851984502
+Economic plus persistence,2024-05-01,sentiment_last,0.7799219889087734
+Economic plus persistence,2024-06-01,unemployment,-0.6584494845305177
+Economic plus persistence,2024-06-01,inflation,-1.6413210590970975
+Economic plus persistence,2024-06-01,gdp_growth,-0.06598605433226404
+Economic plus persistence,2024-06-01,sentiment_last,0.7881605402211633
+Economic plus persistence,2024-07-01,unemployment,-0.6245289364633974
+Economic plus persistence,2024-07-01,inflation,-1.5903264528328613
+Economic plus persistence,2024-07-01,gdp_growth,-0.06519376045011852
+Economic plus persistence,2024-07-01,sentiment_last,0.7954503024898781
+Economic plus persistence,2024-08-01,unemployment,-0.5818657286636846
+Economic plus persistence,2024-08-01,inflation,-1.5232093738223735
+Economic plus persistence,2024-08-01,gdp_growth,-0.06442574436840827
+Economic plus persistence,2024-08-01,sentiment_last,0.8048990814839524
+Economic plus persistence,2024-09-01,unemployment,-0.5660340035144072
+Economic plus persistence,2024-09-01,inflation,-1.4969264927837231
+Economic plus persistence,2024-09-01,gdp_growth,-0.06455949787044528
+Economic plus persistence,2024-09-01,sentiment_last,0.8085807172172439
+Economic plus persistence,2024-10-01,unemployment,-0.5610333812718257
+Economic plus persistence,2024-10-01,inflation,-1.4886531327708807
+Economic plus persistence,2024-10-01,gdp_growth,-0.06461792392183868
+Economic plus persistence,2024-10-01,sentiment_last,0.8097464636458849
+Economic plus persistence,2024-11-01,unemployment,-0.5428339557057634
+Economic plus persistence,2024-11-01,inflation,-1.4578073788213752
+Economic plus persistence,2024-11-01,gdp_growth,-0.06482156534335339
+Economic plus persistence,2024-11-01,sentiment_last,0.8138205838502668
+Economic plus persistence,2024-12-01,unemployment,-0.5299680125056637
+Economic plus persistence,2024-12-01,inflation,-1.4356214264023843
+Economic plus persistence,2024-12-01,gdp_growth,-0.06491583123724728
+Economic plus persistence,2024-12-01,sentiment_last,0.8166605601432313
+Economic plus persistence,2025-01-01,unemployment,-0.5287893500537522
+Economic plus persistence,2025-01-01,inflation,-1.4337371654104734
+Economic plus persistence,2025-01-01,gdp_growth,-0.06492306287572301
+Economic plus persistence,2025-01-01,sentiment_last,0.8169107830357284
+Economic plus persistence,2025-02-01,unemployment,-0.5091222838146108
+Economic plus persistence,2025-02-01,inflation,-1.4053696479947178
+Economic plus persistence,2025-02-01,gdp_growth,-0.06515849522243529
+Economic plus persistence,2025-02-01,sentiment_last,0.8208221240259593
+Economic plus persistence,2025-03-01,unemployment,-0.4599564741247115
+Economic plus persistence,2025-03-01,inflation,-1.3338760682064879
+Economic plus persistence,2025-03-01,gdp_growth,-0.06465394138291679
+Economic plus persistence,2025-03-01,sentiment_last,0.8310192042497295
+Economic plus persistence,2025-04-01,unemployment,-0.37728510943912064
+Economic plus persistence,2025-04-01,inflation,-1.1941112281303867
+Economic plus persistence,2025-04-01,gdp_growth,-0.06460911158187703
+Economic plus persistence,2025-04-01,sentiment_last,0.8506197825144971
+Economic plus persistence,2025-05-01,unemployment,-0.30085831597840185
+Economic plus persistence,2025-05-01,inflation,-1.0540498345523501
+Economic plus persistence,2025-05-01,gdp_growth,-0.06507512160452315
+Economic plus persistence,2025-05-01,sentiment_last,0.8704929267029033
+Economic plus persistence,2025-06-01,unemployment,-0.26004034125092435
+Economic plus persistence,2025-06-01,inflation,-0.9753214483156099
+Economic plus persistence,2025-06-01,gdp_growth,-0.06394173876197956
+Economic plus persistence,2025-06-01,sentiment_last,0.881337722934963
+Economic plus persistence,2025-07-01,unemployment,-0.30279611573525683
+Economic plus persistence,2025-07-01,inflation,-1.0592315399638197
+Economic plus persistence,2025-07-01,gdp_growth,-0.06503807446499368
+Economic plus persistence,2025-07-01,sentiment_last,0.8700082917743275
+Economic plus persistence,2025-08-01,unemployment,-0.30279611573525683
+Economic plus persistence,2025-08-01,inflation,-1.0592315399638197
+Economic plus persistence,2025-08-01,gdp_growth,-0.06503807446499368
+Economic plus persistence,2025-08-01,sentiment_last,0.8700082917743275
+Economic plus persistence,2025-09-01,unemployment,-0.2605334830364343
+Economic plus persistence,2025-09-01,inflation,-0.9855883289620652
+Economic plus persistence,2025-09-01,gdp_growth,-0.06510305422438713
+Economic plus persistence,2025-09-01,sentiment_last,0.8805202773031713
+Economic plus persistence,2025-10-01,unemployment,-0.2269164372877885
+Economic plus persistence,2025-10-01,inflation,-0.9250734183457305
+Economic plus persistence,2025-10-01,gdp_growth,-0.06628597470680785
+Economic plus persistence,2025-10-01,sentiment_last,0.8893721158680137
+Economic plus persistence,2025-11-01,unemployment,-0.2033528361564491
+Economic plus persistence,2025-11-01,inflation,-0.8820002554564486
+Economic plus persistence,2025-11-01,gdp_growth,-0.06745811467667122
+Economic plus persistence,2025-11-01,sentiment_last,0.8959180253588102
+Economic plus persistence,2025-12-01,unemployment,-0.17456852211336044
+Economic plus persistence,2025-12-01,inflation,-0.828188596136783
+Economic plus persistence,2025-12-01,gdp_growth,-0.06889734461827174
+Economic plus persistence,2025-12-01,sentiment_last,0.9040779132499811
+Economic plus persistence,2026-01-01,unemployment,-0.17183854114754682
+Economic plus persistence,2026-01-01,inflation,-0.8228824538080588
+Economic plus persistence,2026-01-01,gdp_growth,-0.06903657652131492
+Economic plus persistence,2026-01-01,sentiment_last,0.904882639814749
+Economic plus persistence,2026-02-01,unemployment,-0.178663030292246
+Economic plus persistence,2026-02-01,inflation,-0.8361861972729128
+Economic plus persistence,2026-02-01,gdp_growth,-0.06854041512216791
+Economic plus persistence,2026-02-01,sentiment_last,0.9027943923414937
+Economic plus persistence,2026-03-01,unemployment,-0.17148370497524296
+Economic plus persistence,2026-03-01,inflation,-0.823177347981732
+Economic plus persistence,2026-03-01,gdp_growth,-0.06905049643506
+Economic plus persistence,2026-03-01,sentiment_last,0.9048218852006003
+Economic plus persistence,2026-04-01,unemployment,-0.14920579923176336
+Economic plus persistence,2026-04-01,inflation,-0.7870011321409643
+Economic plus persistence,2026-04-01,gdp_growth,-0.06841735281260375
+Economic plus persistence,2026-04-01,sentiment_last,0.9107342145428325
+Economic plus persistence,2026-05-01,unemployment,-0.12351307508824007
+Economic plus persistence,2026-05-01,inflation,-0.7413863447176049
+Economic plus persistence,2026-05-01,gdp_growth,-0.0672823309119381
+Economic plus persistence,2026-05-01,sentiment_last,0.9179099298813633
+Economic plus persistence,2026-06-01,unemployment,-0.09764350506901438
+Economic plus persistence,2026-06-01,inflation,-0.703164132989337
+Economic plus persistence,2026-06-01,gdp_growth,-0.06714147018085666
+Economic plus persistence,2026-06-01,sentiment_last,0.9257614874201884
+Economic plus persistence,2026-07-01,unemployment,-0.1101645507669348
+Economic plus persistence,2026-07-01,inflation,-0.7216833332699871
+Economic plus persistence,2026-07-01,gdp_growth,-0.06732264130453533
+Economic plus persistence,2026-07-01,sentiment_last,0.9217117533662809
+Economic plus persistence,2026-08-01,unemployment,-0.12301392286830516
+Economic plus persistence,2026-08-01,inflation,-0.7329011690670637
+Economic plus persistence,2026-08-01,gdp_growth,-0.0674395480580995
+Economic plus persistence,2026-08-01,sentiment_last,0.9174928769323011
+Economic plus persistence,2026-09-01,unemployment,-0.11004843331453518
+Economic plus persistence,2026-09-01,inflation,-0.7207902500713851
+Economic plus persistence,2026-09-01,gdp_growth,-0.0668628674603813
+Economic plus persistence,2026-09-01,sentiment_last,0.9210265580885051
+Economic plus persistence,2026-10-01,unemployment,-0.11004843331453518
+Economic plus persistence,2026-10-01,inflation,-0.7207902500713851
+Economic plus persistence,2026-10-01,gdp_growth,-0.0668628674603813
+Economic plus persistence,2026-10-01,sentiment_last,0.9210265580885051
+Economic plus household controls,2018-01-01,unemployment,-2.249745129421431
+Economic plus household controls,2018-01-01,inflation,-0.4602135366100964
+Economic plus household controls,2018-01-01,gdp_growth,0.5013859428718517
+Economic plus household controls,2018-01-01,sentiment_last,0.5831840751143101
+Economic plus household controls,2018-01-01,income_growth,0.7044039500792307
+Economic plus household controls,2018-01-01,price_3y,0.5623994573202826
+Economic plus household controls,2018-02-01,unemployment,-2.2250708667649985
+Economic plus household controls,2018-02-01,inflation,-0.4967656147649025
+Economic plus household controls,2018-02-01,gdp_growth,0.49353535289922956
+Economic plus household controls,2018-02-01,sentiment_last,0.5836260847632486
+Economic plus household controls,2018-02-01,income_growth,0.6998100120745742
+Economic plus household controls,2018-02-01,price_3y,0.5496174713386027
+Economic plus household controls,2018-03-01,unemployment,-2.2250708667649985
+Economic plus household controls,2018-03-01,inflation,-0.4967656147649025
+Economic plus household controls,2018-03-01,gdp_growth,0.49353535289922956
+Economic plus household controls,2018-03-01,sentiment_last,0.5836260847632486
+Economic plus household controls,2018-03-01,income_growth,0.6998100120745742
+Economic plus household controls,2018-03-01,price_3y,0.5496174713386027
+Economic plus household controls,2018-04-01,unemployment,-2.287210142395604
+Economic plus household controls,2018-04-01,inflation,-0.4191814947692265
+Economic plus household controls,2018-04-01,gdp_growth,0.500398421343854
+Economic plus household controls,2018-04-01,sentiment_last,0.5823330891356807
+Economic plus household controls,2018-04-01,income_growth,0.7146634243025225
+Economic plus household controls,2018-04-01,price_3y,0.596379596421461
+Economic plus household controls,2018-05-01,unemployment,-2.353620331475897
+Economic plus household controls,2018-05-01,inflation,-0.3543760009066347
+Economic plus household controls,2018-05-01,gdp_growth,0.5076367525689465
+Economic plus household controls,2018-05-01,sentiment_last,0.578314017221865
+Economic plus household controls,2018-05-01,income_growth,0.7246249431610727
+Economic plus household controls,2018-05-01,price_3y,0.6258806874022931
+Economic plus household controls,2018-06-01,unemployment,-2.3433922376981307
+Economic plus household controls,2018-06-01,inflation,-0.3819572433713153
+Economic plus household controls,2018-06-01,gdp_growth,0.5093286681383838
+Economic plus household controls,2018-06-01,sentiment_last,0.5770887781299144
+Economic plus household controls,2018-06-01,income_growth,0.7216379937698792
+Economic plus household controls,2018-06-01,price_3y,0.6097797101328373
+Economic plus household controls,2018-07-01,unemployment,-2.3289209584229886
+Economic plus household controls,2018-07-01,inflation,-0.4038437410183974
+Economic plus household controls,2018-07-01,gdp_growth,0.5107815775583158
+Economic plus household controls,2018-07-01,sentiment_last,0.5769281252974906
+Economic plus household controls,2018-07-01,income_growth,0.7174653945020196
+Economic plus household controls,2018-07-01,price_3y,0.5926094691422644
+Economic plus household controls,2018-08-01,unemployment,-2.3121230485330995
+Economic plus household controls,2018-08-01,inflation,-0.4384522403904749
+Economic plus household controls,2018-08-01,gdp_growth,0.5136996971357171
+Economic plus household controls,2018-08-01,sentiment_last,0.576505096574503
+Economic plus household controls,2018-08-01,income_growth,0.7123020379549658
+Economic plus household controls,2018-08-01,price_3y,0.5728066064324299
+Economic plus household controls,2018-09-01,unemployment,-2.2570300287155143
+Economic plus household controls,2018-09-01,inflation,-0.5891072209775802
+Economic plus household controls,2018-09-01,gdp_growth,0.4753054120938176
+Economic plus household controls,2018-09-01,sentiment_last,0.5767739397585904
+Economic plus household controls,2018-09-01,income_growth,0.6464477605787269
+Economic plus household controls,2018-09-01,price_3y,0.5163104572212258
+Economic plus household controls,2018-10-01,unemployment,-2.2822869941512534
+Economic plus household controls,2018-10-01,inflation,-0.5457021532789922
+Economic plus household controls,2018-10-01,gdp_growth,0.4885685544472986
+Economic plus household controls,2018-10-01,sentiment_last,0.5751538939598647
+Economic plus household controls,2018-10-01,income_growth,0.6655724206841452
+Economic plus household controls,2018-10-01,price_3y,0.534602115276918
+Economic plus household controls,2018-11-01,unemployment,-2.2619672907467336
+Economic plus household controls,2018-11-01,inflation,-0.6298718835820385
+Economic plus household controls,2018-11-01,gdp_growth,0.4688799493654276
+Economic plus household controls,2018-11-01,sentiment_last,0.5727775363547117
+Economic plus household controls,2018-11-01,income_growth,0.631734007500944
+Economic plus household controls,2018-11-01,price_3y,0.4998810497160157
+Economic plus household controls,2018-12-01,unemployment,-2.208958914107125
+Economic plus household controls,2018-12-01,inflation,-0.6846472677102664
+Economic plus household controls,2018-12-01,gdp_growth,0.456979038499724
+Economic plus household controls,2018-12-01,sentiment_last,0.5750434686195225
+Economic plus household controls,2018-12-01,income_growth,0.6014798599192788
+Economic plus household controls,2018-12-01,price_3y,0.4425378676240281
+Economic plus household controls,2019-01-01,unemployment,-2.1811948086580424
+Economic plus household controls,2019-01-01,inflation,-0.7028950567508655
+Economic plus household controls,2019-01-01,gdp_growth,0.45187913044872036
+Economic plus household controls,2019-01-01,sentiment_last,0.5769293570027344
+Economic plus household controls,2019-01-01,income_growth,0.589909577656208
+Economic plus household controls,2019-01-01,price_3y,0.41578288790293255
+Economic plus household controls,2019-02-01,unemployment,-2.1811948086580424
+Economic plus household controls,2019-02-01,inflation,-0.7028950567508655
+Economic plus household controls,2019-02-01,gdp_growth,0.45187913044872036
+Economic plus household controls,2019-02-01,sentiment_last,0.5769293570027344
+Economic plus household controls,2019-02-01,income_growth,0.589909577656208
+Economic plus household controls,2019-02-01,price_3y,0.41578288790293255
+Economic plus household controls,2019-03-01,unemployment,-2.029379645889897
+Economic plus household controls,2019-03-01,inflation,-0.7896946657980276
+Economic plus household controls,2019-03-01,gdp_growth,0.42867893388622574
+Economic plus household controls,2019-03-01,sentiment_last,0.5852336973897663
+Economic plus household controls,2019-03-01,income_growth,0.5219844910600075
+Economic plus household controls,2019-03-01,price_3y,0.24986964412025078
+Economic plus household controls,2019-04-01,unemployment,-2.0936281806104367
+Economic plus household controls,2019-04-01,inflation,-0.831267077299225
+Economic plus household controls,2019-04-01,gdp_growth,0.4193245497461789
+Economic plus household controls,2019-04-01,sentiment_last,0.5706280467886881
+Economic plus household controls,2019-04-01,income_growth,0.5144183623031208
+Economic plus household controls,2019-04-01,price_3y,0.2469988390817477
+Economic plus household controls,2019-05-01,unemployment,-2.067742524801618
+Economic plus household controls,2019-05-01,inflation,-0.8242574393590654
+Economic plus household controls,2019-05-01,gdp_growth,0.42641409552852383
+Economic plus household controls,2019-05-01,sentiment_last,0.5714707946338209
+Economic plus household controls,2019-05-01,income_growth,0.5047087668332852
+Economic plus household controls,2019-05-01,price_3y,0.20847806032723076
+Economic plus household controls,2019-06-01,unemployment,-2.0962093442165926
+Economic plus household controls,2019-06-01,inflation,-0.8356496328660317
+Economic plus household controls,2019-06-01,gdp_growth,0.4289876780098899
+Economic plus household controls,2019-06-01,sentiment_last,0.5693265258919791
+Economic plus household controls,2019-06-01,income_growth,0.505528763131823
+Economic plus household controls,2019-06-01,price_3y,0.2375768107133257
+Economic plus household controls,2019-07-01,unemployment,-2.069627928759085
+Economic plus household controls,2019-07-01,inflation,-0.8265222666055055
+Economic plus household controls,2019-07-01,gdp_growth,0.4286025024074745
+Economic plus household controls,2019-07-01,sentiment_last,0.5697378113649167
+Economic plus household controls,2019-07-01,income_growth,0.5075608082445188
+Economic plus household controls,2019-07-01,price_3y,0.20159105465044388
+Economic plus household controls,2019-08-01,unemployment,-2.069627928759085
+Economic plus household controls,2019-08-01,inflation,-0.8265222666055055
+Economic plus household controls,2019-08-01,gdp_growth,0.4286025024074745
+Economic plus household controls,2019-08-01,sentiment_last,0.5697378113649167
+Economic plus household controls,2019-08-01,income_growth,0.5075608082445188
+Economic plus household controls,2019-08-01,price_3y,0.20159105465044388
+Economic plus household controls,2019-09-01,unemployment,-1.9411811596519137
+Economic plus household controls,2019-09-01,inflation,-0.7955595302703902
+Economic plus household controls,2019-09-01,gdp_growth,0.4640820036108031
+Economic plus household controls,2019-09-01,sentiment_last,0.5769795509351004
+Economic plus household controls,2019-09-01,income_growth,0.4494758242362462
+Economic plus household controls,2019-09-01,price_3y,0.025642046627332465
+Economic plus household controls,2019-10-01,unemployment,-1.9246979684015681
+Economic plus household controls,2019-10-01,inflation,-0.7892356884517299
+Economic plus household controls,2019-10-01,gdp_growth,0.4644749350661068
+Economic plus household controls,2019-10-01,sentiment_last,0.5794336574941523
+Economic plus household controls,2019-10-01,income_growth,0.44734936909937456
+Economic plus household controls,2019-10-01,price_3y,0.01668473910698926
+Economic plus household controls,2019-11-01,unemployment,-1.9238788044719837
+Economic plus household controls,2019-11-01,inflation,-0.7890079318516293
+Economic plus household controls,2019-11-01,gdp_growth,0.4645563359320263
+Economic plus household controls,2019-11-01,sentiment_last,0.5795381003567895
+Economic plus household controls,2019-11-01,income_growth,0.44720007435346465
+Economic plus household controls,2019-11-01,price_3y,0.016106519267563638
+Economic plus household controls,2019-12-01,unemployment,-1.9115359493690065
+Economic plus household controls,2019-12-01,inflation,-0.7857252916925175
+Economic plus household controls,2019-12-01,gdp_growth,0.46640404605738867
+Economic plus household controls,2019-12-01,sentiment_last,0.5809769658791322
+Economic plus household controls,2019-12-01,income_growth,0.442642622594624
+Economic plus household controls,2019-12-01,price_3y,0.005668564934392543
+Economic plus household controls,2020-01-01,unemployment,-1.931113604256944
+Economic plus household controls,2020-01-01,inflation,-0.7958950189678121
+Economic plus household controls,2020-01-01,gdp_growth,0.46300966387446774
+Economic plus household controls,2020-01-01,sentiment_last,0.5793214939675434
+Economic plus household controls,2020-01-01,income_growth,0.4441071282332055
+Economic plus household controls,2020-01-01,price_3y,0.024230540821176393
+Economic plus household controls,2020-02-01,unemployment,-1.9328010517724679
+Economic plus household controls,2020-02-01,inflation,-0.7954567466569975
+Economic plus household controls,2020-02-01,gdp_growth,0.46213141861466794
+Economic plus household controls,2020-02-01,sentiment_last,0.5793562891147117
+Economic plus household controls,2020-02-01,income_growth,0.4451670755998958
+Economic plus household controls,2020-02-01,price_3y,0.027492624335783672
+Economic plus household controls,2020-03-01,unemployment,-1.944026722606269
+Economic plus household controls,2020-03-01,inflation,-0.7938402314587647
+Economic plus household controls,2020-03-01,gdp_growth,0.4539145710184321
+Economic plus household controls,2020-03-01,sentiment_last,0.5803567341566224
+Economic plus household controls,2020-03-01,income_growth,0.4378283627227749
+Economic plus household controls,2020-03-01,price_3y,0.04747151609417044
+Economic plus household controls,2020-04-01,unemployment,-1.9476675434375537
+Economic plus household controls,2020-04-01,inflation,-0.893363198395092
+Economic plus household controls,2020-04-01,gdp_growth,0.5028319890591532
+Economic plus household controls,2020-04-01,sentiment_last,0.5632994323827979
+Economic plus household controls,2020-04-01,income_growth,0.45215108894401634
+Economic plus household controls,2020-04-01,price_3y,-0.03100836048272909
+Economic plus household controls,2020-05-01,unemployment,-1.3098325603675827
+Economic plus household controls,2020-05-01,inflation,-0.822173427347702
+Economic plus household controls,2020-05-01,gdp_growth,0.49319826240302433
+Economic plus household controls,2020-05-01,sentiment_last,0.6621941450715206
+Economic plus household controls,2020-05-01,income_growth,0.4846796180112923
+Economic plus household controls,2020-05-01,price_3y,-0.2137350382359431
+Economic plus household controls,2020-06-01,unemployment,-1.2268105048846065
+Economic plus household controls,2020-06-01,inflation,-0.7729145050809966
+Economic plus household controls,2020-06-01,gdp_growth,0.5425047509883787
+Economic plus household controls,2020-06-01,sentiment_last,0.6756414159144732
+Economic plus household controls,2020-06-01,income_growth,0.5199237943544961
+Economic plus household controls,2020-06-01,price_3y,-0.23999849278795612
+Economic plus household controls,2020-07-01,unemployment,-0.9269196111568312
+Economic plus household controls,2020-07-01,inflation,-0.5515284735637683
+Economic plus household controls,2020-07-01,gdp_growth,0.40448918422922403
+Economic plus household controls,2020-07-01,sentiment_last,0.7166696209229122
+Economic plus household controls,2020-07-01,income_growth,0.7942163844407857
+Economic plus household controls,2020-07-01,price_3y,-0.2173824650086098
+Economic plus household controls,2020-08-01,unemployment,-1.0408673245051505
+Economic plus household controls,2020-08-01,inflation,-0.576402029822988
+Economic plus household controls,2020-08-01,gdp_growth,0.46900150746446684
+Economic plus household controls,2020-08-01,sentiment_last,0.6964683540407726
+Economic plus household controls,2020-08-01,income_growth,0.7842857793734848
+Economic plus household controls,2020-08-01,price_3y,-0.221737208811285
+Economic plus household controls,2020-09-01,unemployment,-0.9984435411712089
+Economic plus household controls,2020-09-01,inflation,-0.48706305649511333
+Economic plus household controls,2020-09-01,gdp_growth,0.1309671842787135
+Economic plus household controls,2020-09-01,sentiment_last,0.7173907328916697
+Economic plus household controls,2020-09-01,income_growth,0.6916697114628596
+Economic plus household controls,2020-09-01,price_3y,-0.13304183651925056
+Economic plus household controls,2020-10-01,unemployment,-0.9984435411712089
+Economic plus household controls,2020-10-01,inflation,-0.48706305649511333
+Economic plus household controls,2020-10-01,gdp_growth,0.1309671842787135
+Economic plus household controls,2020-10-01,sentiment_last,0.7173907328916697
+Economic plus household controls,2020-10-01,income_growth,0.6916697114628596
+Economic plus household controls,2020-10-01,price_3y,-0.13304183651925056
+Economic plus household controls,2020-11-01,unemployment,-1.045663043371386
+Economic plus household controls,2020-11-01,inflation,-0.4314050381415437
+Economic plus household controls,2020-11-01,gdp_growth,0.010291104304634665
+Economic plus household controls,2020-11-01,sentiment_last,0.7142201308374992
+Economic plus household controls,2020-11-01,income_growth,0.6928860742311492
+Economic plus household controls,2020-11-01,price_3y,-0.07285910559994654
+Economic plus household controls,2020-12-01,unemployment,-1.0146330923314255
+Economic plus household controls,2020-12-01,inflation,-0.45217558112799866
+Economic plus household controls,2020-12-01,gdp_growth,-0.060204303407644315
+Economic plus household controls,2020-12-01,sentiment_last,0.7297896695966621
+Economic plus household controls,2020-12-01,income_growth,0.5289212970223324
+Economic plus household controls,2020-12-01,price_3y,-0.10106697254691087
+Economic plus household controls,2021-01-01,unemployment,-1.0435589776365861
+Economic plus household controls,2021-01-01,inflation,-0.4649764692625156
+Economic plus household controls,2021-01-01,gdp_growth,-0.04373072421405561
+Economic plus household controls,2021-01-01,sentiment_last,0.7215200367153176
+Economic plus household controls,2021-01-01,income_growth,0.5697146133891547
+Economic plus household controls,2021-01-01,price_3y,-0.09284436002849136
+Economic plus household controls,2021-02-01,unemployment,-1.0349109157497711
+Economic plus household controls,2021-02-01,inflation,-0.4474423103663526
+Economic plus household controls,2021-02-01,gdp_growth,-0.0546141293439604
+Economic plus household controls,2021-02-01,sentiment_last,0.7247647387629251
+Economic plus household controls,2021-02-01,income_growth,0.5529694375445533
+Economic plus household controls,2021-02-01,price_3y,-0.09526438781823342
+Economic plus household controls,2021-03-01,unemployment,-0.999837804231675
+Economic plus household controls,2021-03-01,inflation,-0.42393843574455875
+Economic plus household controls,2021-03-01,gdp_growth,-0.05683871498185141
+Economic plus household controls,2021-03-01,sentiment_last,0.7328648697576621
+Economic plus household controls,2021-03-01,income_growth,0.5332973690853121
+Economic plus household controls,2021-03-01,price_3y,-0.11023406289160728
+Economic plus household controls,2021-04-01,unemployment,-0.9988621134198924
+Economic plus household controls,2021-04-01,inflation,-0.42485096228825897
+Economic plus household controls,2021-04-01,gdp_growth,-0.05691155363820755
+Economic plus household controls,2021-04-01,sentiment_last,0.7330642967213041
+Economic plus household controls,2021-04-01,income_growth,0.5320977564023294
+Economic plus household controls,2021-04-01,price_3y,-0.11052469698046025
+Economic plus household controls,2021-05-01,unemployment,-1.005148902775871
+Economic plus household controls,2021-05-01,inflation,-0.4150287501292213
+Economic plus household controls,2021-05-01,gdp_growth,-0.05575966508563783
+Economic plus household controls,2021-05-01,sentiment_last,0.7320968396937478
+Economic plus household controls,2021-05-01,income_growth,0.5399785918270485
+Economic plus household controls,2021-05-01,price_3y,-0.10460427526491732
+Economic plus household controls,2021-06-01,unemployment,-0.8497774115390402
+Economic plus household controls,2021-06-01,inflation,-1.0181832985665857
+Economic plus household controls,2021-06-01,gdp_growth,-0.08203726017138994
+Economic plus household controls,2021-06-01,sentiment_last,0.7567511217945689
+Economic plus household controls,2021-06-01,income_growth,0.1165190722484073
+Economic plus household controls,2021-06-01,price_3y,-0.18061501839567023
+Economic plus household controls,2021-07-01,unemployment,-0.8292633671012088
+Economic plus household controls,2021-07-01,inflation,-0.8037920670370287
+Economic plus household controls,2021-07-01,gdp_growth,-0.08220235909857654
+Economic plus household controls,2021-07-01,sentiment_last,0.7624899167051153
+Economic plus household controls,2021-07-01,income_growth,0.09661582939237022
+Economic plus household controls,2021-07-01,price_3y,-0.1898618519960544
+Economic plus household controls,2021-08-01,unemployment,-0.8368281096831957
+Economic plus household controls,2021-08-01,inflation,-0.883979901067475
+Economic plus household controls,2021-08-01,gdp_growth,-0.08212697192414838
+Economic plus household controls,2021-08-01,sentiment_last,0.7600640658887626
+Economic plus household controls,2021-08-01,income_growth,0.09982799361675057
+Economic plus household controls,2021-08-01,price_3y,-0.18895784650681122
+Economic plus household controls,2021-09-01,unemployment,-0.8363119796942257
+Economic plus household controls,2021-09-01,inflation,-1.2110128873675896
+Economic plus household controls,2021-09-01,gdp_growth,-0.08126105290660066
+Economic plus household controls,2021-09-01,sentiment_last,0.7569751039995541
+Economic plus household controls,2021-09-01,income_growth,0.11512918661500936
+Economic plus household controls,2021-09-01,price_3y,-0.2057377741362111
+Economic plus household controls,2021-10-01,unemployment,-0.8363119796942257
+Economic plus household controls,2021-10-01,inflation,-1.2110128873675896
+Economic plus household controls,2021-10-01,gdp_growth,-0.08126105290660066
+Economic plus household controls,2021-10-01,sentiment_last,0.7569751039995541
+Economic plus household controls,2021-10-01,income_growth,0.11512918661500936
+Economic plus household controls,2021-10-01,price_3y,-0.2057377741362111
+Economic plus household controls,2021-11-01,unemployment,-0.8869395010786709
+Economic plus household controls,2021-11-01,inflation,-1.1125413708037903
+Economic plus household controls,2021-11-01,gdp_growth,-0.08233896957831191
+Economic plus household controls,2021-11-01,sentiment_last,0.7469477065327794
+Economic plus household controls,2021-11-01,income_growth,0.1125159846762188
+Economic plus household controls,2021-11-01,price_3y,-0.1919583770657109
+Economic plus household controls,2021-12-01,unemployment,-0.8240899643592559
+Economic plus household controls,2021-12-01,inflation,-1.2254657509659905
+Economic plus household controls,2021-12-01,gdp_growth,-0.07788360414251962
+Economic plus household controls,2021-12-01,sentiment_last,0.7579639016558504
+Economic plus household controls,2021-12-01,income_growth,0.10907312384765874
+Economic plus household controls,2021-12-01,price_3y,-0.22001963877391997
+Economic plus household controls,2022-01-01,unemployment,-0.8625699373787327
+Economic plus household controls,2022-01-01,inflation,-1.1560063271096588
+Economic plus household controls,2022-01-01,gdp_growth,-0.08018204591792956
+Economic plus household controls,2022-01-01,sentiment_last,0.7508858493142568
+Economic plus household controls,2022-01-01,income_growth,0.11494394687837864
+Economic plus household controls,2022-01-01,price_3y,-0.20622931217571006
+Economic plus household controls,2022-02-01,unemployment,-0.835766062284542
+Economic plus household controls,2022-02-01,inflation,-1.2447450380657117
+Economic plus household controls,2022-02-01,gdp_growth,-0.07804150175115192
+Economic plus household controls,2022-02-01,sentiment_last,0.7547828327842996
+Economic plus household controls,2022-02-01,income_growth,0.10679218215259205
+Economic plus household controls,2022-02-01,price_3y,-0.22313302347856298
+Economic plus household controls,2022-03-01,unemployment,-0.7909286030537627
+Economic plus household controls,2022-03-01,inflation,-1.320433896929067
+Economic plus household controls,2022-03-01,gdp_growth,-0.0778032594357764
+Economic plus household controls,2022-03-01,sentiment_last,0.7623722151018442
+Economic plus household controls,2022-03-01,income_growth,0.09640264939970603
+Economic plus household controls,2022-03-01,price_3y,-0.2527597973865999
+Economic plus household controls,2022-04-01,unemployment,-0.7748734575711805
+Economic plus household controls,2022-04-01,inflation,-1.3364289611810725
+Economic plus household controls,2022-04-01,gdp_growth,-0.07712153052374007
+Economic plus household controls,2022-04-01,sentiment_last,0.7651333288918344
+Economic plus household controls,2022-04-01,income_growth,0.10289531316015443
+Economic plus household controls,2022-04-01,price_3y,-0.26754405318157354
+Economic plus household controls,2022-05-01,unemployment,-0.8549956955375444
+Economic plus household controls,2022-05-01,inflation,-1.2742805472022254
+Economic plus household controls,2022-05-01,gdp_growth,-0.07788987094611209
+Economic plus household controls,2022-05-01,sentiment_last,0.7502272689751851
+Economic plus household controls,2022-05-01,income_growth,0.11958466850559758
+Economic plus household controls,2022-05-01,price_3y,-0.2112045457082454
+Economic plus household controls,2022-06-01,unemployment,-0.8486267654798874
+Economic plus household controls,2022-06-01,inflation,-1.289788459842151
+Economic plus household controls,2022-06-01,gdp_growth,-0.07157890203078571
+Economic plus household controls,2022-06-01,sentiment_last,0.7491287197938336
+Economic plus household controls,2022-06-01,income_growth,0.153773538387034
+Economic plus household controls,2022-06-01,price_3y,-0.2464428664603765
+Economic plus household controls,2022-07-01,unemployment,-0.7437086881802156
+Economic plus household controls,2022-07-01,inflation,-1.2959226416207759
+Economic plus household controls,2022-07-01,gdp_growth,-0.061722896361896144
+Economic plus household controls,2022-07-01,sentiment_last,0.7679519373629139
+Economic plus household controls,2022-07-01,income_growth,0.14851101510386125
+Economic plus household controls,2022-07-01,price_3y,-0.32737911788901247
+Economic plus household controls,2022-08-01,unemployment,-0.7483383451997091
+Economic plus household controls,2022-08-01,inflation,-1.2978132006104774
+Economic plus household controls,2022-08-01,gdp_growth,-0.061970822107066635
+Economic plus household controls,2022-08-01,sentiment_last,0.7670191499686525
+Economic plus household controls,2022-08-01,income_growth,0.1492225514744806
+Economic plus household controls,2022-08-01,price_3y,-0.3245925585143458
+Economic plus household controls,2022-09-01,unemployment,-0.8225110384576424
+Economic plus household controls,2022-09-01,inflation,-1.3186102081878632
+Economic plus household controls,2022-09-01,gdp_growth,-0.06640334046228319
+Economic plus household controls,2022-09-01,sentiment_last,0.753647999029124
+Economic plus household controls,2022-09-01,income_growth,0.1654346528514035
+Economic plus household controls,2022-09-01,price_3y,-0.2443205611409698
+Economic plus household controls,2022-10-01,unemployment,-0.8245753480975853
+Economic plus household controls,2022-10-01,inflation,-1.3197312488005442
+Economic plus household controls,2022-10-01,gdp_growth,-0.06655902390517353
+Economic plus household controls,2022-10-01,sentiment_last,0.7533639607418219
+Economic plus household controls,2022-10-01,income_growth,0.16579346590263408
+Economic plus household controls,2022-10-01,price_3y,-0.24072580540721444
+Economic plus household controls,2022-11-01,unemployment,-0.8335886999391962
+Economic plus household controls,2022-11-01,inflation,-1.3291423059180156
+Economic plus household controls,2022-11-01,gdp_growth,-0.06737251392417835
+Economic plus household controls,2022-11-01,sentiment_last,0.752397700342872
+Economic plus household controls,2022-11-01,income_growth,0.16692393954803034
+Economic plus household controls,2022-11-01,price_3y,-0.21693219984087048
+Economic plus household controls,2022-12-01,unemployment,-0.8191763304917211
+Economic plus household controls,2022-12-01,inflation,-1.3130016422163346
+Economic plus household controls,2022-12-01,gdp_growth,-0.06735617422439198
+Economic plus household controls,2022-12-01,sentiment_last,0.7536862444452521
+Economic plus household controls,2022-12-01,income_growth,0.16241475680979373
+Economic plus household controls,2022-12-01,price_3y,-0.2599086694731973
+Economic plus household controls,2023-01-01,unemployment,-0.8363739591325645
+Economic plus household controls,2023-01-01,inflation,-1.332991363448806
+Economic plus household controls,2023-01-01,gdp_growth,-0.06715807306708133
+Economic plus household controls,2023-01-01,sentiment_last,0.7512247871485332
+Economic plus household controls,2023-01-01,income_growth,0.1668411444711447
+Economic plus household controls,2023-01-01,price_3y,-0.22221850375891436
+Economic plus household controls,2023-02-01,unemployment,-0.8658463540133524
+Economic plus household controls,2023-02-01,inflation,-1.4075002444835445
+Economic plus household controls,2023-02-01,gdp_growth,-0.06650562955877662
+Economic plus household controls,2023-02-01,sentiment_last,0.7477404575850025
+Economic plus household controls,2023-02-01,income_growth,0.1718402368095599
+Economic plus household controls,2023-02-01,price_3y,-0.13988071299185081
+Economic plus household controls,2023-03-01,unemployment,-0.8727543552739665
+Economic plus household controls,2023-03-01,inflation,-1.4299280807618784
+Economic plus household controls,2023-03-01,gdp_growth,-0.0664054770072204
+Economic plus household controls,2023-03-01,sentiment_last,0.7472783624479397
+Economic plus household controls,2023-03-01,income_growth,0.17300775811206287
+Economic plus household controls,2023-03-01,price_3y,-0.11585460497524071
+Economic plus household controls,2023-04-01,unemployment,-0.8581721011377983
+Economic plus household controls,2023-04-01,inflation,-1.3794744334563371
+Economic plus household controls,2023-04-01,gdp_growth,-0.06713775710536982
+Economic plus household controls,2023-04-01,sentiment_last,0.7454102614783283
+Economic plus household controls,2023-04-01,income_growth,0.15377146327359514
+Economic plus household controls,2023-04-01,price_3y,-0.21928129643819602
+Economic plus household controls,2023-05-01,unemployment,-0.8574860083571845
+Economic plus household controls,2023-05-01,inflation,-1.3776548525152694
+Economic plus household controls,2023-05-01,gdp_growth,-0.06715572452269439
+Economic plus household controls,2023-05-01,sentiment_last,0.7454923549682817
+Economic plus household controls,2023-05-01,income_growth,0.1534345283586007
+Economic plus household controls,2023-05-01,price_3y,-0.2211201610020278
+Economic plus household controls,2023-06-01,unemployment,-0.8050232693038982
+Economic plus household controls,2023-06-01,inflation,-1.2020184897126445
+Economic plus household controls,2023-06-01,gdp_growth,-0.06711584040761907
+Economic plus household controls,2023-06-01,sentiment_last,0.7521290543246845
+Economic plus household controls,2023-06-01,income_growth,0.13805022988913787
+Economic plus household controls,2023-06-01,price_3y,-0.35203628126154474
+Economic plus household controls,2023-07-01,unemployment,-0.8304546024534493
+Economic plus household controls,2023-07-01,inflation,-1.2873355880411343
+Economic plus household controls,2023-07-01,gdp_growth,-0.06697750849742609
+Economic plus household controls,2023-07-01,sentiment_last,0.7484037404139012
+Economic plus household controls,2023-07-01,income_growth,0.1435619428548587
+Economic plus household controls,2023-07-01,price_3y,-0.29380464489401426
+Economic plus household controls,2023-08-01,unemployment,-0.8534582159258083
+Economic plus household controls,2023-08-01,inflation,-1.4174192390803353
+Economic plus household controls,2023-08-01,gdp_growth,-0.06619005060046057
+Economic plus household controls,2023-08-01,sentiment_last,0.7468656257643498
+Economic plus household controls,2023-08-01,income_growth,0.15000879634898903
+Economic plus household controls,2023-08-01,price_3y,-0.19182161993519295
+Economic plus household controls,2023-09-01,unemployment,-0.8426656289516069
+Economic plus household controls,2023-09-01,inflation,-1.3164407904331694
+Economic plus household controls,2023-09-01,gdp_growth,-0.06690952193868617
+Economic plus household controls,2023-09-01,sentiment_last,0.7459826557086766
+Economic plus household controls,2023-09-01,income_growth,0.1478181762997814
+Economic plus household controls,2023-09-01,price_3y,-0.2701633136304317
+Economic plus household controls,2023-10-01,unemployment,-0.8313082370612221
+Economic plus household controls,2023-10-01,inflation,-1.2451577258970339
+Economic plus household controls,2023-10-01,gdp_growth,-0.06713903040238232
+Economic plus household controls,2023-10-01,sentiment_last,0.7463086303068344
+Economic plus household controls,2023-10-01,income_growth,0.1465731094367623
+Economic plus household controls,2023-10-01,price_3y,-0.32307750396391605
+Economic plus household controls,2023-11-01,unemployment,-0.825350155514213
+Economic plus household controls,2023-11-01,inflation,-1.164097772830761
+Economic plus household controls,2023-11-01,gdp_growth,-0.06757459027452234
+Economic plus household controls,2023-11-01,sentiment_last,0.745206286106669
+Economic plus household controls,2023-11-01,income_growth,0.14534319324342085
+Economic plus household controls,2023-11-01,price_3y,-0.3920056319462374
+Economic plus household controls,2023-12-01,unemployment,-0.8130539866212764
+Economic plus household controls,2023-12-01,inflation,-1.0985825557942632
+Economic plus household controls,2023-12-01,gdp_growth,-0.06923278872889521
+Economic plus household controls,2023-12-01,sentiment_last,0.7469930271891849
+Economic plus household controls,2023-12-01,income_growth,0.14454754038306317
+Economic plus household controls,2023-12-01,price_3y,-0.43324611060733104
+Economic plus household controls,2024-01-01,unemployment,-0.8515790530283293
+Economic plus household controls,2024-01-01,inflation,-1.246438369444978
+Economic plus household controls,2024-01-01,gdp_growth,-0.06599039978023467
+Economic plus household controls,2024-01-01,sentiment_last,0.7392210546318001
+Economic plus household controls,2024-01-01,income_growth,0.14517868229313918
+Economic plus household controls,2024-01-01,price_3y,-0.36646379928314204
+Economic plus household controls,2024-02-01,unemployment,-0.8515790530283293
+Economic plus household controls,2024-02-01,inflation,-1.246438369444978
+Economic plus household controls,2024-02-01,gdp_growth,-0.06599039978023467
+Economic plus household controls,2024-02-01,sentiment_last,0.7392210546318001
+Economic plus household controls,2024-02-01,income_growth,0.14517868229313918
+Economic plus household controls,2024-02-01,price_3y,-0.36646379928314204
+Economic plus household controls,2024-03-01,unemployment,-0.867722545272886
+Economic plus household controls,2024-03-01,inflation,-1.390518798875936
+Economic plus household controls,2024-03-01,gdp_growth,-0.06306468688950276
+Economic plus household controls,2024-03-01,sentiment_last,0.7389925864934683
+Economic plus household controls,2024-03-01,income_growth,0.14354190696625566
+Economic plus household controls,2024-03-01,price_3y,-0.2739375479743043
+Economic plus household controls,2024-04-01,unemployment,-0.8793073745381842
+Economic plus household controls,2024-04-01,inflation,-1.471344434509635
+Economic plus household controls,2024-04-01,gdp_growth,-0.062493728681665243
+Economic plus household controls,2024-04-01,sentiment_last,0.738334081073556
+Economic plus household controls,2024-04-01,income_growth,0.142386370382993
+Economic plus household controls,2024-04-01,price_3y,-0.22524553837186784
+Economic plus household controls,2024-05-01,unemployment,-0.8877642788960587
+Economic plus household controls,2024-05-01,inflation,-1.4519664814573237
+Economic plus household controls,2024-05-01,gdp_growth,-0.06253927911722909
+Economic plus household controls,2024-05-01,sentiment_last,0.7352438108873174
+Economic plus household controls,2024-05-01,income_growth,0.14599466273524977
+Economic plus household controls,2024-05-01,price_3y,-0.24905772123441963
+Economic plus household controls,2024-06-01,unemployment,-0.9093545584156235
+Economic plus household controls,2024-06-01,inflation,-1.3833707713995598
+Economic plus household controls,2024-06-01,gdp_growth,-0.06071335020135185
+Economic plus household controls,2024-06-01,sentiment_last,0.7261789999002067
+Economic plus household controls,2024-06-01,income_growth,0.15823667872996705
+Economic plus household controls,2024-06-01,price_3y,-0.32824664928779884
+Economic plus household controls,2024-07-01,unemployment,-0.9014305406890943
+Economic plus household controls,2024-07-01,inflation,-1.3452879532666915
+Economic plus household controls,2024-07-01,gdp_growth,-0.06014013882569302
+Economic plus household controls,2024-07-01,sentiment_last,0.7274537734411624
+Economic plus household controls,2024-07-01,income_growth,0.16184491916368285
+Economic plus household controls,2024-07-01,price_3y,-0.3447370219909881
+Economic plus household controls,2024-08-01,unemployment,-0.8858021718166893
+Economic plus household controls,2024-08-01,inflation,-1.2887432893680246
+Economic plus household controls,2024-08-01,gdp_growth,-0.05947669606930722
+Economic plus household controls,2024-08-01,sentiment_last,0.730528683101332
+Economic plus household controls,2024-08-01,income_growth,0.16651027894428783
+Economic plus household controls,2024-08-01,price_3y,-0.3637531095613984
+Economic plus household controls,2024-09-01,unemployment,-0.8813414986673003
+Economic plus household controls,2024-09-01,inflation,-1.275833033716071
+Economic plus household controls,2024-09-01,gdp_growth,-0.059517034071443334
+Economic plus household controls,2024-09-01,sentiment_last,0.7315338388738216
+Economic plus household controls,2024-09-01,income_growth,0.16738985892619634
+Economic plus household controls,2024-09-01,price_3y,-0.36678831097130643
+Economic plus household controls,2024-10-01,unemployment,-0.8825885068509802
+Economic plus household controls,2024-10-01,inflation,-1.2798796363821536
+Economic plus household controls,2024-10-01,gdp_growth,-0.05949718034271612
+Economic plus household controls,2024-10-01,sentiment_last,0.7312544519503759
+Economic plus household controls,2024-10-01,income_growth,0.16709204127382718
+Economic plus household controls,2024-10-01,price_3y,-0.36567355275957236
+Economic plus household controls,2024-11-01,unemployment,-0.8755171149626445
+Economic plus household controls,2024-11-01,inflation,-1.259121486086291
+Economic plus household controls,2024-11-01,gdp_growth,-0.05966736631256694
+Economic plus household controls,2024-11-01,sentiment_last,0.732722784975125
+Economic plus household controls,2024-11-01,income_growth,0.16718711188505825
+Economic plus household controls,2024-11-01,price_3y,-0.3715568750806041
+Economic plus household controls,2024-12-01,unemployment,-0.8710722255062532
+Economic plus household controls,2024-12-01,inflation,-1.2467732751301197
+Economic plus household controls,2024-12-01,gdp_growth,-0.05973222358333578
+Economic plus household controls,2024-12-01,sentiment_last,0.7336363987904551
+Economic plus household controls,2024-12-01,income_growth,0.1673107235424399
+Economic plus household controls,2024-12-01,price_3y,-0.37457587507699786
+Economic plus household controls,2025-01-01,unemployment,-0.8727850482521302
+Economic plus household controls,2025-01-01,inflation,-1.2515267973798023
+Economic plus household controls,2025-01-01,gdp_growth,-0.05970830525220162
+Economic plus household controls,2025-01-01,sentiment_last,0.7333158160621464
+Economic plus household controls,2025-01-01,income_growth,0.16725222115626465
+Economic plus household controls,2025-01-01,price_3y,-0.3731668108284812
+Economic plus household controls,2025-02-01,unemployment,-0.8656536794515626
+Economic plus household controls,2025-02-01,inflation,-1.2296594690906686
+Economic plus household controls,2025-02-01,gdp_growth,-0.05995686181889783
+Economic plus household controls,2025-02-01,sentiment_last,0.7343158222355699
+Economic plus household controls,2025-02-01,income_growth,0.1672351972718612
+Economic plus household controls,2025-02-01,price_3y,-0.38266519475229843
+Economic plus household controls,2025-03-01,unemployment,-0.8288577936872299
+Economic plus household controls,2025-03-01,inflation,-1.164377032584055
+Economic plus household controls,2025-03-01,gdp_growth,-0.059571284183402295
+Economic plus household controls,2025-03-01,sentiment_last,0.7415580852518501
+Economic plus household controls,2025-03-01,income_growth,0.16610674554056448
+Economic plus household controls,2025-03-01,price_3y,-0.39342882952624286
+Economic plus household controls,2025-04-01,unemployment,-0.7280499089027517
+Economic plus household controls,2025-04-01,inflation,-1.0168599220849943
+Economic plus household controls,2025-04-01,gdp_growth,-0.059443290884524394
+Economic plus household controls,2025-04-01,sentiment_last,0.7655484092749268
+Economic plus household controls,2025-04-01,income_growth,0.1661196227653136
+Economic plus household controls,2025-04-01,price_3y,-0.37783761977230235
+Economic plus household controls,2025-05-01,unemployment,-0.604770699368883
+Economic plus household controls,2025-05-01,inflation,-0.8572532687474955
+Economic plus household controls,2025-05-01,gdp_growth,-0.05987259811177283
+Economic plus household controls,2025-05-01,sentiment_last,0.7969436190756193
+Economic plus household controls,2025-05-01,income_growth,0.16343857975223902
+Economic plus household controls,2025-05-01,price_3y,-0.338804026980618
+Economic plus household controls,2025-06-01,unemployment,-0.5197557863137195
+Economic plus household controls,2025-06-01,inflation,-0.751476606615908
+Economic plus household controls,2025-06-01,gdp_growth,-0.058276220881947435
+Economic plus household controls,2025-06-01,sentiment_last,0.8187876842401074
+Economic plus household controls,2025-06-01,income_growth,0.1620949841956505
+Economic plus household controls,2025-06-01,price_3y,-0.3056547419979767
+Economic plus household controls,2025-07-01,unemployment,-0.5658230980914756
+Economic plus household controls,2025-07-01,inflation,-0.806419838089675
+Economic plus household controls,2025-07-01,gdp_growth,-0.05899611196462487
+Economic plus household controls,2025-07-01,sentiment_last,0.8069821765636209
+Economic plus household controls,2025-07-01,income_growth,0.16458080587421237
+Economic plus household controls,2025-07-01,price_3y,-0.3242938544336438
+Economic plus household controls,2025-08-01,unemployment,-0.5658230980914756
+Economic plus household controls,2025-08-01,inflation,-0.806419838089675
+Economic plus household controls,2025-08-01,gdp_growth,-0.05899611196462487
+Economic plus household controls,2025-08-01,sentiment_last,0.8069821765636209
+Economic plus household controls,2025-08-01,income_growth,0.16458080587421237
+Economic plus household controls,2025-08-01,price_3y,-0.3242938544336438
+Economic plus household controls,2025-09-01,unemployment,-0.48123448807706265
+Economic plus household controls,2025-09-01,inflation,-0.7208535457529596
+Economic plus household controls,2025-09-01,gdp_growth,-0.0590116172114159
+Economic plus household controls,2025-09-01,sentiment_last,0.8277267414846191
+Economic plus household controls,2025-09-01,income_growth,0.1611996963517153
+Economic plus household controls,2025-09-01,price_3y,-0.2869983481169488
+Economic plus household controls,2025-10-01,unemployment,-0.41752959744826057
+Economic plus household controls,2025-10-01,inflation,-0.6596048439834743
+Economic plus household controls,2025-10-01,gdp_growth,-0.060491208514343336
+Economic plus household controls,2025-10-01,sentiment_last,0.8439150885647638
+Economic plus household controls,2025-10-01,income_growth,0.15686111449632323
+Economic plus household controls,2025-10-01,price_3y,-0.25689446106675046
+Economic plus household controls,2025-11-01,unemployment,-0.3708159939559731
+Economic plus household controls,2025-11-01,inflation,-0.6149118124243572
+Economic plus household controls,2025-11-01,gdp_growth,-0.061999310842176504
+Economic plus household controls,2025-11-01,sentiment_last,0.8562042982599849
+Economic plus household controls,2025-11-01,income_growth,0.15338432251708514
+Economic plus household controls,2025-11-01,price_3y,-0.23438390738445758
+Economic plus household controls,2025-12-01,unemployment,-0.3155594023275201
+Economic plus household controls,2025-12-01,inflation,-0.5634034777926583
+Economic plus household controls,2025-12-01,gdp_growth,-0.06372797083966292
+Economic plus household controls,2025-12-01,sentiment_last,0.8708706865251951
+Economic plus household controls,2025-12-01,income_growth,0.14908685964600496
+Economic plus household controls,2025-12-01,price_3y,-0.20624133129659364
+Economic plus household controls,2026-01-01,unemployment,-0.3033664908767406
+Economic plus household controls,2026-01-01,inflation,-0.5518018256248548
+Economic plus household controls,2026-01-01,gdp_growth,-0.06410729688902764
+Economic plus household controls,2026-01-01,sentiment_last,0.8741827644718633
+Economic plus household controls,2026-01-01,income_growth,0.14815283735248416
+Economic plus household controls,2026-01-01,price_3y,-0.1998322816711716
+Economic plus household controls,2026-02-01,unemployment,-0.30939611569172304
+Economic plus household controls,2026-02-01,inflation,-0.557604257112067
+Economic plus household controls,2026-02-01,gdp_growth,-0.06384658153305664
+Economic plus household controls,2026-02-01,sentiment_last,0.872506224881844
+Economic plus household controls,2026-02-01,income_growth,0.1485211387191799
+Economic plus household controls,2026-02-01,price_3y,-0.2030448025567083
+Economic plus household controls,2026-03-01,unemployment,-0.2939428371893707
+Economic plus household controls,2026-03-01,inflation,-0.5433055523935016
+Economic plus household controls,2026-03-01,gdp_growth,-0.06447418083367287
+Economic plus household controls,2026-03-01,sentiment_last,0.8765770198432332
+Economic plus household controls,2026-03-01,income_growth,0.1481086760108337
+Economic plus household controls,2026-03-01,price_3y,-0.1948501369955982
+Economic plus household controls,2026-04-01,unemployment,-0.25630600365671674
+Economic plus household controls,2026-04-01,inflation,-0.5111863058516457
+Economic plus household controls,2026-04-01,gdp_growth,-0.06365198818263411
+Economic plus household controls,2026-04-01,sentiment_last,0.8861143559151133
+Economic plus household controls,2026-04-01,income_growth,0.14736198501789194
+Economic plus household controls,2026-04-01,price_3y,-0.17582006031272246
+Economic plus household controls,2026-05-01,unemployment,-0.2104664128608529
+Economic plus household controls,2026-05-01,inflation,-0.47510450986654235
+Economic plus household controls,2026-05-01,gdp_growth,-0.06234441073184194
+Economic plus household controls,2026-05-01,sentiment_last,0.8980674054420701
+Economic plus household controls,2026-05-01,income_growth,0.14371833610015164
+Economic plus household controls,2026-05-01,price_3y,-0.15009095494557168
+Economic plus household controls,2026-06-01,unemployment,-0.16366963036168944
+Economic plus household controls,2026-06-01,inflation,-0.44895690901571317
+Economic plus household controls,2026-06-01,gdp_growth,-0.0620851046506985
+Economic plus household controls,2026-06-01,sentiment_last,0.9108460045569563
+Economic plus household controls,2026-06-01,income_growth,0.14101812268701275
+Economic plus household controls,2026-06-01,price_3y,-0.12139059583948471
+Economic plus household controls,2026-07-01,unemployment,-0.18357369027527543
+Economic plus household controls,2026-07-01,inflation,-0.4615438518786068
+Economic plus household controls,2026-07-01,gdp_growth,-0.06237105010487123
+Economic plus household controls,2026-07-01,sentiment_last,0.9052288504235982
+Economic plus household controls,2026-07-01,income_growth,0.14044796753884345
+Economic plus household controls,2026-07-01,price_3y,-0.13418331654327317
+Economic plus household controls,2026-08-01,unemployment,-0.20461407033234788
+Economic plus household controls,2026-08-01,inflation,-0.46205211198912927
+Economic plus household controls,2026-08-01,gdp_growth,-0.062484966889565535
+Economic plus household controls,2026-08-01,sentiment_last,0.8992923989745145
+Economic plus household controls,2026-08-01,income_growth,0.14287048360793703
+Economic plus household controls,2026-08-01,price_3y,-0.1490502727493574
+Economic plus household controls,2026-09-01,unemployment,-0.1816935140587917
+Economic plus household controls,2026-09-01,inflation,-0.45835060635606983
+Economic plus household controls,2026-09-01,gdp_growth,-0.06185949268727261
+Economic plus household controls,2026-09-01,sentiment_last,0.9051112513071757
+Economic plus household controls,2026-09-01,income_growth,0.14048890345033702
+Economic plus household controls,2026-09-01,price_3y,-0.13484154584821959
+Economic plus household controls,2026-10-01,unemployment,-0.1816935140587917
+Economic plus household controls,2026-10-01,inflation,-0.45835060635606983
+Economic plus household controls,2026-10-01,gdp_growth,-0.06185949268727261
+Economic plus household controls,2026-10-01,sentiment_last,0.9051112513071757
+Economic plus household controls,2026-10-01,income_growth,0.14048890345033702
+Economic plus household controls,2026-10-01,price_3y,-0.13484154584821959
+Economic plus seasonal and method controls,2018-01-01,unemployment,-2.3697432690824485
+Economic plus seasonal and method controls,2018-01-01,inflation,-0.5110421963456173
+Economic plus seasonal and method controls,2018-01-01,gdp_growth,0.3785264149310927
+Economic plus seasonal and method controls,2018-01-01,sentiment_last,0.558269082430652
+Economic plus seasonal and method controls,2018-01-01,income_growth,0.6138820597670168
+Economic plus seasonal and method controls,2018-01-01,price_3y,0.5008166083557487
+Economic plus seasonal and method controls,2018-01-01,season_sin,0.9222056151750053
+Economic plus seasonal and method controls,2018-01-01,season_cos,0.49830404698616615
+Economic plus seasonal and method controls,2018-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-02-01,unemployment,-2.330502597223035
+Economic plus seasonal and method controls,2018-02-01,inflation,-0.570188945003988
+Economic plus seasonal and method controls,2018-02-01,gdp_growth,0.3729729695465707
+Economic plus seasonal and method controls,2018-02-01,sentiment_last,0.5589032957412565
+Economic plus seasonal and method controls,2018-02-01,income_growth,0.6097466882939272
+Economic plus seasonal and method controls,2018-02-01,price_3y,0.4817338325682305
+Economic plus seasonal and method controls,2018-02-01,season_sin,0.8997337970977316
+Economic plus seasonal and method controls,2018-02-01,season_cos,0.4691475148521471
+Economic plus seasonal and method controls,2018-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-03-01,unemployment,-2.330502597223035
+Economic plus seasonal and method controls,2018-03-01,inflation,-0.570188945003988
+Economic plus seasonal and method controls,2018-03-01,gdp_growth,0.3729729695465707
+Economic plus seasonal and method controls,2018-03-01,sentiment_last,0.5589032957412565
+Economic plus seasonal and method controls,2018-03-01,income_growth,0.6097466882939272
+Economic plus seasonal and method controls,2018-03-01,price_3y,0.4817338325682305
+Economic plus seasonal and method controls,2018-03-01,season_sin,0.8997337970977316
+Economic plus seasonal and method controls,2018-03-01,season_cos,0.4691475148521471
+Economic plus seasonal and method controls,2018-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-04-01,unemployment,-2.3776960920896903
+Economic plus seasonal and method controls,2018-04-01,inflation,-0.5210606121106484
+Economic plus seasonal and method controls,2018-04-01,gdp_growth,0.3740979787221764
+Economic plus seasonal and method controls,2018-04-01,sentiment_last,0.5568493818663324
+Economic plus seasonal and method controls,2018-04-01,income_growth,0.6165433113530309
+Economic plus seasonal and method controls,2018-04-01,price_3y,0.5106446009109475
+Economic plus seasonal and method controls,2018-04-01,season_sin,0.9352492380586146
+Economic plus seasonal and method controls,2018-04-01,season_cos,0.48259356717194674
+Economic plus seasonal and method controls,2018-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-05-01,unemployment,-2.4369924623999157
+Economic plus seasonal and method controls,2018-05-01,inflation,-0.4881335834338285
+Economic plus seasonal and method controls,2018-05-01,gdp_growth,0.3781445404039051
+Economic plus seasonal and method controls,2018-05-01,sentiment_last,0.5504134720685525
+Economic plus seasonal and method controls,2018-05-01,income_growth,0.6174527944066349
+Economic plus seasonal and method controls,2018-05-01,price_3y,0.5197573268999992
+Economic plus seasonal and method controls,2018-05-01,season_sin,0.9911723904872047
+Economic plus seasonal and method controls,2018-05-01,season_cos,0.4862110110850831
+Economic plus seasonal and method controls,2018-05-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-06-01,unemployment,-2.427901865060748
+Economic plus seasonal and method controls,2018-06-01,inflation,-0.5050719598551214
+Economic plus seasonal and method controls,2018-06-01,gdp_growth,0.3767701321065465
+Economic plus seasonal and method controls,2018-06-01,sentiment_last,0.5501054053621286
+Economic plus seasonal and method controls,2018-06-01,income_growth,0.614996488513235
+Economic plus seasonal and method controls,2018-06-01,price_3y,0.5094733005680042
+Economic plus seasonal and method controls,2018-06-01,season_sin,0.9897507826214003
+Economic plus seasonal and method controls,2018-06-01,season_cos,0.49627423124361486
+Economic plus seasonal and method controls,2018-06-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-07-01,unemployment,-2.428591026095825
+Economic plus seasonal and method controls,2018-07-01,inflation,-0.5042018591123848
+Economic plus seasonal and method controls,2018-07-01,gdp_growth,0.37687497595439573
+Economic plus seasonal and method controls,2018-07-01,sentiment_last,0.5500942904814438
+Economic plus seasonal and method controls,2018-07-01,income_growth,0.6152228993756286
+Economic plus seasonal and method controls,2018-07-01,price_3y,0.5101897180685268
+Economic plus seasonal and method controls,2018-07-01,season_sin,0.9895408983297184
+Economic plus seasonal and method controls,2018-07-01,season_cos,0.49562072317528755
+Economic plus seasonal and method controls,2018-07-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-08-01,unemployment,-2.4306808563000133
+Economic plus seasonal and method controls,2018-08-01,inflation,-0.49953084245589624
+Economic plus seasonal and method controls,2018-08-01,gdp_growth,0.3769332704061777
+Economic plus seasonal and method controls,2018-08-01,sentiment_last,0.5501830235676649
+Economic plus seasonal and method controls,2018-08-01,income_growth,0.616153482252569
+Economic plus seasonal and method controls,2018-08-01,price_3y,0.5129370720147045
+Economic plus seasonal and method controls,2018-08-01,season_sin,0.987378134839773
+Economic plus seasonal and method controls,2018-08-01,season_cos,0.4939498934267422
+Economic plus seasonal and method controls,2018-08-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-09-01,unemployment,-2.404633321418836
+Economic plus seasonal and method controls,2018-09-01,inflation,-0.5860179370147471
+Economic plus seasonal and method controls,2018-09-01,gdp_growth,0.34653361566560537
+Economic plus seasonal and method controls,2018-09-01,sentiment_last,0.5492886917597044
+Economic plus seasonal and method controls,2018-09-01,income_growth,0.5739289062496925
+Economic plus seasonal and method controls,2018-09-01,price_3y,0.47855501045942533
+Economic plus seasonal and method controls,2018-09-01,season_sin,1.03835455545175
+Economic plus seasonal and method controls,2018-09-01,season_cos,0.526726665837926
+Economic plus seasonal and method controls,2018-09-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-10-01,unemployment,-2.44398459908463
+Economic plus seasonal and method controls,2018-10-01,inflation,-0.4976494955735873
+Economic plus seasonal and method controls,2018-10-01,gdp_growth,0.3753374738873779
+Economic plus seasonal and method controls,2018-10-01,sentiment_last,0.5482367361301808
+Economic plus seasonal and method controls,2018-10-01,income_growth,0.6147923545576215
+Economic plus seasonal and method controls,2018-10-01,price_3y,0.5175989719729907
+Economic plus seasonal and method controls,2018-10-01,season_sin,0.9843744495785656
+Economic plus seasonal and method controls,2018-10-01,season_cos,0.5159499389574262
+Economic plus seasonal and method controls,2018-10-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-11-01,unemployment,-2.443158958399183
+Economic plus seasonal and method controls,2018-11-01,inflation,-0.5599970860537866
+Economic plus seasonal and method controls,2018-11-01,gdp_growth,0.3675409798623731
+Economic plus seasonal and method controls,2018-11-01,sentiment_last,0.5438617667556314
+Economic plus seasonal and method controls,2018-11-01,income_growth,0.5914330839298614
+Economic plus seasonal and method controls,2018-11-01,price_3y,0.49095449143958475
+Economic plus seasonal and method controls,2018-11-01,season_sin,1.0221633525311906
+Economic plus seasonal and method controls,2018-11-01,season_cos,0.49510775906687715
+Economic plus seasonal and method controls,2018-11-01,web_transition,0.0
+Economic plus seasonal and method controls,2018-12-01,unemployment,-2.4096345491962454
+Economic plus seasonal and method controls,2018-12-01,inflation,-0.6214852097718859
+Economic plus seasonal and method controls,2018-12-01,gdp_growth,0.37012935915553286
+Economic plus seasonal and method controls,2018-12-01,sentiment_last,0.5422654465303482
+Economic plus seasonal and method controls,2018-12-01,income_growth,0.5643461781104339
+Economic plus seasonal and method controls,2018-12-01,price_3y,0.4323768915954495
+Economic plus seasonal and method controls,2018-12-01,season_sin,1.0517627284726738
+Economic plus seasonal and method controls,2018-12-01,season_cos,0.4408595402386914
+Economic plus seasonal and method controls,2018-12-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-01-01,unemployment,-2.378243334308377
+Economic plus seasonal and method controls,2019-01-01,inflation,-0.6508921452130219
+Economic plus seasonal and method controls,2019-01-01,gdp_growth,0.3715512477912413
+Economic plus seasonal and method controls,2019-01-01,sentiment_last,0.5434335770943804
+Economic plus seasonal and method controls,2019-01-01,income_growth,0.5505787207567183
+Economic plus seasonal and method controls,2019-01-01,price_3y,0.3954059614039786
+Economic plus seasonal and method controls,2019-01-01,season_sin,1.049999343383458
+Economic plus seasonal and method controls,2019-01-01,season_cos,0.4076295805506829
+Economic plus seasonal and method controls,2019-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-02-01,unemployment,-2.378243334308377
+Economic plus seasonal and method controls,2019-02-01,inflation,-0.6508921452130219
+Economic plus seasonal and method controls,2019-02-01,gdp_growth,0.3715512477912413
+Economic plus seasonal and method controls,2019-02-01,sentiment_last,0.5434335770943804
+Economic plus seasonal and method controls,2019-02-01,income_growth,0.5505787207567183
+Economic plus seasonal and method controls,2019-02-01,price_3y,0.3954059614039786
+Economic plus seasonal and method controls,2019-02-01,season_sin,1.049999343383458
+Economic plus seasonal and method controls,2019-02-01,season_cos,0.4076295805506829
+Economic plus seasonal and method controls,2019-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-03-01,unemployment,-2.216835569190528
+Economic plus seasonal and method controls,2019-03-01,inflation,-0.7637000807689265
+Economic plus seasonal and method controls,2019-03-01,gdp_growth,0.3788968765581356
+Economic plus seasonal and method controls,2019-03-01,sentiment_last,0.5509104986299403
+Economic plus seasonal and method controls,2019-03-01,income_growth,0.48623435889133376
+Economic plus seasonal and method controls,2019-03-01,price_3y,0.21530101371752358
+Economic plus seasonal and method controls,2019-03-01,season_sin,0.9574185739086822
+Economic plus seasonal and method controls,2019-03-01,season_cos,0.27088849155330746
+Economic plus seasonal and method controls,2019-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-04-01,unemployment,-2.2484821328994617
+Economic plus seasonal and method controls,2019-04-01,inflation,-0.8256794743378791
+Economic plus seasonal and method controls,2019-04-01,gdp_growth,0.3826182894491634
+Economic plus seasonal and method controls,2019-04-01,sentiment_last,0.5384711009428811
+Economic plus seasonal and method controls,2019-04-01,income_growth,0.4690634816922421
+Economic plus seasonal and method controls,2019-04-01,price_3y,0.17825804937518966
+Economic plus seasonal and method controls,2019-04-01,season_sin,0.9413682909036868
+Economic plus seasonal and method controls,2019-04-01,season_cos,0.20858416789813466
+Economic plus seasonal and method controls,2019-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-05-01,unemployment,-2.202460684799297
+Economic plus seasonal and method controls,2019-05-01,inflation,-0.8119768226752041
+Economic plus seasonal and method controls,2019-05-01,gdp_growth,0.38336890211212493
+Economic plus seasonal and method controls,2019-05-01,sentiment_last,0.5423552377015576
+Economic plus seasonal and method controls,2019-05-01,income_growth,0.4561953084186881
+Economic plus seasonal and method controls,2019-05-01,price_3y,0.13271267177501703
+Economic plus seasonal and method controls,2019-05-01,season_sin,0.9069079558765235
+Economic plus seasonal and method controls,2019-05-01,season_cos,0.2385766291368823
+Economic plus seasonal and method controls,2019-05-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-06-01,unemployment,-2.237973283633972
+Economic plus seasonal and method controls,2019-06-01,inflation,-0.8273852261486816
+Economic plus seasonal and method controls,2019-06-01,gdp_growth,0.3949193584207683
+Economic plus seasonal and method controls,2019-06-01,sentiment_last,0.5383496015726361
+Economic plus seasonal and method controls,2019-06-01,income_growth,0.4585436954942743
+Economic plus seasonal and method controls,2019-06-01,price_3y,0.15766034159396827
+Economic plus seasonal and method controls,2019-06-01,season_sin,0.9184922514579764
+Economic plus seasonal and method controls,2019-06-01,season_cos,0.20352411579890484
+Economic plus seasonal and method controls,2019-06-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-07-01,unemployment,-2.2111262439030104
+Economic plus seasonal and method controls,2019-07-01,inflation,-0.8154836794598804
+Economic plus seasonal and method controls,2019-07-01,gdp_growth,0.38504783018865524
+Economic plus seasonal and method controls,2019-07-01,sentiment_last,0.5400498804493239
+Economic plus seasonal and method controls,2019-07-01,income_growth,0.4577592456306728
+Economic plus seasonal and method controls,2019-07-01,price_3y,0.13030622658239105
+Economic plus seasonal and method controls,2019-07-01,season_sin,0.923774148990437
+Economic plus seasonal and method controls,2019-07-01,season_cos,0.24165250055785165
+Economic plus seasonal and method controls,2019-07-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-08-01,unemployment,-2.2111262439030104
+Economic plus seasonal and method controls,2019-08-01,inflation,-0.8154836794598804
+Economic plus seasonal and method controls,2019-08-01,gdp_growth,0.38504783018865524
+Economic plus seasonal and method controls,2019-08-01,sentiment_last,0.5400498804493239
+Economic plus seasonal and method controls,2019-08-01,income_growth,0.4577592456306728
+Economic plus seasonal and method controls,2019-08-01,price_3y,0.13030622658239105
+Economic plus seasonal and method controls,2019-08-01,season_sin,0.923774148990437
+Economic plus seasonal and method controls,2019-08-01,season_cos,0.24165250055785165
+Economic plus seasonal and method controls,2019-08-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-09-01,unemployment,-2.1351008562069653
+Economic plus seasonal and method controls,2019-09-01,inflation,-0.7906441829664872
+Economic plus seasonal and method controls,2019-09-01,gdp_growth,0.4085856072667441
+Economic plus seasonal and method controls,2019-09-01,sentiment_last,0.5407298170562774
+Economic plus seasonal and method controls,2019-09-01,income_growth,0.3989278356184642
+Economic plus seasonal and method controls,2019-09-01,price_3y,-0.02080980489791036
+Economic plus seasonal and method controls,2019-09-01,season_sin,1.0744336672480808
+Economic plus seasonal and method controls,2019-09-01,season_cos,0.2862638199604776
+Economic plus seasonal and method controls,2019-09-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-10-01,unemployment,-2.1453327144356473
+Economic plus seasonal and method controls,2019-10-01,inflation,-0.7948255707374694
+Economic plus seasonal and method controls,2019-10-01,gdp_growth,0.4083532839359958
+Economic plus seasonal and method controls,2019-10-01,sentiment_last,0.5392469702243122
+Economic plus seasonal and method controls,2019-10-01,income_growth,0.40050438604908234
+Economic plus seasonal and method controls,2019-10-01,price_3y,-0.014569896529288445
+Economic plus seasonal and method controls,2019-10-01,season_sin,1.0704171277747012
+Economic plus seasonal and method controls,2019-10-01,season_cos,0.28588872712788205
+Economic plus seasonal and method controls,2019-10-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-11-01,unemployment,-2.154622620075511
+Economic plus seasonal and method controls,2019-11-01,inflation,-0.7971472310944936
+Economic plus seasonal and method controls,2019-11-01,gdp_growth,0.4054034137676286
+Economic plus seasonal and method controls,2019-11-01,sentiment_last,0.5383211419682525
+Economic plus seasonal and method controls,2019-11-01,income_growth,0.402503461736992
+Economic plus seasonal and method controls,2019-11-01,price_3y,-0.0052739434011752975
+Economic plus seasonal and method controls,2019-11-01,season_sin,1.0635974134638004
+Economic plus seasonal and method controls,2019-11-01,season_cos,0.2924498198110883
+Economic plus seasonal and method controls,2019-11-01,web_transition,0.0
+Economic plus seasonal and method controls,2019-12-01,unemployment,-2.147114278310949
+Economic plus seasonal and method controls,2019-12-01,inflation,-0.7958880793676825
+Economic plus seasonal and method controls,2019-12-01,gdp_growth,0.4098939787817821
+Economic plus seasonal and method controls,2019-12-01,sentiment_last,0.5388459284113906
+Economic plus seasonal and method controls,2019-12-01,income_growth,0.39922561635177417
+Economic plus seasonal and method controls,2019-12-01,price_3y,-0.01507141654791337
+Economic plus seasonal and method controls,2019-12-01,season_sin,1.06779741113652
+Economic plus seasonal and method controls,2019-12-01,season_cos,0.2810364318752351
+Economic plus seasonal and method controls,2019-12-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-01-01,unemployment,-2.1572666821420157
+Economic plus seasonal and method controls,2020-01-01,inflation,-0.8003826844482296
+Economic plus seasonal and method controls,2020-01-01,gdp_growth,0.40193040497928856
+Economic plus seasonal and method controls,2020-01-01,sentiment_last,0.5386127315900634
+Economic plus seasonal and method controls,2020-01-01,income_growth,0.3988128843409543
+Economic plus seasonal and method controls,2020-01-01,price_3y,-0.0006456453312063959
+Economic plus seasonal and method controls,2020-01-01,season_sin,1.0684895305725262
+Economic plus seasonal and method controls,2020-01-01,season_cos,0.3033638357326545
+Economic plus seasonal and method controls,2020-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-02-01,unemployment,-2.1544069958689374
+Economic plus seasonal and method controls,2020-02-01,inflation,-0.8025579364365671
+Economic plus seasonal and method controls,2020-02-01,gdp_growth,0.4064581307466059
+Economic plus seasonal and method controls,2020-02-01,sentiment_last,0.5382665417802501
+Economic plus seasonal and method controls,2020-02-01,income_growth,0.39723178459427255
+Economic plus seasonal and method controls,2020-02-01,price_3y,-0.00828367804921312
+Economic plus seasonal and method controls,2020-02-01,season_sin,1.0644752560761628
+Economic plus seasonal and method controls,2020-02-01,season_cos,0.29277536067648935
+Economic plus seasonal and method controls,2020-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-03-01,unemployment,-2.159483950179907
+Economic plus seasonal and method controls,2020-03-01,inflation,-0.801201686955376
+Economic plus seasonal and method controls,2020-03-01,gdp_growth,0.4012652954251185
+Economic plus seasonal and method controls,2020-03-01,sentiment_last,0.5385724853202233
+Economic plus seasonal and method controls,2020-03-01,income_growth,0.39353898208706695
+Economic plus seasonal and method controls,2020-03-01,price_3y,-0.0006490912346801794
+Economic plus seasonal and method controls,2020-03-01,season_sin,1.0737865638578032
+Economic plus seasonal and method controls,2020-03-01,season_cos,0.30159340392219597
+Economic plus seasonal and method controls,2020-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-04-01,unemployment,-2.1286457492901256
+Economic plus seasonal and method controls,2020-04-01,inflation,-0.9061626113785648
+Economic plus seasonal and method controls,2020-04-01,gdp_growth,0.4600135127760438
+Economic plus seasonal and method controls,2020-04-01,sentiment_last,0.5269985542015837
+Economic plus seasonal and method controls,2020-04-01,income_growth,0.41521169062603414
+Economic plus seasonal and method controls,2020-04-01,price_3y,-0.07751978546794305
+Economic plus seasonal and method controls,2020-04-01,season_sin,0.9087519066859331
+Economic plus seasonal and method controls,2020-04-01,season_cos,0.263578215471628
+Economic plus seasonal and method controls,2020-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-05-01,unemployment,-1.2941401191935018
+Economic plus seasonal and method controls,2020-05-01,inflation,-0.7657563976531315
+Economic plus seasonal and method controls,2020-05-01,gdp_growth,0.35280374374128465
+Economic plus seasonal and method controls,2020-05-01,sentiment_last,0.6673779310479783
+Economic plus seasonal and method controls,2020-05-01,income_growth,0.4342666648290928
+Economic plus seasonal and method controls,2020-05-01,price_3y,-0.22338491999409008
+Economic plus seasonal and method controls,2020-05-01,season_sin,0.4255666556359276
+Economic plus seasonal and method controls,2020-05-01,season_cos,0.6255229715757066
+Economic plus seasonal and method controls,2020-05-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-06-01,unemployment,-1.1805010669888485
+Economic plus seasonal and method controls,2020-06-01,inflation,-0.7019969146382357
+Economic plus seasonal and method controls,2020-06-01,gdp_growth,0.4136767384404517
+Economic plus seasonal and method controls,2020-06-01,sentiment_last,0.6862871144422656
+Economic plus seasonal and method controls,2020-06-01,income_growth,0.4793177274009917
+Economic plus seasonal and method controls,2020-06-01,price_3y,-0.25322087477836475
+Economic plus seasonal and method controls,2020-06-01,season_sin,0.3813131695508682
+Economic plus seasonal and method controls,2020-06-01,season_cos,0.6254258316769988
+Economic plus seasonal and method controls,2020-06-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-07-01,unemployment,-0.8662868123063331
+Economic plus seasonal and method controls,2020-07-01,inflation,-0.47698001626782605
+Economic plus seasonal and method controls,2020-07-01,gdp_growth,0.2630032044985679
+Economic plus seasonal and method controls,2020-07-01,sentiment_last,0.7310328114209189
+Economic plus seasonal and method controls,2020-07-01,income_growth,0.7462301019103859
+Economic plus seasonal and method controls,2020-07-01,price_3y,-0.22409540524918745
+Economic plus seasonal and method controls,2020-07-01,season_sin,0.3191936989664275
+Economic plus seasonal and method controls,2020-07-01,season_cos,0.6737461246430116
+Economic plus seasonal and method controls,2020-07-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-08-01,unemployment,-0.9982164868212278
+Economic plus seasonal and method controls,2020-08-01,inflation,-0.5070717435230794
+Economic plus seasonal and method controls,2020-08-01,gdp_growth,0.34280810171574866
+Economic plus seasonal and method controls,2020-08-01,sentiment_last,0.706544888359987
+Economic plus seasonal and method controls,2020-08-01,income_growth,0.74274311467862
+Economic plus seasonal and method controls,2020-08-01,price_3y,-0.23457699507059815
+Economic plus seasonal and method controls,2020-08-01,season_sin,0.37362931609609434
+Economic plus seasonal and method controls,2020-08-01,season_cos,0.6230572854510105
+Economic plus seasonal and method controls,2020-08-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-09-01,unemployment,-0.9396526809400396
+Economic plus seasonal and method controls,2020-09-01,inflation,-0.4290725570820675
+Economic plus seasonal and method controls,2020-09-01,gdp_growth,0.07934200296942365
+Economic plus seasonal and method controls,2020-09-01,sentiment_last,0.7282641256224802
+Economic plus seasonal and method controls,2020-09-01,income_growth,0.6609275804357648
+Economic plus seasonal and method controls,2020-09-01,price_3y,-0.16816441287272937
+Economic plus seasonal and method controls,2020-09-01,season_sin,0.330151807601521
+Economic plus seasonal and method controls,2020-09-01,season_cos,0.8493525607548686
+Economic plus seasonal and method controls,2020-09-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-10-01,unemployment,-0.9396526809400396
+Economic plus seasonal and method controls,2020-10-01,inflation,-0.4290725570820675
+Economic plus seasonal and method controls,2020-10-01,gdp_growth,0.07934200296942365
+Economic plus seasonal and method controls,2020-10-01,sentiment_last,0.7282641256224802
+Economic plus seasonal and method controls,2020-10-01,income_growth,0.6609275804357648
+Economic plus seasonal and method controls,2020-10-01,price_3y,-0.16816441287272937
+Economic plus seasonal and method controls,2020-10-01,season_sin,0.330151807601521
+Economic plus seasonal and method controls,2020-10-01,season_cos,0.8493525607548686
+Economic plus seasonal and method controls,2020-10-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-11-01,unemployment,-0.9579679981075179
+Economic plus seasonal and method controls,2020-11-01,inflation,-0.38049413151177547
+Economic plus seasonal and method controls,2020-11-01,gdp_growth,-0.017111976901366215
+Economic plus seasonal and method controls,2020-11-01,sentiment_last,0.7295971448919185
+Economic plus seasonal and method controls,2020-11-01,income_growth,0.654243082711469
+Economic plus seasonal and method controls,2020-11-01,price_3y,-0.1240925209275305
+Economic plus seasonal and method controls,2020-11-01,season_sin,0.3124468743084169
+Economic plus seasonal and method controls,2020-11-01,season_cos,0.9672232127588553
+Economic plus seasonal and method controls,2020-11-01,web_transition,0.0
+Economic plus seasonal and method controls,2020-12-01,unemployment,-0.9355537772329875
+Economic plus seasonal and method controls,2020-12-01,inflation,-0.39820499060745523
+Economic plus seasonal and method controls,2020-12-01,gdp_growth,-0.08565752375908249
+Economic plus seasonal and method controls,2020-12-01,sentiment_last,0.7424767568837337
+Economic plus seasonal and method controls,2020-12-01,income_growth,0.5008117639750121
+Economic plus seasonal and method controls,2020-12-01,price_3y,-0.15606536453801312
+Economic plus seasonal and method controls,2020-12-01,season_sin,0.3858653297241263
+Economic plus seasonal and method controls,2020-12-01,season_cos,0.9597422496457299
+Economic plus seasonal and method controls,2020-12-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-01-01,unemployment,-0.9646341915383823
+Economic plus seasonal and method controls,2021-01-01,inflation,-0.41100634999006413
+Economic plus seasonal and method controls,2021-01-01,gdp_growth,-0.06916461016742317
+Economic plus seasonal and method controls,2021-01-01,sentiment_last,0.7341661985781863
+Economic plus seasonal and method controls,2021-01-01,income_growth,0.54172089320058
+Economic plus seasonal and method controls,2021-01-01,price_3y,-0.1478781319142326
+Economic plus seasonal and method controls,2021-01-01,season_sin,0.38669840621872903
+Economic plus seasonal and method controls,2021-01-01,season_cos,0.9593365799441617
+Economic plus seasonal and method controls,2021-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-02-01,unemployment,-0.954580252453498
+Economic plus seasonal and method controls,2021-02-01,inflation,-0.39259916007655016
+Economic plus seasonal and method controls,2021-02-01,gdp_growth,-0.08071603796534764
+Economic plus seasonal and method controls,2021-02-01,sentiment_last,0.7378801049620317
+Economic plus seasonal and method controls,2021-02-01,income_growth,0.5232568144957408
+Economic plus seasonal and method controls,2021-02-01,price_3y,-0.14981864958080005
+Economic plus seasonal and method controls,2021-02-01,season_sin,0.37729901156451023
+Economic plus seasonal and method controls,2021-02-01,season_cos,0.9589192982820242
+Economic plus seasonal and method controls,2021-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-03-01,unemployment,-0.9105355672971189
+Economic plus seasonal and method controls,2021-03-01,inflation,-0.36979758419880826
+Economic plus seasonal and method controls,2021-03-01,gdp_growth,-0.0819439178538209
+Economic plus seasonal and method controls,2021-03-01,sentiment_last,0.7485507979432388
+Economic plus seasonal and method controls,2021-03-01,income_growth,0.4977239908478354
+Economic plus seasonal and method controls,2021-03-01,price_3y,-0.16100575967508998
+Economic plus seasonal and method controls,2021-03-01,season_sin,0.301679199852122
+Economic plus seasonal and method controls,2021-03-01,season_cos,0.9390894125689938
+Economic plus seasonal and method controls,2021-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-04-01,unemployment,-0.9164848318440454
+Economic plus seasonal and method controls,2021-04-01,inflation,-0.3647592345766369
+Economic plus seasonal and method controls,2021-04-01,gdp_growth,-0.08154765638013915
+Economic plus seasonal and method controls,2021-04-01,sentiment_last,0.7472987383264013
+Economic plus seasonal and method controls,2021-04-01,income_growth,0.5045921899654089
+Economic plus seasonal and method controls,2021-04-01,price_3y,-0.15969309747958832
+Economic plus seasonal and method controls,2021-04-01,season_sin,0.3063527512018469
+Economic plus seasonal and method controls,2021-04-01,season_cos,0.9366359193709891
+Economic plus seasonal and method controls,2021-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-05-01,unemployment,-0.9279441634712875
+Economic plus seasonal and method controls,2021-05-01,inflation,-0.35523387439033083
+Economic plus seasonal and method controls,2021-05-01,gdp_growth,-0.08017918429880148
+Economic plus seasonal and method controls,2021-05-01,sentiment_last,0.7450291866291264
+Economic plus seasonal and method controls,2021-05-01,income_growth,0.5144998857138565
+Economic plus seasonal and method controls,2021-05-01,price_3y,-0.15542478246189545
+Economic plus seasonal and method controls,2021-05-01,season_sin,0.3426888063756276
+Economic plus seasonal and method controls,2021-05-01,season_cos,0.9082110004992088
+Economic plus seasonal and method controls,2021-05-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-06-01,unemployment,-0.767445766954017
+Economic plus seasonal and method controls,2021-06-01,inflation,-0.893875645106953
+Economic plus seasonal and method controls,2021-06-01,gdp_growth,-0.10712010763864865
+Economic plus seasonal and method controls,2021-06-01,sentiment_last,0.7716850768361363
+Economic plus seasonal and method controls,2021-06-01,income_growth,0.12363082364052812
+Economic plus seasonal and method controls,2021-06-01,price_3y,-0.22510680292837396
+Economic plus seasonal and method controls,2021-06-01,season_sin,0.2996207391034103
+Economic plus seasonal and method controls,2021-06-01,season_cos,1.079137621609431
+Economic plus seasonal and method controls,2021-06-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-07-01,unemployment,-0.7498395158196447
+Economic plus seasonal and method controls,2021-07-01,inflation,-0.6478735049059096
+Economic plus seasonal and method controls,2021-07-01,gdp_growth,-0.10551883324903019
+Economic plus seasonal and method controls,2021-07-01,sentiment_last,0.7771879455588618
+Economic plus seasonal and method controls,2021-07-01,income_growth,0.09926838536859874
+Economic plus seasonal and method controls,2021-07-01,price_3y,-0.23359886263175692
+Economic plus seasonal and method controls,2021-07-01,season_sin,0.2870948948856839
+Economic plus seasonal and method controls,2021-07-01,season_cos,0.9945549830220448
+Economic plus seasonal and method controls,2021-07-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-08-01,unemployment,-0.7534017632709953
+Economic plus seasonal and method controls,2021-08-01,inflation,-0.6890452438598746
+Economic plus seasonal and method controls,2021-08-01,gdp_growth,-0.10578123600576039
+Economic plus seasonal and method controls,2021-08-01,sentiment_last,0.7759278702249207
+Economic plus seasonal and method controls,2021-08-01,income_growth,0.10095900153198738
+Economic plus seasonal and method controls,2021-08-01,price_3y,-0.23406024048554877
+Economic plus seasonal and method controls,2021-08-01,season_sin,0.2960634333136127
+Economic plus seasonal and method controls,2021-08-01,season_cos,1.0032321294075934
+Economic plus seasonal and method controls,2021-08-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-09-01,unemployment,-0.7535026773714362
+Economic plus seasonal and method controls,2021-09-01,inflation,-0.9825287934126522
+Economic plus seasonal and method controls,2021-09-01,gdp_growth,-0.10722198359997898
+Economic plus seasonal and method controls,2021-09-01,sentiment_last,0.7721748215363091
+Economic plus seasonal and method controls,2021-09-01,income_growth,0.11451137354036538
+Economic plus seasonal and method controls,2021-09-01,price_3y,-0.2593527294429118
+Economic plus seasonal and method controls,2021-09-01,season_sin,0.4011660138265046
+Economic plus seasonal and method controls,2021-09-01,season_cos,1.0363015524515375
+Economic plus seasonal and method controls,2021-09-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-10-01,unemployment,-0.7535026773714362
+Economic plus seasonal and method controls,2021-10-01,inflation,-0.9825287934126522
+Economic plus seasonal and method controls,2021-10-01,gdp_growth,-0.10722198359997898
+Economic plus seasonal and method controls,2021-10-01,sentiment_last,0.7721748215363091
+Economic plus seasonal and method controls,2021-10-01,income_growth,0.11451137354036538
+Economic plus seasonal and method controls,2021-10-01,price_3y,-0.2593527294429118
+Economic plus seasonal and method controls,2021-10-01,season_sin,0.4011660138265046
+Economic plus seasonal and method controls,2021-10-01,season_cos,1.0363015524515375
+Economic plus seasonal and method controls,2021-10-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-11-01,unemployment,-0.8022569868918197
+Economic plus seasonal and method controls,2021-11-01,inflation,-0.8846576348004704
+Economic plus seasonal and method controls,2021-11-01,gdp_growth,-0.10782383156084352
+Economic plus seasonal and method controls,2021-11-01,sentiment_last,0.7628103775931543
+Economic plus seasonal and method controls,2021-11-01,income_growth,0.11218929613646818
+Economic plus seasonal and method controls,2021-11-01,price_3y,-0.24243688028025218
+Economic plus seasonal and method controls,2021-11-01,season_sin,0.3633153125139392
+Economic plus seasonal and method controls,2021-11-01,season_cos,1.0416424788246836
+Economic plus seasonal and method controls,2021-11-01,web_transition,0.0
+Economic plus seasonal and method controls,2021-12-01,unemployment,-0.7359544718287025
+Economic plus seasonal and method controls,2021-12-01,inflation,-1.0294010858179121
+Economic plus seasonal and method controls,2021-12-01,gdp_growth,-0.10135312437234165
+Economic plus seasonal and method controls,2021-12-01,sentiment_last,0.7741025479835534
+Economic plus seasonal and method controls,2021-12-01,income_growth,0.10790801824359982
+Economic plus seasonal and method controls,2021-12-01,price_3y,-0.27424895039395947
+Economic plus seasonal and method controls,2021-12-01,season_sin,0.3683023637964671
+Economic plus seasonal and method controls,2021-12-01,season_cos,0.9712855202816193
+Economic plus seasonal and method controls,2021-12-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-01-01,unemployment,-0.7578852666660356
+Economic plus seasonal and method controls,2022-01-01,inflation,-0.982729737877528
+Economic plus seasonal and method controls,2022-01-01,gdp_growth,-0.10328873770442908
+Economic plus seasonal and method controls,2022-01-01,sentiment_last,0.7700321763425296
+Economic plus seasonal and method controls,2022-01-01,income_growth,0.11142609483561462
+Economic plus seasonal and method controls,2022-01-01,price_3y,-0.2672551139867818
+Economic plus seasonal and method controls,2022-01-01,season_sin,0.3798253034511065
+Economic plus seasonal and method controls,2022-01-01,season_cos,0.9906444076974101
+Economic plus seasonal and method controls,2022-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-02-01,unemployment,-0.7246086221784144
+Economic plus seasonal and method controls,2022-02-01,inflation,-1.1094821851934111
+Economic plus seasonal and method controls,2022-02-01,gdp_growth,-0.09914706302521153
+Economic plus seasonal and method controls,2022-02-01,sentiment_last,0.7750362952290091
+Economic plus seasonal and method controls,2022-02-01,income_growth,0.10102800739959975
+Economic plus seasonal and method controls,2022-02-01,price_3y,-0.2850389774301671
+Economic plus seasonal and method controls,2022-02-01,season_sin,0.33591975329527657
+Economic plus seasonal and method controls,2022-02-01,season_cos,0.9551027709800625
+Economic plus seasonal and method controls,2022-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-03-01,unemployment,-0.6742674960080824
+Economic plus seasonal and method controls,2022-03-01,inflation,-1.1941382260150961
+Economic plus seasonal and method controls,2022-03-01,gdp_growth,-0.09806908202352968
+Economic plus seasonal and method controls,2022-03-01,sentiment_last,0.784068889319017
+Economic plus seasonal and method controls,2022-03-01,income_growth,0.09056074503644344
+Economic plus seasonal and method controls,2022-03-01,price_3y,-0.31204529594847463
+Economic plus seasonal and method controls,2022-03-01,season_sin,0.28042131967998973
+Economic plus seasonal and method controls,2022-03-01,season_cos,0.9550272150700404
+Economic plus seasonal and method controls,2022-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-04-01,unemployment,-0.6585302017776707
+Economic plus seasonal and method controls,2022-04-01,inflation,-1.2073307912969868
+Economic plus seasonal and method controls,2022-04-01,gdp_growth,-0.0973561776481614
+Economic plus seasonal and method controls,2022-04-01,sentiment_last,0.7870182819338601
+Economic plus seasonal and method controls,2022-04-01,income_growth,0.09643939437106777
+Economic plus seasonal and method controls,2022-04-01,price_3y,-0.32305551994844633
+Economic plus seasonal and method controls,2022-04-01,season_sin,0.25913486825531984
+Economic plus seasonal and method controls,2022-04-01,season_cos,0.965957636685459
+Economic plus seasonal and method controls,2022-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-05-01,unemployment,-0.7604755188379393
+Economic plus seasonal and method controls,2022-05-01,inflation,-1.1486943379402896
+Economic plus seasonal and method controls,2022-05-01,gdp_growth,-0.09743702723226354
+Economic plus seasonal and method controls,2022-05-01,sentiment_last,0.7672557284140277
+Economic plus seasonal and method controls,2022-05-01,income_growth,0.11464897807378031
+Economic plus seasonal and method controls,2022-05-01,price_3y,-0.2640306600858673
+Economic plus seasonal and method controls,2022-05-01,season_sin,0.3199159950225153
+Economic plus seasonal and method controls,2022-05-01,season_cos,0.8701167118564348
+Economic plus seasonal and method controls,2022-05-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-06-01,unemployment,-0.7513370906607607
+Economic plus seasonal and method controls,2022-06-01,inflation,-1.156995230193626
+Economic plus seasonal and method controls,2022-06-01,gdp_growth,-0.09264319138947187
+Economic plus seasonal and method controls,2022-06-01,sentiment_last,0.7673208891651785
+Economic plus seasonal and method controls,2022-06-01,income_growth,0.14279662172563196
+Economic plus seasonal and method controls,2022-06-01,price_3y,-0.2917630287654005
+Economic plus seasonal and method controls,2022-06-01,season_sin,0.3040410243798541
+Economic plus seasonal and method controls,2022-06-01,season_cos,0.9045374966266897
+Economic plus seasonal and method controls,2022-06-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-07-01,unemployment,-0.6492917137363678
+Economic plus seasonal and method controls,2022-07-01,inflation,-1.1462955350269999
+Economic plus seasonal and method controls,2022-07-01,gdp_growth,-0.0865383546639546
+Economic plus seasonal and method controls,2022-07-01,sentiment_last,0.7858787000158836
+Economic plus seasonal and method controls,2022-07-01,income_growth,0.1370935996548819
+Economic plus seasonal and method controls,2022-07-01,price_3y,-0.3647617828205347
+Economic plus seasonal and method controls,2022-07-01,season_sin,0.3240634086800141
+Economic plus seasonal and method controls,2022-07-01,season_cos,1.015456679886745
+Economic plus seasonal and method controls,2022-07-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-08-01,unemployment,-0.6762624194973686
+Economic plus seasonal and method controls,2022-08-01,inflation,-1.1595589323442155
+Economic plus seasonal and method controls,2022-08-01,gdp_growth,-0.0873334600440361
+Economic plus seasonal and method controls,2022-08-01,sentiment_last,0.7805205498550628
+Economic plus seasonal and method controls,2022-08-01,income_growth,0.14124237759133806
+Economic plus seasonal and method controls,2022-08-01,price_3y,-0.3481766130622946
+Economic plus seasonal and method controls,2022-08-01,season_sin,0.3118166055652002
+Economic plus seasonal and method controls,2022-08-01,season_cos,0.9961165891272493
+Economic plus seasonal and method controls,2022-08-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-09-01,unemployment,-0.7587620236682244
+Economic plus seasonal and method controls,2022-09-01,inflation,-1.1886403476746785
+Economic plus seasonal and method controls,2022-09-01,gdp_growth,-0.09013487236364041
+Economic plus seasonal and method controls,2022-09-01,sentiment_last,0.766364145271187
+Economic plus seasonal and method controls,2022-09-01,income_growth,0.15987860426630995
+Economic plus seasonal and method controls,2022-09-01,price_3y,-0.2509934752138232
+Economic plus seasonal and method controls,2022-09-01,season_sin,0.22250360748850903
+Economic plus seasonal and method controls,2022-09-01,season_cos,0.9587873296892467
+Economic plus seasonal and method controls,2022-09-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-10-01,unemployment,-0.7611440564850218
+Economic plus seasonal and method controls,2022-10-01,inflation,-1.1899911635559484
+Economic plus seasonal and method controls,2022-10-01,gdp_growth,-0.09027716898548806
+Economic plus seasonal and method controls,2022-10-01,sentiment_last,0.7660897831591159
+Economic plus seasonal and method controls,2022-10-01,income_growth,0.16034436166374533
+Economic plus seasonal and method controls,2022-10-01,price_3y,-0.24607285990954902
+Economic plus seasonal and method controls,2022-10-01,season_sin,0.217995672149223
+Economic plus seasonal and method controls,2022-10-01,season_cos,0.9595152456911042
+Economic plus seasonal and method controls,2022-10-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-11-01,unemployment,-0.7662748592154122
+Economic plus seasonal and method controls,2022-11-01,inflation,-1.1953810202057595
+Economic plus seasonal and method controls,2022-11-01,gdp_growth,-0.09086301420899533
+Economic plus seasonal and method controls,2022-11-01,sentiment_last,0.7657656983437913
+Economic plus seasonal and method controls,2022-11-01,income_growth,0.1611284716307876
+Economic plus seasonal and method controls,2022-11-01,price_3y,-0.22836108178873205
+Economic plus seasonal and method controls,2022-11-01,season_sin,0.20616044597641864
+Economic plus seasonal and method controls,2022-11-01,season_cos,0.9690063578285869
+Economic plus seasonal and method controls,2022-11-01,web_transition,0.0
+Economic plus seasonal and method controls,2022-12-01,unemployment,-0.7521885343786083
+Economic plus seasonal and method controls,2022-12-01,inflation,-1.1805259539381943
+Economic plus seasonal and method controls,2022-12-01,gdp_growth,-0.0903456248868331
+Economic plus seasonal and method controls,2022-12-01,sentiment_last,0.766353096523186
+Economic plus seasonal and method controls,2022-12-01,income_growth,0.1556155211600193
+Economic plus seasonal and method controls,2022-12-01,price_3y,-0.283892437602842
+Economic plus seasonal and method controls,2022-12-01,season_sin,0.2268180953149313
+Economic plus seasonal and method controls,2022-12-01,season_cos,0.9292999979362454
+Economic plus seasonal and method controls,2022-12-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-01-01,unemployment,-0.7624863251118151
+Economic plus seasonal and method controls,2023-01-01,inflation,-1.1913028770477863
+Economic plus seasonal and method controls,2023-01-01,gdp_growth,-0.09072530709175625
+Economic plus seasonal and method controls,2023-01-01,sentiment_last,0.7649821455484095
+Economic plus seasonal and method controls,2023-01-01,income_growth,0.15855885159211447
+Economic plus seasonal and method controls,2023-01-01,price_3y,-0.25788532052550583
+Economic plus seasonal and method controls,2023-01-01,season_sin,0.2296588429826709
+Economic plus seasonal and method controls,2023-01-01,season_cos,0.9520119835274743
+Economic plus seasonal and method controls,2023-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-02-01,unemployment,-0.786013061727516
+Economic plus seasonal and method controls,2023-02-01,inflation,-1.2501042856859066
+Economic plus seasonal and method controls,2023-02-01,gdp_growth,-0.09119336287215622
+Economic plus seasonal and method controls,2023-02-01,sentiment_last,0.7621512103633893
+Economic plus seasonal and method controls,2023-02-01,income_growth,0.16250274893296607
+Economic plus seasonal and method controls,2023-02-01,price_3y,-0.1902665927784996
+Economic plus seasonal and method controls,2023-02-01,season_sin,0.2548470950560869
+Economic plus seasonal and method controls,2023-02-01,season_cos,0.9815972338498531
+Economic plus seasonal and method controls,2023-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-03-01,unemployment,-0.7911754736652375
+Economic plus seasonal and method controls,2023-03-01,inflation,-1.2658893290219058
+Economic plus seasonal and method controls,2023-03-01,gdp_growth,-0.09130568127200907
+Economic plus seasonal and method controls,2023-03-01,sentiment_last,0.7617141266847374
+Economic plus seasonal and method controls,2023-03-01,income_growth,0.1633032523522435
+Economic plus seasonal and method controls,2023-03-01,price_3y,-0.1736129074095103
+Economic plus seasonal and method controls,2023-03-01,season_sin,0.26358234659232527
+Economic plus seasonal and method controls,2023-03-01,season_cos,0.9837000519297894
+Economic plus seasonal and method controls,2023-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-04-01,unemployment,-0.7733477693529183
+Economic plus seasonal and method controls,2023-04-01,inflation,-1.2145359544205616
+Economic plus seasonal and method controls,2023-04-01,gdp_growth,-0.09171597736348448
+Economic plus seasonal and method controls,2023-04-01,sentiment_last,0.7610285666854254
+Economic plus seasonal and method controls,2023-04-01,income_growth,0.14460907721314994
+Economic plus seasonal and method controls,2023-04-01,price_3y,-0.2708804477492491
+Economic plus seasonal and method controls,2023-04-01,season_sin,0.21814407074446504
+Economic plus seasonal and method controls,2023-04-01,season_cos,1.0043420532219294
+Economic plus seasonal and method controls,2023-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-05-01,unemployment,-0.7785215744034562
+Economic plus seasonal and method controls,2023-05-01,inflation,-1.2270844987960683
+Economic plus seasonal and method controls,2023-05-01,gdp_growth,-0.09151287592293063
+Economic plus seasonal and method controls,2023-05-01,sentiment_last,0.7602987359559645
+Economic plus seasonal and method controls,2023-05-01,income_growth,0.1467675562622984
+Economic plus seasonal and method controls,2023-05-01,price_3y,-0.25946926284922806
+Economic plus seasonal and method controls,2023-05-01,season_sin,0.22232563660736052
+Economic plus seasonal and method controls,2023-05-01,season_cos,0.9968112166846682
+Economic plus seasonal and method controls,2023-05-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-06-01,unemployment,-0.7294711514901965
+Economic plus seasonal and method controls,2023-06-01,inflation,-1.074412549836709
+Economic plus seasonal and method controls,2023-06-01,gdp_growth,-0.09311438356908362
+Economic plus seasonal and method controls,2023-06-01,sentiment_last,0.7670887003439766
+Economic plus seasonal and method controls,2023-06-01,income_growth,0.13398357681334136
+Economic plus seasonal and method controls,2023-06-01,price_3y,-0.3660602732343446
+Economic plus seasonal and method controls,2023-06-01,season_sin,0.22237063292166842
+Economic plus seasonal and method controls,2023-06-01,season_cos,1.0753330136551593
+Economic plus seasonal and method controls,2023-06-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-07-01,unemployment,-0.7694333666991977
+Economic plus seasonal and method controls,2023-07-01,inflation,-1.2030845480863386
+Economic plus seasonal and method controls,2023-07-01,gdp_growth,-0.09114013597661559
+Economic plus seasonal and method controls,2023-07-01,sentiment_last,0.7611606581152558
+Economic plus seasonal and method controls,2023-07-01,income_growth,0.14212034244475708
+Economic plus seasonal and method controls,2023-07-01,price_3y,-0.28142652886517205
+Economic plus seasonal and method controls,2023-07-01,season_sin,0.1949477464974651
+Economic plus seasonal and method controls,2023-07-01,season_cos,1.0113381673632067
+Economic plus seasonal and method controls,2023-07-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-08-01,unemployment,-0.7975931595850664
+Economic plus seasonal and method controls,2023-08-01,inflation,-1.3615099461670161
+Economic plus seasonal and method controls,2023-08-01,gdp_growth,-0.0876667221063703
+Economic plus seasonal and method controls,2023-08-01,sentiment_last,0.7596624216145068
+Economic plus seasonal and method controls,2023-08-01,income_growth,0.15016121135916294
+Economic plus seasonal and method controls,2023-08-01,price_3y,-0.15686647339615353
+Economic plus seasonal and method controls,2023-08-01,season_sin,0.11754729837242887
+Economic plus seasonal and method controls,2023-08-01,season_cos,0.9490028851849804
+Economic plus seasonal and method controls,2023-08-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-09-01,unemployment,-0.7896311027552672
+Economic plus seasonal and method controls,2023-09-01,inflation,-1.2727891845861237
+Economic plus seasonal and method controls,2023-09-01,gdp_growth,-0.08944656074479432
+Economic plus seasonal and method controls,2023-09-01,sentiment_last,0.7581713294194369
+Economic plus seasonal and method controls,2023-09-01,income_growth,0.147966222795488
+Economic plus seasonal and method controls,2023-09-01,price_3y,-0.22885269030902894
+Economic plus seasonal and method controls,2023-09-01,season_sin,0.17235933392570674
+Economic plus seasonal and method controls,2023-09-01,season_cos,0.9619633368864053
+Economic plus seasonal and method controls,2023-09-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-10-01,unemployment,-0.7807053887020746
+Economic plus seasonal and method controls,2023-10-01,inflation,-1.2044985677512403
+Economic plus seasonal and method controls,2023-10-01,gdp_growth,-0.09031072048546496
+Economic plus seasonal and method controls,2023-10-01,sentiment_last,0.7576979444160432
+Economic plus seasonal and method controls,2023-10-01,income_growth,0.1465279494239537
+Economic plus seasonal and method controls,2023-10-01,price_3y,-0.2833665114872432
+Economic plus seasonal and method controls,2023-10-01,season_sin,0.21717833593497252
+Economic plus seasonal and method controls,2023-10-01,season_cos,0.958387465032199
+Economic plus seasonal and method controls,2023-10-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-11-01,unemployment,-0.7797750827956694
+Economic plus seasonal and method controls,2023-11-01,inflation,-1.1226245018916865
+Economic plus seasonal and method controls,2023-11-01,gdp_growth,-0.09078178072099775
+Economic plus seasonal and method controls,2023-11-01,sentiment_last,0.7548932544357674
+Economic plus seasonal and method controls,2023-11-01,income_growth,0.14491621979265715
+Economic plus seasonal and method controls,2023-11-01,price_3y,-0.36193504626176165
+Economic plus seasonal and method controls,2023-11-01,season_sin,0.27361531928467825
+Economic plus seasonal and method controls,2023-11-01,season_cos,0.9150558389414409
+Economic plus seasonal and method controls,2023-11-01,web_transition,0.0
+Economic plus seasonal and method controls,2023-12-01,unemployment,-0.768984756360845
+Economic plus seasonal and method controls,2023-12-01,inflation,-1.0496439851378934
+Economic plus seasonal and method controls,2023-12-01,gdp_growth,-0.0922040237235217
+Economic plus seasonal and method controls,2023-12-01,sentiment_last,0.756018916147515
+Economic plus seasonal and method controls,2023-12-01,income_growth,0.14386201644833266
+Economic plus seasonal and method controls,2023-12-01,price_3y,-0.41268377502840636
+Economic plus seasonal and method controls,2023-12-01,season_sin,0.29429764045124013
+Economic plus seasonal and method controls,2023-12-01,season_cos,0.8734044404330277
+Economic plus seasonal and method controls,2023-12-01,web_transition,0.0
+Economic plus seasonal and method controls,2024-01-01,unemployment,-0.7995458190806873
+Economic plus seasonal and method controls,2024-01-01,inflation,-1.175445162298044
+Economic plus seasonal and method controls,2024-01-01,gdp_growth,-0.09070447614588446
+Economic plus seasonal and method controls,2024-01-01,sentiment_last,0.7499098271173704
+Economic plus seasonal and method controls,2024-01-01,income_growth,0.14440162499091322
+Economic plus seasonal and method controls,2024-01-01,price_3y,-0.35274521012060683
+Economic plus seasonal and method controls,2024-01-01,season_sin,0.3053645320820923
+Economic plus seasonal and method controls,2024-01-01,season_cos,0.9289057318950509
+Economic plus seasonal and method controls,2024-01-01,web_transition,0.0
+Economic plus seasonal and method controls,2024-02-01,unemployment,-0.7995458190806873
+Economic plus seasonal and method controls,2024-02-01,inflation,-1.175445162298044
+Economic plus seasonal and method controls,2024-02-01,gdp_growth,-0.09070447614588446
+Economic plus seasonal and method controls,2024-02-01,sentiment_last,0.7499098271173704
+Economic plus seasonal and method controls,2024-02-01,income_growth,0.14440162499091322
+Economic plus seasonal and method controls,2024-02-01,price_3y,-0.35274521012060683
+Economic plus seasonal and method controls,2024-02-01,season_sin,0.3053645320820923
+Economic plus seasonal and method controls,2024-02-01,season_cos,0.9289057318950509
+Economic plus seasonal and method controls,2024-02-01,web_transition,0.0
+Economic plus seasonal and method controls,2024-03-01,unemployment,-0.8120122083846743
+Economic plus seasonal and method controls,2024-03-01,inflation,-1.3016607823667914
+Economic plus seasonal and method controls,2024-03-01,gdp_growth,-0.09005035780900884
+Economic plus seasonal and method controls,2024-03-01,sentiment_last,0.749946373904811
+Economic plus seasonal and method controls,2024-03-01,income_growth,0.14278821195953986
+Economic plus seasonal and method controls,2024-03-01,price_3y,-0.2697622646370699
+Economic plus seasonal and method controls,2024-03-01,season_sin,0.3506697263597074
+Economic plus seasonal and method controls,2024-03-01,season_cos,0.9871265188314822
+Economic plus seasonal and method controls,2024-03-01,web_transition,0.0
+Economic plus seasonal and method controls,2024-04-01,unemployment,-0.8238496179383058
+Economic plus seasonal and method controls,2024-04-01,inflation,-1.3711991498569625
+Economic plus seasonal and method controls,2024-04-01,gdp_growth,-0.09056979809805121
+Economic plus seasonal and method controls,2024-04-01,sentiment_last,0.7486175402433267
+Economic plus seasonal and method controls,2024-04-01,income_growth,0.14194475025394734
+Economic plus seasonal and method controls,2024-04-01,price_3y,-0.23066618720653487
+Economic plus seasonal and method controls,2024-04-01,season_sin,0.3950865034862983
+Economic plus seasonal and method controls,2024-04-01,season_cos,1.0017075882246054
+Economic plus seasonal and method controls,2024-04-01,web_transition,0.0
+Economic plus seasonal and method controls,2024-05-01,unemployment,-0.8238496179383032
+Economic plus seasonal and method controls,2024-05-01,inflation,-1.3711991498569707
+Economic plus seasonal and method controls,2024-05-01,gdp_growth,-0.09056979809805057
+Economic plus seasonal and method controls,2024-05-01,sentiment_last,0.7486175402433265
+Economic plus seasonal and method controls,2024-05-01,income_growth,0.14194475025394693
+Economic plus seasonal and method controls,2024-05-01,price_3y,-0.23066618720653406
+Economic plus seasonal and method controls,2024-05-01,season_sin,0.39508650348630975
+Economic plus seasonal and method controls,2024-05-01,season_cos,1.0017075882246125
+Economic plus seasonal and method controls,2024-05-01,web_transition,-6.732901544941828
+Economic plus seasonal and method controls,2024-06-01,unemployment,-0.8196576572900497
+Economic plus seasonal and method controls,2024-06-01,inflation,-1.3807964495806053
+Economic plus seasonal and method controls,2024-06-01,gdp_growth,-0.09042257943653387
+Economic plus seasonal and method controls,2024-06-01,sentiment_last,0.7500540263334011
+Economic plus seasonal and method controls,2024-06-01,income_growth,0.14020356424821862
+Economic plus seasonal and method controls,2024-06-01,price_3y,-0.21953253081804958
+Economic plus seasonal and method controls,2024-06-01,season_sin,0.4036957516751381
+Economic plus seasonal and method controls,2024-06-01,season_cos,0.999411694063702
+Economic plus seasonal and method controls,2024-06-01,web_transition,-13.587022569891229
+Economic plus seasonal and method controls,2024-07-01,unemployment,-0.8434083673341561
+Economic plus seasonal and method controls,2024-07-01,inflation,-1.375247311283068
+Economic plus seasonal and method controls,2024-07-01,gdp_growth,-0.09013545865052679
+Economic plus seasonal and method controls,2024-07-01,sentiment_last,0.74259319839507
+Economic plus seasonal and method controls,2024-07-01,income_growth,0.14460064095958694
+Economic plus seasonal and method controls,2024-07-01,price_3y,-0.2546016122113668
+Economic plus seasonal and method controls,2024-07-01,season_sin,0.3793857834996781
+Economic plus seasonal and method controls,2024-07-01,season_cos,1.0081135645868526
+Economic plus seasonal and method controls,2024-07-01,web_transition,-6.311775450314492
+Economic plus seasonal and method controls,2024-08-01,unemployment,-0.8482886806845202
+Economic plus seasonal and method controls,2024-08-01,inflation,-1.3662738838495607
+Economic plus seasonal and method controls,2024-08-01,gdp_growth,-0.08997347520075276
+Economic plus seasonal and method controls,2024-08-01,sentiment_last,0.7408276419999331
+Economic plus seasonal and method controls,2024-08-01,income_growth,0.14654060672137836
+Economic plus seasonal and method controls,2024-08-01,price_3y,-0.26746304866735376
+Economic plus seasonal and method controls,2024-08-01,season_sin,0.36654378239164054
+Economic plus seasonal and method controls,2024-08-01,season_cos,1.0187796096469326
+Economic plus seasonal and method controls,2024-08-01,web_transition,-4.5423063299675555
+Economic plus seasonal and method controls,2024-09-01,unemployment,-0.8550318169892058
+Economic plus seasonal and method controls,2024-09-01,inflation,-1.3609501986328367
+Economic plus seasonal and method controls,2024-09-01,gdp_growth,-0.08929790510930417
+Economic plus seasonal and method controls,2024-09-01,sentiment_last,0.7385191581799447
+Economic plus seasonal and method controls,2024-09-01,income_growth,0.14847570166877322
+Economic plus seasonal and method controls,2024-09-01,price_3y,-0.28058441232363995
+Economic plus seasonal and method controls,2024-09-01,season_sin,0.3455055870985994
+Economic plus seasonal and method controls,2024-09-01,season_cos,1.0371565733222226
+Economic plus seasonal and method controls,2024-09-01,web_transition,-3.04759402106262
+Economic plus seasonal and method controls,2024-10-01,unemployment,-0.8547553499364832
+Economic plus seasonal and method controls,2024-10-01,inflation,-1.351128147091367
+Economic plus seasonal and method controls,2024-10-01,gdp_growth,-0.08913022360090936
+Economic plus seasonal and method controls,2024-10-01,sentiment_last,0.7381632894381724
+Economic plus seasonal and method controls,2024-10-01,income_growth,0.14976409512759498
+Economic plus seasonal and method controls,2024-10-01,price_3y,-0.28767788938900934
+Economic plus seasonal and method controls,2024-10-01,season_sin,0.3290889856029794
+Economic plus seasonal and method controls,2024-10-01,season_cos,1.0634522485195868
+Economic plus seasonal and method controls,2024-10-01,web_transition,-2.1467880265115635
+Economic plus seasonal and method controls,2024-11-01,unemployment,-0.8548059942455948
+Economic plus seasonal and method controls,2024-11-01,inflation,-1.3519149905544365
+Economic plus seasonal and method controls,2024-11-01,gdp_growth,-0.08911763240126555
+Economic plus seasonal and method controls,2024-11-01,sentiment_last,0.7381638348773545
+Economic plus seasonal and method controls,2024-11-01,income_growth,0.14952707527171985
+Economic plus seasonal and method controls,2024-11-01,price_3y,-0.28727061795724596
+Economic plus seasonal and method controls,2024-11-01,season_sin,0.32974137782327145
+Economic plus seasonal and method controls,2024-11-01,season_cos,1.0608463289083885
+Economic plus seasonal and method controls,2024-11-01,web_transition,-2.198868441605242
+Economic plus seasonal and method controls,2024-12-01,unemployment,-0.8548021811948162
+Economic plus seasonal and method controls,2024-12-01,inflation,-1.351935422730836
+Economic plus seasonal and method controls,2024-12-01,gdp_growth,-0.08911534492784393
+Economic plus seasonal and method controls,2024-12-01,sentiment_last,0.7381651998589062
+Economic plus seasonal and method controls,2024-12-01,income_growth,0.14951875289981584
+Economic plus seasonal and method controls,2024-12-01,price_3y,-0.28725246993431197
+Economic plus seasonal and method controls,2024-12-01,season_sin,0.32972489460263743
+Economic plus seasonal and method controls,2024-12-01,season_cos,1.060705347772889
+Economic plus seasonal and method controls,2024-12-01,web_transition,-2.200927499540285
+Economic plus seasonal and method controls,2025-01-01,unemployment,-0.8542316668447504
+Economic plus seasonal and method controls,2025-01-01,inflation,-1.3470677381994887
+Economic plus seasonal and method controls,2025-01-01,gdp_growth,-0.08946358833728572
+Economic plus seasonal and method controls,2025-01-01,sentiment_last,0.738252658794417
+Economic plus seasonal and method controls,2025-01-01,income_growth,0.15027024255198693
+Economic plus seasonal and method controls,2025-01-01,price_3y,-0.28941087094462975
+Economic plus seasonal and method controls,2025-01-01,season_sin,0.33684312171344916
+Economic plus seasonal and method controls,2025-01-01,season_cos,1.0750067707721704
+Economic plus seasonal and method controls,2025-01-01,web_transition,-2.0110619984358817
+Economic plus seasonal and method controls,2025-02-01,unemployment,-0.858191672565996
+Economic plus seasonal and method controls,2025-02-01,inflation,-1.3658967386788288
+Economic plus seasonal and method controls,2025-02-01,gdp_growth,-0.08862922842430958
+Economic plus seasonal and method controls,2025-02-01,sentiment_last,0.7374437296990618
+Economic plus seasonal and method controls,2025-02-01,income_growth,0.14826089457774133
+Economic plus seasonal and method controls,2025-02-01,price_3y,-0.2833309697948124
+Economic plus seasonal and method controls,2025-02-01,season_sin,0.30786433022682796
+Economic plus seasonal and method controls,2025-02-01,season_cos,1.0471207138826755
+Economic plus seasonal and method controls,2025-02-01,web_transition,-2.4428519511896627
+Economic plus seasonal and method controls,2025-03-01,unemployment,-0.8486048131118361
+Economic plus seasonal and method controls,2025-03-01,inflation,-1.3973473109283663
+Economic plus seasonal and method controls,2025-03-01,gdp_growth,-0.08610038001159918
+Economic plus seasonal and method controls,2025-03-01,sentiment_last,0.7404428567442932
+Economic plus seasonal and method controls,2025-03-01,income_growth,0.14269753878076463
+Economic plus seasonal and method controls,2025-03-01,price_3y,-0.2562703547616408
+Economic plus seasonal and method controls,2025-03-01,season_sin,0.20724081296058508
+Economic plus seasonal and method controls,2025-03-01,season_cos,1.014262565456059
+Economic plus seasonal and method controls,2025-03-01,web_transition,-3.452559872781503
+Economic plus seasonal and method controls,2025-04-01,unemployment,-0.7923636004329924
+Economic plus seasonal and method controls,2025-04-01,inflation,-1.3689299863741256
+Economic plus seasonal and method controls,2025-04-01,gdp_growth,-0.08472717480549988
+Economic plus seasonal and method controls,2025-04-01,sentiment_last,0.7559076308614892
+Economic plus seasonal and method controls,2025-04-01,income_growth,0.13821185061676056
+Economic plus seasonal and method controls,2025-04-01,price_3y,-0.20806864912756398
+Economic plus seasonal and method controls,2025-04-01,season_sin,0.08274366325246882
+Economic plus seasonal and method controls,2025-04-01,season_cos,1.03899634638951
+Economic plus seasonal and method controls,2025-04-01,web_transition,-4.406253726157104
+Economic plus seasonal and method controls,2025-05-01,unemployment,-0.7316289252213874
+Economic plus seasonal and method controls,2025-05-01,inflation,-1.3219922706265772
+Economic plus seasonal and method controls,2025-05-01,gdp_growth,-0.08507601098510532
+Economic plus seasonal and method controls,2025-05-01,sentiment_last,0.772673934362584
+Economic plus seasonal and method controls,2025-05-01,income_growth,0.13407379181364948
+Economic plus seasonal and method controls,2025-05-01,price_3y,-0.16506575236087043
+Economic plus seasonal and method controls,2025-05-01,season_sin,0.011062314386371506
+Economic plus seasonal and method controls,2025-05-01,season_cos,1.0907450288536769
+Economic plus seasonal and method controls,2025-05-01,web_transition,-4.925946321572788
+Economic plus seasonal and method controls,2025-06-01,unemployment,-0.7131002434993166
+Economic plus seasonal and method controls,2025-06-01,inflation,-1.305159560694363
+Economic plus seasonal and method controls,2025-06-01,gdp_growth,-0.0848796868821898
+Economic plus seasonal and method controls,2025-06-01,sentiment_last,0.7776694856294329
+Economic plus seasonal and method controls,2025-06-01,income_growth,0.13322532702188147
+Economic plus seasonal and method controls,2025-06-01,price_3y,-0.15311923774687738
+Economic plus seasonal and method controls,2025-06-01,season_sin,-0.0006857993752514471
+Economic plus seasonal and method controls,2025-06-01,season_cos,1.1073501894330213
+Economic plus seasonal and method controls,2025-06-01,web_transition,-5.025319478117742
+Economic plus seasonal and method controls,2025-07-01,unemployment,-0.7938553713024681
+Economic plus seasonal and method controls,2025-07-01,inflation,-1.3755845027460807
+Economic plus seasonal and method controls,2025-07-01,gdp_growth,-0.08469405098439868
+Economic plus seasonal and method controls,2025-07-01,sentiment_last,0.7562131388849725
+Economic plus seasonal and method controls,2025-07-01,income_growth,0.1406264186173748
+Economic plus seasonal and method controls,2025-07-01,price_3y,-0.20453471901870196
+Economic plus seasonal and method controls,2025-07-01,season_sin,0.014296553901576166
+Economic plus seasonal and method controls,2025-07-01,season_cos,1.0277744397884379
+Economic plus seasonal and method controls,2025-07-01,web_transition,-4.623129201303754
+Economic plus seasonal and method controls,2025-08-01,unemployment,-0.7938553713024681
+Economic plus seasonal and method controls,2025-08-01,inflation,-1.3755845027460807
+Economic plus seasonal and method controls,2025-08-01,gdp_growth,-0.08469405098439868
+Economic plus seasonal and method controls,2025-08-01,sentiment_last,0.7562131388849725
+Economic plus seasonal and method controls,2025-08-01,income_growth,0.1406264186173748
+Economic plus seasonal and method controls,2025-08-01,price_3y,-0.20453471901870196
+Economic plus seasonal and method controls,2025-08-01,season_sin,0.014296553901576166
+Economic plus seasonal and method controls,2025-08-01,season_cos,1.0277744397884379
+Economic plus seasonal and method controls,2025-08-01,web_transition,-4.623129201303754
+Economic plus seasonal and method controls,2025-09-01,unemployment,-0.7838236400582355
+Economic plus seasonal and method controls,2025-09-01,inflation,-1.3789035055813446
+Economic plus seasonal and method controls,2025-09-01,gdp_growth,-0.08581204425754425
+Economic plus seasonal and method controls,2025-09-01,sentiment_last,0.7588130155862656
+Economic plus seasonal and method controls,2025-09-01,income_growth,0.13857009314941998
+Economic plus seasonal and method controls,2025-09-01,price_3y,-0.19250505242603966
+Economic plus seasonal and method controls,2025-09-01,season_sin,0.029794859320212752
+Economic plus seasonal and method controls,2025-09-01,season_cos,1.0338270526488997
+Economic plus seasonal and method controls,2025-09-01,web_transition,-4.746360895487329
+Economic plus seasonal and method controls,2025-10-01,unemployment,-0.7635028765843587
+Economic plus seasonal and method controls,2025-10-01,inflation,-1.3788882340867044
+Economic plus seasonal and method controls,2025-10-01,gdp_growth,-0.08721292693861762
+Economic plus seasonal and method controls,2025-10-01,sentiment_last,0.7643253515399333
+Economic plus seasonal and method controls,2025-10-01,income_growth,0.13484520372785325
+Economic plus seasonal and method controls,2025-10-01,price_3y,-0.17089514781013715
+Economic plus seasonal and method controls,2025-10-01,season_sin,0.062019548927985564
+Economic plus seasonal and method controls,2025-10-01,season_cos,1.0296420771913086
+Economic plus seasonal and method controls,2025-10-01,web_transition,-4.99504560918368
+Economic plus seasonal and method controls,2025-11-01,unemployment,-0.7492616463592133
+Economic plus seasonal and method controls,2025-11-01,inflation,-1.3786096423222087
+Economic plus seasonal and method controls,2025-11-01,gdp_growth,-0.08804752868304967
+Economic plus seasonal and method controls,2025-11-01,sentiment_last,0.7684745586240699
+Economic plus seasonal and method controls,2025-11-01,income_growth,0.1321849038016906
+Economic plus seasonal and method controls,2025-11-01,price_3y,-0.1556646922043299
+Economic plus seasonal and method controls,2025-11-01,season_sin,0.08066872240220832
+Economic plus seasonal and method controls,2025-11-01,season_cos,1.0117694675352975
+Economic plus seasonal and method controls,2025-11-01,web_transition,-5.171385766979101
+Economic plus seasonal and method controls,2025-12-01,unemployment,-0.7250999521565185
+Economic plus seasonal and method controls,2025-12-01,inflation,-1.3737294165157152
+Economic plus seasonal and method controls,2025-12-01,gdp_growth,-0.0885110832848544
+Economic plus seasonal and method controls,2025-12-01,sentiment_last,0.7755442016164024
+Economic plus seasonal and method controls,2025-12-01,income_growth,0.12832308656171904
+Economic plus seasonal and method controls,2025-12-01,price_3y,-0.1318058204864017
+Economic plus seasonal and method controls,2025-12-01,season_sin,0.08540897098315192
+Economic plus seasonal and method controls,2025-12-01,season_cos,0.9707871631329588
+Economic plus seasonal and method controls,2025-12-01,web_transition,-5.38911852824198
+Economic plus seasonal and method controls,2026-01-01,unemployment,-0.7230951019379752
+Economic plus seasonal and method controls,2026-01-01,inflation,-1.3728933928818279
+Economic plus seasonal and method controls,2026-01-01,gdp_growth,-0.08851059197002126
+Economic plus seasonal and method controls,2026-01-01,sentiment_last,0.7761452846064787
+Economic plus seasonal and method controls,2026-01-01,income_growth,0.12806078522567885
+Economic plus seasonal and method controls,2026-01-01,price_3y,-0.12998813543882012
+Economic plus seasonal and method controls,2026-01-01,season_sin,0.0839091190355932
+Economic plus seasonal and method controls,2026-01-01,season_cos,0.9675872226784925
+Economic plus seasonal and method controls,2026-01-01,web_transition,-5.402650118176476
+Economic plus seasonal and method controls,2026-02-01,unemployment,-0.7315310705616765
+Economic plus seasonal and method controls,2026-02-01,inflation,-1.3739898330224432
+Economic plus seasonal and method controls,2026-02-01,gdp_growth,-0.08848653816841862
+Economic plus seasonal and method controls,2026-02-01,sentiment_last,0.7733523889941323
+Economic plus seasonal and method controls,2026-02-01,income_growth,0.12914440575822017
+Economic plus seasonal and method controls,2026-02-01,price_3y,-0.13972868529400692
+Economic plus seasonal and method controls,2026-02-01,season_sin,0.10202481782893891
+Economic plus seasonal and method controls,2026-02-01,season_cos,0.9834880976877926
+Economic plus seasonal and method controls,2026-02-01,web_transition,-5.312481672956205
+Economic plus seasonal and method controls,2026-03-01,unemployment,-0.7301842713297249
+Economic plus seasonal and method controls,2026-03-01,inflation,-1.374231680132606
+Economic plus seasonal and method controls,2026-03-01,gdp_growth,-0.08849048261021719
+Economic plus seasonal and method controls,2026-03-01,sentiment_last,0.7737776963930107
+Economic plus seasonal and method controls,2026-03-01,income_growth,0.12904432204897118
+Economic plus seasonal and method controls,2026-03-01,price_3y,-0.13793233308011726
+Economic plus seasonal and method controls,2026-03-01,season_sin,0.09733341254709493
+Economic plus seasonal and method controls,2026-03-01,season_cos,0.9819887931171802
+Economic plus seasonal and method controls,2026-03-01,web_transition,-5.330984539014246
+Economic plus seasonal and method controls,2026-04-01,unemployment,-0.7195261245644183
+Economic plus seasonal and method controls,2026-04-01,inflation,-1.3776672399537906
+Economic plus seasonal and method controls,2026-04-01,gdp_growth,-0.08737140930068481
+Economic plus seasonal and method controls,2026-04-01,sentiment_last,0.7769215132759048
+Economic plus seasonal and method controls,2026-04-01,income_growth,0.12837458399014273
+Economic plus seasonal and method controls,2026-04-01,price_3y,-0.12423228843351343
+Economic plus seasonal and method controls,2026-04-01,season_sin,0.05512643461384147
+Economic plus seasonal and method controls,2026-04-01,season_cos,0.9849157575083338
+Economic plus seasonal and method controls,2026-04-01,web_transition,-5.477387768592472
+Economic plus seasonal and method controls,2026-05-01,unemployment,-0.700812709475647
+Economic plus seasonal and method controls,2026-05-01,inflation,-1.3735780246333416
+Economic plus seasonal and method controls,2026-05-01,gdp_growth,-0.08650440357491533
+Economic plus seasonal and method controls,2026-05-01,sentiment_last,0.7822372830041496
+Economic plus seasonal and method controls,2026-05-01,income_growth,0.12590342216422867
+Economic plus seasonal and method controls,2026-05-01,price_3y,-0.10637805017806488
+Economic plus seasonal and method controls,2026-05-01,season_sin,0.014863605086850362
+Economic plus seasonal and method controls,2026-05-01,season_cos,1.0088602061017833
+Economic plus seasonal and method controls,2026-05-01,web_transition,-5.596815400924698
+Economic plus seasonal and method controls,2026-06-01,unemployment,-0.6834363971747092
+Economic plus seasonal and method controls,2026-06-01,inflation,-1.3775342221994549
+Economic plus seasonal and method controls,2026-06-01,gdp_growth,-0.08695532074442891
+Economic plus seasonal and method controls,2026-06-01,sentiment_last,0.7874748548003742
+Economic plus seasonal and method controls,2026-06-01,income_growth,0.12394572284888193
+Economic plus seasonal and method controls,2026-06-01,price_3y,-0.08763818223200798
+Economic plus seasonal and method controls,2026-06-01,season_sin,-0.010290735207368186
+Economic plus seasonal and method controls,2026-06-01,season_cos,1.0501540947985462
+Economic plus seasonal and method controls,2026-06-01,web_transition,-5.724292259232632
+Economic plus seasonal and method controls,2026-07-01,unemployment,-0.711053579804335
+Economic plus seasonal and method controls,2026-07-01,inflation,-1.384257457976008
+Economic plus seasonal and method controls,2026-07-01,gdp_growth,-0.08620066868155293
+Economic plus seasonal and method controls,2026-07-01,sentiment_last,0.7792846624065551
+Economic plus seasonal and method controls,2026-07-01,income_growth,0.1233433505634388
+Economic plus seasonal and method controls,2026-07-01,price_3y,-0.11220669268673644
+Economic plus seasonal and method controls,2026-07-01,season_sin,-0.0046784788847653806
+Economic plus seasonal and method controls,2026-07-01,season_cos,0.9937461743145026
+Economic plus seasonal and method controls,2026-07-01,web_transition,-5.615853439901406
+Economic plus seasonal and method controls,2026-08-01,unemployment,-0.7214853096333499
+Economic plus seasonal and method controls,2026-08-01,inflation,-1.3415434574176281
+Economic plus seasonal and method controls,2026-08-01,gdp_growth,-0.08448623174084344
+Economic plus seasonal and method controls,2026-08-01,sentiment_last,0.7754248110300598
+Economic plus seasonal and method controls,2026-08-01,income_growth,0.12842239586259047
+Economic plus seasonal and method controls,2026-08-01,price_3y,-0.13768843436328354
+Economic plus seasonal and method controls,2026-08-01,season_sin,-0.03710118049760919
+Economic plus seasonal and method controls,2026-08-01,season_cos,0.9354170631947633
+Economic plus seasonal and method controls,2026-08-01,web_transition,-5.351162480384409
+Economic plus seasonal and method controls,2026-09-01,unemployment,-0.7208207706677572
+Economic plus seasonal and method controls,2026-09-01,inflation,-1.356479189027829
+Economic plus seasonal and method controls,2026-09-01,gdp_growth,-0.08469572845208904
+Economic plus seasonal and method controls,2026-09-01,sentiment_last,0.7756539956688286
+Economic plus seasonal and method controls,2026-09-01,income_growth,0.12701180208094504
+Economic plus seasonal and method controls,2026-09-01,price_3y,-0.13138709874790305
+Economic plus seasonal and method controls,2026-09-01,season_sin,-0.018529550026834627
+Economic plus seasonal and method controls,2026-09-01,season_cos,0.9442080886376544
+Economic plus seasonal and method controls,2026-09-01,web_transition,-5.449436364406304
+Economic plus seasonal and method controls,2026-10-01,unemployment,-0.7208207706677572
+Economic plus seasonal and method controls,2026-10-01,inflation,-1.356479189027829
+Economic plus seasonal and method controls,2026-10-01,gdp_growth,-0.08469572845208904
+Economic plus seasonal and method controls,2026-10-01,sentiment_last,0.7756539956688286
+Economic plus seasonal and method controls,2026-10-01,income_growth,0.12701180208094504
+Economic plus seasonal and method controls,2026-10-01,price_3y,-0.13138709874790305
+Economic plus seasonal and method controls,2026-10-01,season_sin,-0.018529550026834627
+Economic plus seasonal and method controls,2026-10-01,season_cos,0.9442080886376544
+Economic plus seasonal and method controls,2026-10-01,web_transition,-5.449436364406304

@@ -1,0 +1,43 @@
+source_kind,source,n,negative_share,disagreement
+local,AL.com,1,1.0,0.0
+local,Bozeman Daily Chronicle,1,1.0,0.0
+local,CalMatters,4,0.0,0.5
+local,Chicago Tribune,5,0.2,0.2
+local,Democrat and Chronicle,1,0.0,0.0
+local,Deseret News,1,0.0,0.0
+local,Greenville Online,1,0.0,1.0
+local,Idaho State Journal,1,0.0,0.0
+local,Inquirer.com,3,0.0,0.0
+local,Nevada Current,1,0.0,1.0
+local,New Orleans CityBusiness,1,0.0,0.0
+local,Spectrum News,1,0.0,0.0
+local,Spotlight PA,1,0.0,0.0
+local,Star Tribune,4,0.0,0.75
+local,Tallahassee Democrat,2,0.0,0.5
+local,The Michigan Independent,1,0.0,0.0
+local,The Texas Tribune,3,0.0,0.3333333333333333
+local,WXLV,1,0.0,0.0
+national,"ABC News - Breaking News, Latest News and Videos",2,0.5,0.5
+national,AP News,8,0.0,0.75
+national,Bloomberg.com,2,1.0,0.0
+national,Business Insider,1,0.0,1.0
+national,CBS News,3,1.0,0.3333333333333333
+national,CNBC,33,0.06060606060606061,0.696969696969697
+national,CNN,9,0.1111111111111111,0.7777777777777778
+national,Forbes,1,1.0,1.0
+national,Fortune,1,0.0,0.0
+national,Fox Business,13,0.07692307692307693,0.38461538461538464
+national,Investopedia,3,0.0,0.0
+national,NBC News,1,0.0,1.0
+national,NPR,7,0.0,0.5714285714285714
+national,New York Post,1,0.0,0.0
+national,Newsweek,3,0.0,0.3333333333333333
+national,PBS,2,1.0,0.0
+national,Politico,1,0.0,0.0
+national,Reuters,28,0.21428571428571427,0.6428571428571429
+national,The Hill,2,0.0,0.5
+national,The New York Times,1,0.0,0.0
+national,USA Today,2,0.0,0.0
+national,Yahoo Finance,3,0.0,0.3333333333333333
+social,r/Economics,77,0.11688311688311688,0.8181818181818182
+social,r/economy,79,0.0379746835443038,0.3670886075949367

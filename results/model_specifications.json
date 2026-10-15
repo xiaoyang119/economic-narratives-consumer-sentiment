@@ -1,0 +1,53 @@
+{
+  "forecast_origin": "first day of target month",
+  "information_cutoff": "previous calendar day end of day",
+  "economic_vintages": "verified ALFRED snapshot for each origin",
+  "estimation_start": "2010-01",
+  "evaluation_start": "2018-01",
+  "final_scored_month": "2026-09",
+  "monitoring_only_preliminary_month": "2026-10",
+  "models": {
+    "Persistence": [
+      "sentiment_last"
+    ],
+    "Economic": [
+      "unemployment",
+      "inflation",
+      "gdp_growth"
+    ],
+    "Economic plus persistence": [
+      "unemployment",
+      "inflation",
+      "gdp_growth",
+      "sentiment_last"
+    ],
+    "Economic plus household controls": [
+      "unemployment",
+      "inflation",
+      "gdp_growth",
+      "sentiment_last",
+      "income_growth",
+      "price_3y"
+    ],
+    "Economic plus seasonal and method controls": [
+      "unemployment",
+      "inflation",
+      "gdp_growth",
+      "sentiment_last",
+      "income_growth",
+      "price_3y",
+      "season_sin",
+      "season_cos",
+      "web_transition"
+    ]
+  },
+  "media_models": {
+    "Economic plus media": "not estimable: fewer than 24 historical monthly news observations meeting >=10 headlines per month",
+    "Economic plus media plus controls": "not estimable for the same reason"
+  },
+  "uncertainty": "rolling empirical intervals do not assume independent errors; nominal 95% coverage is not guaranteed under regime shifts; block-bootstrap comparisons use length 6 and 2000 replicates",
+  "training_labels": "latest available sentiment values in the origin vintage",
+  "scoring_labels": "latest final values as of cutoff, except October preliminary reported separately",
+  "interval_calibration": "prior forecasts scored against outcomes actually available in the current origin vintage; trailing 60 errors, minimum 24",
+  "political_controls": "not included as predictors: party-average sentiment is a survey outcome, not independent exposure or an exogenous control"
+}

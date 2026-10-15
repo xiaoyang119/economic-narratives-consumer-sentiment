@@ -1,0 +1,51 @@
+{
+  "series": [
+    {
+      "series": "UNRATE",
+      "supplied_n": 584,
+      "matched_n": 224,
+      "mismatches_over_0_05": 0,
+      "max_absolute_difference": 0.0,
+      "latest_matched": "2026-09-01",
+      "latest_supplied": 4.2,
+      "latest_official": 4.2
+    },
+    {
+      "series": "UMCSENT",
+      "supplied_n": 586,
+      "matched_n": 224,
+      "mismatches_over_0_05": 0,
+      "max_absolute_difference": 0.0,
+      "latest_matched": "2026-08-01",
+      "latest_supplied": 51.7,
+      "latest_official": 51.7
+    },
+    {
+      "series": "PCE_YOY",
+      "supplied_n": 584,
+      "matched_n": 212,
+      "mismatches_over_0_05": 197,
+      "max_absolute_difference": 2.091599197185447,
+      "latest_matched": "2026-08-01",
+      "latest_supplied": 3.00759,
+      "latest_official": 3.419031824505425
+    },
+    {
+      "series": "A191RL1Q225SBEA",
+      "supplied_n": 195,
+      "matched_n": 74,
+      "mismatches_over_0_05": 46,
+      "max_absolute_difference": 1.0000000000000002,
+      "latest_matched": "2026-04-01",
+      "latest_supplied": 2.2,
+      "latest_official": 2.2
+    }
+  ],
+  "excluded_future_gdp": {
+    "period": "2026Q3",
+    "supplied_value": 3.7,
+    "reason": "Advance GDP not scheduled for publication until 2026-10-29"
+  },
+  "unemployment_missing": "2025-10: CPS not collected during federal shutdown; latest available observation used with its date retained",
+  "source_note": "Official FRED/ALFRED values replace the supplied workbook; matched differences may include revisions."
+}

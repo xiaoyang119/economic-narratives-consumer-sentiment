@@ -1,0 +1,139 @@
+{
+  "status": "retrospective_only",
+  "source": "https://www.frbsf.org/research-and-insights/data-and-indicators/daily-news-sentiment-index/",
+  "source_updated": "2026-10-12",
+  "daily_n": 17067,
+  "first_date": "1980-01-01",
+  "last_date": "2026-10-11",
+  "index_lag": "mean of calendar month t-2",
+  "real_time_claim": false,
+  "limitation": "current reconstructed news-index values and historical methodology; original publication vintages unavailable; conservative date lag does not eliminate revision or construction look-ahead",
+  "metrics": [
+    {
+      "window": "2018 onward",
+      "model": "Macro baseline",
+      "n": 105,
+      "RMSE": 14.098261464370804,
+      "MAE": 10.824732237056214
+    },
+    {
+      "window": "2018 onward",
+      "model": "Macro plus news index",
+      "n": 105,
+      "RMSE": 13.919499577846972,
+      "MAE": 10.589716162593154
+    },
+    {
+      "window": "2018 onward",
+      "model": "Macro plus news and controls",
+      "n": 105,
+      "RMSE": 12.491515251120642,
+      "MAE": 8.89611206472667
+    },
+    {
+      "window": "2018 onward",
+      "model": "Dynamic economic baseline",
+      "n": 105,
+      "RMSE": 5.1905934961449685,
+      "MAE": 3.9849918449168005
+    },
+    {
+      "window": "2018 onward",
+      "model": "Dynamic plus news index",
+      "n": 105,
+      "RMSE": 5.229894781734658,
+      "MAE": 4.002352309192177
+    },
+    {
+      "window": "2018 onward",
+      "model": "Dynamic plus news and controls",
+      "n": 105,
+      "RMSE": 5.628577229405032,
+      "MAE": 4.20577311341961
+    },
+    {
+      "window": "2021 onward",
+      "model": "Macro baseline",
+      "n": 69,
+      "RMSE": 15.905992327618511,
+      "MAE": 13.605768107747972
+    },
+    {
+      "window": "2021 onward",
+      "model": "Macro plus news index",
+      "n": 69,
+      "RMSE": 15.61585572627088,
+      "MAE": 13.18039873631619
+    },
+    {
+      "window": "2021 onward",
+      "model": "Macro plus news and controls",
+      "n": 69,
+      "RMSE": 14.023238711313752,
+      "MAE": 10.755669574870499
+    },
+    {
+      "window": "2021 onward",
+      "model": "Dynamic economic baseline",
+      "n": 69,
+      "RMSE": 4.7765449640577655,
+      "MAE": 4.0893167732337785
+    },
+    {
+      "window": "2021 onward",
+      "model": "Dynamic plus news index",
+      "n": 69,
+      "RMSE": 4.7126890353441375,
+      "MAE": 4.030031819423682
+    },
+    {
+      "window": "2021 onward",
+      "model": "Dynamic plus news and controls",
+      "n": 69,
+      "RMSE": 5.449749989279311,
+      "MAE": 4.285806908497967
+    }
+  ],
+  "comparisons": [
+    {
+      "window": "2018 onward",
+      "baseline": "Macro baseline",
+      "augmented": "Macro plus news index",
+      "mean_squared_loss_difference": -5.00850782008077,
+      "block_bootstrap_95_ci": [
+        -14.025884659302145,
+        4.931508539581231
+      ]
+    },
+    {
+      "window": "2018 onward",
+      "baseline": "Dynamic economic baseline",
+      "augmented": "Dynamic plus news index",
+      "mean_squared_loss_difference": 0.4095385857929645,
+      "block_bootstrap_95_ci": [
+        -0.8036681838166458,
+        2.2560882776500475
+      ]
+    },
+    {
+      "window": "2021 onward",
+      "baseline": "Macro baseline",
+      "augmented": "Macro plus news index",
+      "mean_squared_loss_difference": -9.145641862551976,
+      "block_bootstrap_95_ci": [
+        -21.51156437632987,
+        3.2878346910619904
+      ]
+    },
+    {
+      "window": "2021 onward",
+      "baseline": "Dynamic economic baseline",
+      "augmented": "Dynamic plus news index",
+      "mean_squared_loss_difference": -0.6059438498127413,
+      "block_bootstrap_95_ci": [
+        -1.2983497807245343,
+        -0.11158006143884731
+      ]
+    }
+  ]
+}

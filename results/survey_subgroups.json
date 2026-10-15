@@ -1,0 +1,37 @@
+{
+  "1bh": {
+    "latest_month": "2026-08-01",
+    "values": {
+      "CURRENT INDEX": 51.5,
+      "EXPECTED INDEX": 52.5
+    },
+    "measurement_note": "descriptive series from Michigan August 2026 historical chart; no historical release vintages recovered"
+  },
+  "5bh": {
+    "latest_month": "2026-08-01",
+    "values": {
+      "Republican": 85.5,
+      "Democrat": 40.1,
+      "Independent": 47.3
+    },
+    "measurement_note": "party series labeled PLREPICS3MMA, PLDEMICS3MMA, PLINDICS3MMA; three-month moving averages"
+  },
+  "2h": {
+    "latest_month": "2026-08-01",
+    "values": {
+      "BOTTOM THIRD": 44.6,
+      "MIDDLE THIRD": 50.4,
+      "TOP THIRD": 60.0
+    },
+    "measurement_note": "descriptive series from Michigan August 2026 historical chart; no historical release vintages recovered"
+  },
+  "3h": {
+    "latest_month": "2026-08-01",
+    "values": {
+      "AGE 18-34": 50.3,
+      "AGE 35-54": 48.4,
+      "AGE 55 AND OVER": 53.5
+    },
+    "measurement_note": "descriptive series from Michigan August 2026 historical chart; no historical release vintages recovered"
+  }
+}

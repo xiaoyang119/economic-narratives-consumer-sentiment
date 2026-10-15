@@ -1,0 +1,101 @@
+[
+  {
+    "file": "data\\raw\\UNRATE.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.031426+00:00",
+    "bytes": 3401,
+    "sha256": "168bfebdf5c7a72584d136156a4724a23e3e1d115e81bf20e6327346ada69ff0",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\UMCSENT.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UMCSENT&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.017615+00:00",
+    "bytes": 3614,
+    "sha256": "fd4fb513a3ef7d819af0ad4323ab8d44a974d36ae4738f81019183e29b293989",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\PCEPI.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCEPI&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.077174+00:00",
+    "bytes": 4164,
+    "sha256": "9dd8daabf0f06a0b858bcd835cca9c9ca8f33b9b6dd8269b21dad99b798d3cf2",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\A191RL1Q225SBEA.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=A191RL1Q225SBEA&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.368983+00:00",
+    "bytes": 1156,
+    "sha256": "1b23823f8325c0eced7262e96ed06b79116aab904c286f0735818f05109e1076",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\DSPIC96.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DSPIC96&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.417307+00:00",
+    "bytes": 4281,
+    "sha256": "93444563b3d077b9cd9b7b3d9d8c71a7b703f2547d711c231a779d1599d79994",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\U6RATE.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=U6RATE&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.431306+00:00",
+    "bytes": 3499,
+    "sha256": "0ce2eac7121b0a82aff46c57a5a2da32822ed0cd8bb153e6e0795b1f4f53e333",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\MORTGAGE30US.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MORTGAGE30US&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.847422+00:00",
+    "bytes": 15710,
+    "sha256": "aa491ec88ccfb2bbddb703ef1d36530eb282d5b90376f830a6003059c823eb20",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\TDSP.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TDSP&cosd=2008-01-01&coed=2026-10-14",
+    "retrieved_utc": "2026-10-14T21:23:49.751015+00:00",
+    "bytes": 1573,
+    "sha256": "5de65a1593d045d4214f6d10bf7ffe5cfa1a7c6c9bafc3cd76981884a07e8994",
+    "content_type": "application/csv",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\news_test.xml",
+    "url": "https://news.google.com/rss/search?q=US+inflation+economy+after%3A2026-09-01+before%3A2026-10-14&hl=en-US&gl=US&ceid=US%3Aen",
+    "retrieved_utc": "2026-10-14T21:23:50.076633+00:00",
+    "bytes": 130108,
+    "sha256": "480013c4ef2650d1196cc5bc4b40e886b63b70a45b11aed26dbbeda25035d144",
+    "content_type": "application/xml; charset=utf-8",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\reddit_test.xml",
+    "url": "https://www.reddit.com/r/Economics/search.rss?q=inflation&restrict_sr=on&sort=new&limit=100",
+    "retrieved_utc": "2026-10-14T21:23:50.460398+00:00",
+    "bytes": 101889,
+    "sha256": "9d1a0a5cd068e3e886f390448fd333a15f2e9ebdef6a916a346778d4e05cc190",
+    "content_type": "application/atom+xml; charset=UTF-8",
+    "status": "ok"
+  },
+  {
+    "file": "data\\raw\\michigan_home.html",
+    "url": "https://www.sca.isr.umich.edu/",
+    "retrieved_utc": "2026-10-14T21:23:50.148772+00:00",
+    "bytes": 6869,
+    "sha256": "e167842fbb4f5c488e84e2aaa2d8eb9c202a713ede61f26099e7bf1cf19dc72e",
+    "content_type": "text/html; charset=utf-8",
+    "status": "ok"
+  }
+]

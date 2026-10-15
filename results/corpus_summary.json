@@ -1,0 +1,35 @@
+{
+  "n": 316,
+  "by_source_kind": {
+    "social": 156,
+    "national": 127,
+    "local": 33
+  },
+  "by_month": {
+    "2026-07": 35,
+    "2026-08": 40,
+    "2026-09": 34,
+    "2026-10": 207
+  },
+  "tone_counts": {
+    "neutral": 211,
+    "positive": 71,
+    "negative": 34
+  },
+  "dictionary_disagreement": 0.5474683544303798,
+  "numeric_claims_detected": 47,
+  "factual_calibration_counts": {
+    "no_numeric_claim_detected": 269,
+    "needs_source_review": 46,
+    "matches_narrow_benchmark": 1
+  },
+  "annotation_queue_n": 300,
+  "human_labels_completed": 0,
+  "human_agreement": null,
+  "project_corpus_macro_F1": null,
+  "name_swap_probes": 36,
+  "name_swap_changed": 0,
+  "media_prediction_status": "not estimable with four focused monthly bins and no historical coverage",
+  "source_weighting": "item weighted by default; source-equal sensitivity also computed",
+  "partial_month": "October stops at 2026-10-14; compare cautiously with full months"
+}
