@@ -28,9 +28,20 @@ The final speaker script is `speaker_notes_final.md`. Use it to rehearse. The or
 
 The planned slide time totals 7 minutes 40 seconds. If demonstrating the dashboard live, replace about 20 seconds of the final-slide explanation with the demo rather than adding time. Switch the economic model to show how the gap changes, then show the AI-reference selector. Keep the local HTML open beforehand and prepare a screenshot as a fallback.
 
+## Opening and demonstrating the dashboard
+
+The assignment requires a monitoring dashboard, but does not explicitly require a live demonstration during the presentation. A short demonstration is optional and recommended if it fits within the total 6-8 minutes.
+
+1. On the presentation computer, extract `project_package.zip` and open its `deliverables` folder, or copy `dashboard.html` alone to that computer.
+2. Double-click `dashboard.html`. If Windows asks which app to use, select Microsoft Edge or Google Chrome. Alternatively, open the browser, press Ctrl+O and select the HTML file.
+3. No Python, installation, server, account or internet connection is required for the embedded data and controls. External source links require internet access. The displayed data remain the frozen research snapshot; opening the page does not fetch new data.
+4. Open the file before starting the presentation. On the final slide, switch to the browser with Alt+Tab. In `Forecast model`, change `Economic` to `Economic plus persistence` and show how the October gap changes from approximately -26.5 to -6.8.
+5. If time permits, scroll to `Classifier scores against provisional AI references` and switch the AI reference. Explain that the scores depend on the reference assumption. Return to the final slide and finish within the allotted time.
+
+On GitHub, download the HTML file using its download button before opening it. Viewing the file's source page on GitHub does not run the dashboard. If downloading the whole repository as a ZIP, extract it first. Keep a screenshot of the dashboard as a fallback for screen-sharing or browser problems.
+
 ## Before submission
 
-- Add the actual presenter name(s), course section and any required student identifier using the instructor's requested format. Do not invent collaborators.
 - Open the final PPTX in PowerPoint and rehearse once with a timer. The deck was generated and checked programmatically; no live PowerPoint inspection is claimed.
 - Confirm the report has 12 pages and that the HTML opens after download.
 - Keep the research cutoff at 14 October. Do not present later releases as observed data.
