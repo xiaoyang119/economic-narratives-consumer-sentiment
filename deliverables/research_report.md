@@ -294,7 +294,7 @@ The evidence supports careful economic measurement and model benchmarking before
 
 ## Analytical package
 
-The README describes the dataset layout, dependency setup and offline reproduction. Run python run_project.py --offline to regenerate analyses, figures and the dashboard from the retained snapshots. Run python -m unittest discover -s tests to execute the integrity checks. Report and presentation builders use the generated result files rather than manually retyped results.
+GitHub repository: https://github.com/xiaoyang119/economic-narratives-consumer-sentimentThe private repository contains code, data, provenance, prompts, labeling materials and results; reviewers need access from the owner. The README documents setup. Run python run_project.py --offline to rebuild analyses and the dashboard, and python -m unittest discover -s tests for integrity checks.
 
 Exact forecast inputs are in data/processed/forecast_features.csv. The results directory contains predictions, accuracy metrics, model comparisons, coefficient paths, benchmark confusion matrices, media composition, name-swap probes and the data reconciliation. Collection manifests retain queries, date windows, URLs and content hashes. The annotation guide defines the independent labeling and adjudication procedure.
 
