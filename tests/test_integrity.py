@@ -70,6 +70,19 @@ class ResearchIntegrity(unittest.TestCase):
         self.assertEqual(len(news['metrics']),12)
         rows=pd.read_csv(ROOT/'results/news_index_forecasts.csv')
         self.assertEqual(set(rows.information_status),{'retrospective_news_index_without_historical_vintages'})
+    def test_ai_labels_do_not_become_ground_truth(self):
+        result=json.loads((ROOT/'results/ai_label_analysis.json').read_text())
+        self.assertFalse(result['human_validated'])
+        for key in ['accuracy','precision','recall','F1','causal_effect']:
+            self.assertIsNone(result[key])
+        for name,path in [('Claude Sonnet5.5','annotator_A_filled.csv'),('DeepSeek V41-Flash','annotator_B.csv')]:
+            f=pd.read_csv(ROOT/'annotations'/path)
+            model=result['models'][name]
+            self.assertEqual(sum(model['overall']['tone_counts'].values()),300)
+            self.assertEqual(sum(x['n'] for x in model['by_source_kind'].values()),300)
+            self.assertEqual(sum(x['n'] for x in model['by_month'].values()),300)
+            self.assertEqual(model['overall']['tone_counts']['negative'],int(f.tone.eq('negative').sum()))
+            self.assertEqual(model['overall']['verified_numeric_claim_n'],0)
     def test_report_and_dashboard_integrity(self):
         p=PdfReader(ROOT/'deliverables/research_report.pdf');self.assertEqual(len(p.pages),12)
         text='\n'.join(page.extract_text() for page in p.pages)

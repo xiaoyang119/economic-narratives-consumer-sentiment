@@ -31,3 +31,10 @@ The user identified `annotations/annotator_A_filled.csv` as Claude output and `a
 Both models labeled the same 300 texts. Tone agreement is 76.0%, with model-to-model kappa 0.588. Claude labels 40.7% negative and DeepSeek 59.0%. Agreement with the existing Naive Bayes classifier is 44.7% and 28.7% respectively. These comparisons demonstrate method-sensitive measurement, not accuracy or media bias. Neither model verified numerical claims against official releases.
 
 The two-person independent human-labeling requirement remains unmet. No consensus truth, human agreement or adjudicated corpus accuracy is inferred. The human evaluator refuses to treat these outputs as human validation. See `deliverables/model_annotation_findings.md`, `results/model_annotation_comparison.json` and `results/model_annotation_disagreements.csv`. Reproduce with `python src/compare_model_annotations.py`. The supplied model outputs are frozen inputs and cannot be regenerated from an unrecorded prompt.
+
+
+## Downstream AI-label analysis
+
+`deliverables/ai_label_analysis.md` and `results/ai_label_analysis.json` describe tone, framing, source-type differences, month, political attribution and numeric claims using the two frozen 300-item AI label sets. The dashboard has a separate labeling-model selector for these descriptions. Its original 316-item Naive Bayes table remains clearly separate. Reproduce with `python src/analyze_ai_labels.py`, followed by the dashboard/report builders, or use the offline project runner.
+
+Both label sets flag inflation-rate framing more often than price-level framing, and aggregate framing more often than household framing. Both contain more negative than positive economic implications. These are unweighted descriptions of a stratified pilot, not population estimates, bias findings or causal effects. Four monthly bins cannot support the own-text predictive model comparison. Corpus accuracy and F1 remain unavailable without an independent reference set.

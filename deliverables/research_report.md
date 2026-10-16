@@ -159,13 +159,21 @@ Model-to-model tone agreement is 76.0% (228/300), kappa 0.588. Claude labels 122
 
 # Media pilot findings and perceptual mechanisms
 
-![Figure 3. Item-weighted pilot tone by source type. Changes can reflect sampling and model error. October ends on 14 October.](../figures/media_pilot.png)
+The following downstream descriptions use the same 300 AI-labeled texts, a stratified subset of the 316-item pilot. Values are unweighted sample percentages; frames can co-occur. Claude and DeepSeek labels remain separate model outputs, without adjudicated truth.
 
-The classifier assigns 34 items to negative, 211 to neutral and 71 to positive. These are model outputs rather than validated population proportions. The classifier and dictionary disagree on 54.7% of items, a substantial warning about domain transfer and label interpretation.
+| AI-labeled measure | Claude Sonnet5.5 | DeepSeek V41-Flash |
+| --- | --- | --- |
+| Inflation-rate framing | 50.3% | 48.3% |
+| Price-level framing | 20.0% | 17.7% |
+| Household framing | 26.3% | 23.3% |
+| Aggregate framing | 62.3% | 74.3% |
+| Negative tone | 40.7% | 59.0% |
 
-Political-name substitutions change none of 36 tested tone labels. Source labels are not model inputs, so changing them has no effect by construction. Neither result establishes political neutrality: a bag-of-words model may ignore names while still mishandling framing. The audit preserves item IDs and the original and substituted classifications.
+Both label sets identify more negative than positive economic implications, more inflation-rate than price-level framing, and more aggregate than household framing. This describes selected content, not population bias. Negative shares for national/local/social texts are 41.7%/33.3%/41.4% under Claude and 54.3%/51.5%/65.0% under DeepSeek. The source ranking is not stable across models. Topics, timing and sampling confound source comparisons. Neither model annotation supplies a verified official numerical match or mismatch. Detailed monthly and political-attribution tables are in ai_label_analysis.md.
 
-The pipeline flags 47 titles containing numerical claims. One matches a deliberately narrow official release benchmark, while the remaining claims require further source review. This is not a fact-checking accuracy estimate. Automated calibration abstains when periods, core-versus-headline distinctions, or annual-versus-monthly units are ambiguous.
+The original Naive Bayes name-swap audit changes none of 36 tone labels. Source labels are not inputs. This does not establish political neutrality and was not repeated for the supplied LLM labels.
+
+The separate original pipeline flags 47 numerical titles among all 316 items, with one narrow release match. This is not factual accuracy; periods, definitions and units require review.
 
 | Mechanism | What these data establish |
 | --- | --- |
