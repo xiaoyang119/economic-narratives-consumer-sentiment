@@ -89,6 +89,23 @@ class ResearchIntegrity(unittest.TestCase):
         for phrase in ['14.10','4.75','46.3','independent human','retrospective','Causal design']:
             self.assertIn(phrase.lower(),text.lower())
         html=(ROOT/'deliverables/dashboard.html').read_text();self.assertNotIn('__DATA__',html);self.assertNotIn('<script src=',html)
+    def test_provisional_reference_metrics_reconcile(self):
+        result=json.loads((ROOT/'results/ai_reference_evaluation.json').read_text())
+        self.assertFalse(result['independent_human_validated'])
+        coded=pd.read_csv(ROOT/'data/processed/corpus_coded.csv')
+        for reference,path in [('Claude Sonnet5.5','annotator_A_filled.csv'),('DeepSeek V41-Flash','annotator_B.csv')]:
+            actual=pd.read_csv(ROOT/'annotations'/path)[['item_id','tone']]
+            rows=actual.merge(coded[['item_id','tone','dictionary_tone']],on='item_id',suffixes=('_ref','_pred'),validate='one_to_one')
+            for name,col in [('Naive Bayes','tone_pred'),('Dictionary','dictionary_tone')]:
+                values=result['references'][reference]['classifiers'][name]
+                m=values['overall'];cm=np.array(m['confusion_matrix'])
+                self.assertEqual(m['n'],300);self.assertEqual(int(cm.sum()),300)
+                self.assertAlmostEqual(m['accuracy'],float(rows.tone_ref.eq(rows[col]).mean()))
+                self.assertAlmostEqual(m['macro_F1'],np.mean([c['F1'] for c in m['classes']]))
+                self.assertEqual(sum(g['n'] for g in values['by_source_kind'].values()),300)
+                for i,c in enumerate(m['classes']):
+                    self.assertEqual(c['support'],int(cm[i].sum()))
+                    self.assertEqual(c['predicted_n'],int(cm[:,i].sum()))
     def test_no_username_fields_retained(self):
         for p in list((ROOT/'data/raw/social').glob('*.xml'))+[ROOT/'data/raw/direct_reddit_economy.xml',ROOT/'data/raw/reddit_test.xml']:
             text=p.read_text();self.assertNotIn('<author>',text)

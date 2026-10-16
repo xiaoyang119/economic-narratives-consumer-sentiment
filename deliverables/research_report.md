@@ -145,17 +145,21 @@ The coding scheme separates economic tone, topic salience, framing, numerical cl
 
 After normalized exact deduplication, the external benchmark contains 2218 sentences. A fixed, class-stratified split assigns 1775 to training and 443 to testing. The split does not remove every near-duplicate or shared issuer, so it may still overstate generalization. Token vocabulary and probabilities are learned only from the training split.
 
-| Held-out measure | Naive Bayes | Dictionary |
+| External held-out measure | Naive Bayes | Dictionary |
 | --- | --- | --- |
 | Accuracy | 0.849 | 0.713 |
 | Macro F1 | 0.796 | 0.543 |
-| Negative F1 | 0.718 | 0.388 |
-| Neutral F1 | 0.910 | 0.834 |
-| Positive F1 | 0.760 | 0.405 |
 
 Negative-class recall is 0.627 on the external benchmark. The pipeline called no LLM API. Subsequently, the user supplied Claude (A) and DeepSeek (B) labels for the same 300 project texts. The user reports Claude Sonnet5.5 and DeepSeek V41-Flash; identifiers were not independently verified. Actual prompts and cross-model blinding were not recorded; the optional project prompt remains unexecuted by this pipeline.
 
-Model-to-model tone agreement is 76.0% (228/300), kappa 0.588. Claude labels 122 negative, 165 neutral and 13 positive; DeepSeek labels 177, 95 and 28 respectively. Of 72 tone disagreements, 71 involve Claude-neutral items. Agreement with Naive Bayes is only 44.7% for Claude and 28.7% for DeepSeek. This indicates method-sensitive measurement, not which model is correct. Neither model verified a numerical claim against an official release. These outputs do not satisfy independent human annotation; human agreement and adjudicated corpus F1 remain unavailable. Full results are in model_annotation_findings.md.
+| Provisional AI reference | Classifier | Accuracy | Macro F1 |
+| --- | --- | --- | --- |
+| Claude Sonnet5.5 | Naive Bayes | 44.7% | 0.297 |
+| Claude Sonnet5.5 | Dictionary | 50.0% | 0.385 |
+| DeepSeek V41-Flash | Naive Bayes | 28.7% | 0.235 |
+| DeepSeek V41-Flash | Dictionary | 49.7% | 0.395 |
+
+These scores temporarily treat each AI label set as correct, separately. The dictionary exceeds Naive Bayes under both references, reversing the external-benchmark ranking. This supports a domain-transfer warning, conditional on AI reference quality. Class/source precision, recall, F1 and confusion matrices are in ai_reference_evaluation.md. These are not human-validated scores; human agreement and adjudicated corpus F1 remain unavailable.
 
 # Media pilot findings and perceptual mechanisms
 
