@@ -5,9 +5,9 @@ AI Applications in Finance final project. Frozen research cutoff: **14 October 2
 ## Start here
 
 - `deliverables/research_report.pdf`: 12-page research report.
-- `deliverables/presentation.pptx`: eight editable slides with presenter notes, designed for roughly 6–8 minutes.
+- `deliverables/presentation_final.pptx`: eight editable slides with presenter notes, designed for roughly 6–8 minutes.
 - `deliverables/dashboard.html`: self-contained interactive dashboard. Double-click it to open in a browser; a server is not required.
-- `deliverables/speaker_notes.md`: presenter script with timing and sources.
+- `deliverables/speaker_notes_final.md`: presenter script with timing and sources.
 - `deliverables/research_report.md`: editable report text.
 
 The full package also includes the original assignment and spreadsheet, source snapshots, provenance, analysis code, figures, metrics, annotation materials and integrity tests.
